@@ -1,0 +1,24 @@
+﻿source;field;data_type;description;unit;example;notes
+subscribers.csv;customer_id;String;Идентификатор абонента;—;C000001;"Ключ абонента. Один договор на абонента; повторных подключений нет."
+subscribers.csv;activation_date;Date;Дата подключения;дата;2022-04-18;"Формат YYYY-MM-DD. Дата может отсутствовать; события договора позволяют её восстановить."
+subscribers.csv;region;String;Регион обслуживания;—;Москва;Категория, постоянная для абонента в учебном периоде.
+subscribers.csv;acquisition_channel;String;Канал подключения;—;online;online, store, partner. Постоянная характеристика.
+subscribers.csv;customer_segment;String;Сегмент абонента;—;individual;individual или small_business.
+billing_monthly.csv;customer_id;String;Идентификатор абонента;—;C000001;Связь с subscribers.csv. Составной ключ с billing_month.
+billing_monthly.csv;billing_month;Date;Месяц оказания услуг;месяц;2025-09-01;Первый день месяца. В части записей формат отличается.
+billing_monthly.csv;available_at;DateTime;Момент доступности месячной выгрузки;дата и время;2025-10-01 00:00:00;YYYY-MM-DD HH:MM:SS, время Москвы. В учебной модели выгрузка доступна с начала следующего месяца.
+billing_monthly.csv;tariff;String;Тариф на начало строки расчётного периода;—;Comfort;Basic, Comfort, Premium. Если абонент подключился в этом месяце — тариф при подключении. Возможны варианты написания.
+billing_monthly.csv;monthly_fee_rub;Decimal;Полная месячная цена тарифа;руб.;750.00;Basic: 450, Comfort: 750, Premium: 1200. Полная цена до скидок и пересчёта за неполный месяц.
+billing_monthly.csv;charged_rub;Decimal;Начислено за месяц;руб.;750.00;Учитывает неполный месяц, скидки и доплаты. Не обязано совпадать с ценой тарифа.
+billing_monthly.csv;paid_rub;Decimal;Оплачено за месяц;руб.;900.00;"Включает погашение старого долга; может превышать charged_rub."
+billing_monthly.csv;opening_debt_rub;Decimal;Долг на начало периода;руб.;150.00;Неотрицателен. Начальный долг равен нулю в первой доступной строке абонента.
+billing_monthly.csv;closing_debt_rub;Decimal;Долг на конец периода;руб.;0.00;В чистых данных: opening_debt_rub + charged_rub - paid_rub.
+billing_monthly.csv;traffic_gb;Decimal;Объём интернет-трафика;ГБ;21.35;Неотрицателен. Ноль и пропуск имеют разный смысл.
+billing_monthly.csv;voice_minutes;Integer;Использованные минуты связи;мин.;245;Целое неотрицательное число в корректной записи.
+billing_monthly.csv;active_days;Integer;Дни действия договора внутри месяца;дни;30;"От 0 до числа календарных дней месяца; период активности [подключение, расторжение). Не число дней использования интернета."
+billing_monthly.csv;payment_delay_days;Integer;Показатель задержки оплаты;дни;7;"Учебный показатель: 0 — своевременно; 1–число дней месяца — задержка. При отсутствии оплаты равен числу дней месяца."
+billing_monthly.csv;tariff_changes_count;Integer;Количество смен тарифа за месяц;шт.;1;В учебной модели 0 или 1. Изменение вступает в силу в следующем месяце.
+contract_events.csv;event_id;String;Идентификатор события;—;E0000001;Уникален во всём файле.
+contract_events.csv;customer_id;String;Идентификатор абонента;—;C000001;Связь с абонентом.
+contract_events.csv;event_date;Date;Дата события;дата;2026-03-17;Событие действует с 00:00 указанного дня по Москве.
+contract_events.csv;event_type;String;Тип события договора;—;termination;"activation — подключение; termination — расторжение. Одно подключение и не более одного расторжения на абонента."
