@@ -28,7 +28,7 @@
 ```bash
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-pytest                      # проверки ключей, базы, горизонта, утечки
+pytest
 jupyter notebook notebooks/01_data_audit.ipynb
 ```
 
