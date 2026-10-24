@@ -1,0 +1,10 @@
+﻿query;value
+source_rows;9373
+ticket_ids_with_copies;100
+full_duplicate_copies;100
+empty_customer_id;8
+customer_id_with_spaces;30
+created_at_without_timezone;40
+empty_topic;120
+score_out_of_range;25
+available_before_created_utc;20

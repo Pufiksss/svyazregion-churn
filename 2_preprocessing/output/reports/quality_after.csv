@@ -1,0 +1,97 @@
+﻿stage;source;field;check;unit;count;severity
+после;subscribers;*;строк в таблице;строки;2600;инфо
+после;subscribers;*;полные дубли;повторные копии;0;ошибка
+после;subscribers;customer_id;повтор ключа с разными значениями;строки;0;ошибка
+после;subscribers;activation_date;пропуск;ячейки;0;ошибка
+после;subscribers;activation_date;неверный формат;ячейки;0;ошибка
+после;subscribers;acquisition_channel;вне справочника значений;ячейки;0;ошибка
+после;subscribers;customer_segment;вне справочника значений;ячейки;0;ошибка
+после;subscribers;region;пропуск;ячейки;0;ошибка
+после;subscribers;activation_date;не совпадает с событием activation;строки;0;ошибка
+после;subscribers;customer_id;нет события activation;строки;0;ошибка
+после;subscribers;*;строк хотя бы с одной ошибкой;строки;0;итог
+после;contract_events;*;строк в таблице;строки;3299;инфо
+после;contract_events;*;полные дубли;повторные копии;0;ошибка
+после;contract_events;event_id;повтор ключа с разными значениями;строки;0;ошибка
+после;contract_events;event_type;вне справочника значений;ячейки;0;ошибка
+после;contract_events;event_date;неверный формат;ячейки;0;ошибка
+после;contract_events;customer_id;нет в справочнике абонентов;строки;0;ошибка
+после;contract_events;customer_id;не ровно одно activation;строки;0;ошибка
+после;contract_events;customer_id;больше одного termination;строки;0;ошибка
+после;contract_events;event_date;termination раньше activation;строки;0;ошибка
+после;contract_events;*;строк хотя бы с одной ошибкой;строки;0;итог
+после;billing;*;строк в таблице;строки;24098;инфо
+после;billing;*;полные дубли;повторные копии;0;ошибка
+после;billing;customer_id+billing_month;повтор ключа с разными значениями;строки;0;ошибка
+после;billing;billing_month;формат не YYYY-MM-01;ячейки;0;ошибка
+после;billing;billing_month;не разбирается как дата;ячейки;0;ошибка
+после;billing;available_at;не равно началу следующего месяца;ячейки;0;ошибка
+после;billing;tariff;нестандартное написание;ячейки;0;ошибка
+после;billing;monthly_fee_rub;пропуск;ячейки;0;ошибка
+после;billing;monthly_fee_rub;неверный числовой формат;ячейки;0;ошибка
+после;billing;monthly_fee_rub;отрицательное значение;ячейки;0;ошибка
+после;billing;charged_rub;пропуск;ячейки;0;ошибка
+после;billing;charged_rub;неверный числовой формат;ячейки;0;ошибка
+после;billing;charged_rub;отрицательное значение;ячейки;0;ошибка
+после;billing;paid_rub;пропуск;ячейки;0;ошибка
+после;billing;paid_rub;неверный числовой формат;ячейки;0;ошибка
+после;billing;paid_rub;отрицательное значение;ячейки;0;ошибка
+после;billing;opening_debt_rub;пропуск;ячейки;0;ошибка
+после;billing;opening_debt_rub;неверный числовой формат;ячейки;0;ошибка
+после;billing;opening_debt_rub;отрицательное значение;ячейки;0;ошибка
+после;billing;closing_debt_rub;пропуск;ячейки;0;ошибка
+после;billing;closing_debt_rub;неверный числовой формат;ячейки;0;ошибка
+после;billing;closing_debt_rub;отрицательное значение;ячейки;0;ошибка
+после;billing;traffic_gb;пропуск;ячейки;240;допустимо
+после;billing;traffic_gb;неверный числовой формат;ячейки;0;ошибка
+после;billing;traffic_gb;отрицательное значение;ячейки;0;ошибка
+после;billing;voice_minutes;пропуск;ячейки;80;допустимо
+после;billing;voice_minutes;неверный числовой формат;ячейки;0;ошибка
+после;billing;voice_minutes;отрицательное значение;ячейки;0;ошибка
+после;billing;active_days;пропуск;ячейки;0;ошибка
+после;billing;active_days;неверный числовой формат;ячейки;0;ошибка
+после;billing;active_days;отрицательное значение;ячейки;0;ошибка
+после;billing;payment_delay_days;пропуск;ячейки;0;ошибка
+после;billing;payment_delay_days;неверный числовой формат;ячейки;0;ошибка
+после;billing;payment_delay_days;отрицательное значение;ячейки;0;ошибка
+после;billing;tariff_changes_count;пропуск;ячейки;0;ошибка
+после;billing;tariff_changes_count;неверный числовой формат;ячейки;0;ошибка
+после;billing;tariff_changes_count;отрицательное значение;ячейки;0;ошибка
+после;billing;active_days;вне [0, дней в месяце];ячейки;0;ошибка
+после;billing;payment_delay_days;вне [0, дней в месяце];ячейки;0;ошибка
+после;billing;tariff_changes_count;не 0/1;ячейки;0;ошибка
+после;billing;monthly_fee_rub;не равна цене тарифа;ячейки;0;ошибка
+после;billing;closing_debt_rub;нарушено opening + charged − paid = closing;строки;0;ошибка
+после;billing;opening_debt_rub;не равен closing предыдущего месяца;строки;0;ошибка
+после;billing;opening_debt_rub;ненулевой в первой строке абонента;строки;0;ошибка
+после;billing;customer_id;нет в справочнике абонентов;строки;0;ошибка
+после;billing;billing_month;вне периода договора;строки;0;ошибка
+после;billing;*;строк хотя бы с одной ошибкой;строки;0;итог
+после;support_clean;*;строк в таблице;строки;10818;инфо
+после;support_clean;*;полные дубли;повторные копии;0;ошибка
+после;support_clean;ticket_id;повтор ключа с разными значениями;строки;0;ошибка
+после;support_clean;ticket_id;формат не T + 7 цифр;ячейки;0;ошибка
+после;support_clean;customer_id;пропуск;ячейки;0;ошибка
+после;support_clean;customer_id;пробелы вокруг значения;ячейки;0;ошибка
+после;support_clean;customer_id;нет в справочнике абонентов;строки;0;ошибка
+после;support_clean;created_at;неверный формат даты;ячейки;0;ошибка
+после;support_clean;available_at;неверный формат даты;ячейки;0;ошибка
+после;support_clean;resolved_at;неверный формат даты;ячейки;0;ошибка
+после;support_clean;resolution_available_at;неверный формат даты;ячейки;0;ошибка
+после;support_clean;topic;пропуск;ячейки;0;ошибка
+после;support_clean;topic;вне справочника значений;ячейки;0;ошибка
+после;support_clean;topic;unknown (пропуск темы сохранён категорией);ячейки;120;допустимо
+после;support_clean;channel;вне справочника значений;ячейки;0;ошибка
+после;support_clean;satisfaction_score;вне 1–5 или не целое;ячейки;0;ошибка
+после;support_clean;satisfaction_score;оценка без закрытия;строки;0;ошибка
+после;support_clean;satisfaction_score;пропуск (допустим);ячейки;3242;допустимо
+после;support_clean;available_at;раньше created_at;строки;0;ошибка
+после;support_clean;resolved_at;раньше created_at;строки;0;ошибка
+после;support_clean;resolution_available_at;раньше resolved_at;строки;0;ошибка
+после;support_clean;resolution_available_at;раньше available_at;строки;0;ошибка
+после;support_clean;resolved_at;закрытие без даты доступности или наоборот;строки;0;ошибка
+после;support_clean;created_at;вне окна выгрузки;строки;0;ошибка
+после;support_clean;available_at;позже формирования выгрузки;строки;0;ошибка
+после;support_clean;created_at;до подключения абонента;строки;0;ошибка
+после;support_clean;created_at;после расторжения договора;строки;0;ошибка
+после;support_clean;*;строк хотя бы с одной ошибкой;строки;0;итог

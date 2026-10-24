@@ -1,0 +1,9 @@
+﻿check;expected;result;passed
+месяц создания = billing_month (МСК);0 расхождений;0;True
+support_count = пересчёт по available_at ≤ snapshot;0 расхождений;0;True
+обращения месяца, поступившие после снимка (не входят);исключены;250;True
+граничные: созданы в последний час месяца, загружены после 00:00;исключены;11;True
+support_resolved_count учитывает только resolution_available_at ≤ snapshot;0 расхождений;0;True
+закрытия, ставшие известны после снимка (не учтены);исключены;2181;True
+будущие termination / целевая переменная в customer_month;0 полей;0;True
+available_at строки = 1-е число следующего месяца;все строки;1;True

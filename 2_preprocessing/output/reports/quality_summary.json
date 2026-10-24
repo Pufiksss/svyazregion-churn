@@ -1,0 +1,100 @@
+{
+  "python": "3.13.16",
+  "pandas": "2.2.3",
+  "numpy": "2.1.3",
+  "raw_checksums_ok": true,
+  "sqlite_equals_csv_backup": true,
+  "load_method_current": "SQLite (sql/extract_support.sql), CSV-копия только для сверки",
+  "inventory": [
+    {
+      "source": "subscribers",
+      "rows": 2600,
+      "unit": "абонент",
+      "key": "customer_id",
+      "columns": 5
+    },
+    {
+      "source": "billing_monthly",
+      "rows": 24248,
+      "unit": "абонент × месяц",
+      "key": "customer_id + billing_month",
+      "columns": 14
+    },
+    {
+      "source": "contract_events",
+      "rows": 3299,
+      "unit": "событие договора",
+      "key": "event_id",
+      "columns": 4
+    },
+    {
+      "source": "support_legacy (CSV)",
+      "rows": 1615,
+      "unit": "обращение",
+      "key": "ticket_no → ticket_id",
+      "columns": 9
+    },
+    {
+      "source": "support_current (SQLite)",
+      "rows": 9373,
+      "unit": "обращение",
+      "key": "ticket_id",
+      "columns": 9
+    }
+  ],
+  "rows_out": {
+    "subscribers_clean": 2600,
+    "billing_clean": 24098,
+    "contract_events_clean": 3299,
+    "support_clean": 10818,
+    "quarantine_support": 40,
+    "customer_month": 24098
+  },
+  "quarantine_by_reason": {
+    "available_before_created": 20,
+    "customer_id_unknown": 12,
+    "customer_id_missing": 8
+  },
+  "quarantine_customer_linked": 20,
+  "rows_with_errors_before": {
+    "subscribers": 65,
+    "contract_events": 0,
+    "billing": 1230,
+    "support_legacy": 30,
+    "support_current": 390
+  },
+  "rows_with_errors_after": {
+    "subscribers": 0,
+    "contract_events": 0,
+    "billing": 0,
+    "support_clean": 0
+  },
+  "error_cells_or_rows_after": 0,
+  "merge_control": {
+    "billing_rows": 24098,
+    "customer_month_rows": 24098,
+    "key_unique": true,
+    "charged_sum_equal": true,
+    "paid_sum_equal": true,
+    "support_clean_tickets": 10818,
+    "tickets_matched_to_billing_row": 10818,
+    "tickets_without_billing_row": 0,
+    "tickets_counted_in_snapshot": 10568,
+    "tickets_available_after_snapshot": 250,
+    "rows_with_zero_support": 16046,
+    "share_rows_zero_support": 0.6659
+  },
+  "availability_checks_passed": true,
+  "subscribers_activation_source": {
+    "subscribers": 2535,
+    "contract_events": 65
+  },
+  "output_sha256": {
+    "billing_clean.csv": "9c26975be13527d7f3a47464941c13506c188e91b4f18f9725eef18187364bf2",
+    "contract_events_clean.csv": "f8ea3decde00bdb72970d2f8c733605a0e4db6c3291e4b407d1ec97d4f6c162d",
+    "customer_month.csv": "bcafa87e50b1958dd847813308381b7fc83c32bc1ba0dcb67b431b7c776429b9",
+    "quarantine_support.csv": "1cb659dc7ddd46987283ae7be2daee6474f89c091c7d176c2ad828b3e7ef755c",
+    "subscribers_clean.csv": "b3127787c2f23fe49544d6155e0edf2fa962cbd9c9c7ec4c480d185f5a82feec",
+    "support_clean.csv": "4f0e35bc250e3760ad0f0aabc48ef2e79c9d3e164cae74ad1e263b2f1b03237f"
+  }
+}

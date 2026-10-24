@@ -1,0 +1,23 @@
+{
+  "raw_dir": "data/raw",
+  "output_dir": "output",
+  "lesson1": {
+    "subscribers": "lesson1/subscribers.csv",
+    "billing": "lesson1/billing_monthly.csv",
+    "events": "lesson1/contract_events.csv",
+    "dictionary": "lesson1/data_dictionary.csv"
+  },
+  "lesson2": {
+    "sqlite": "lesson2/support.sqlite",
+    "current_csv_backup": "lesson2/support_current_export.csv",
+    "legacy_csv": "lesson2/support_legacy_sep_oct_2025.csv",
+    "schema": "lesson2/schema_support.csv"
+  },
+  "sql_extract": "sql/extract_support.sql",
+  "sql_diagnostics": "sql/diagnostics.sql",
+  "checksums": "data/raw/CHECKSUMS.sha256",
+  "timezone": "Europe/Moscow",
+  "support_window": ["2025-09-01", "2026-09-01"],
+  "final_export_at": "2026-10-01",
+  "tariff_price": {"Basic": 450.0, "Comfort": 750.0, "Premium": 1200.0}
+}

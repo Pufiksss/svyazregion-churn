@@ -1,0 +1,61 @@
+﻿table;field;data_type;description;unit;available_from;notes
+subscribers_clean.csv;customer_id;String;Идентификатор абонента;—;постоянно;Ключ, уникален. Пробелы обрезаны.
+subscribers_clean.csv;activation_date;Date;Дата подключения;YYYY-MM-DD;с даты подключения;65 пропусков восстановлены из contract_events.
+subscribers_clean.csv;activation_date_source;String;Источник даты подключения;—;—;subscribers | contract_events | unrecoverable
+subscribers_clean.csv;region;String;Регион обслуживания;—;постоянно;Без изменений.
+subscribers_clean.csv;acquisition_channel;String;Канал подключения: online, store, partner;—;постоянно;Без изменений.
+subscribers_clean.csv;customer_segment;String;Сегмент: individual, small_business;—;постоянно;Без изменений.
+contract_events_clean.csv;event_id;String;Идентификатор события;—;—;Ключ, уникален.
+contract_events_clean.csv;customer_id;String;Идентификатор абонента;—;—;Связь с subscribers_clean.
+contract_events_clean.csv;event_date;Date;Дата события, действует с 00:00 МСК;YYYY-MM-DD;с event_date;termination используется только для целевой переменной, не как признак.
+contract_events_clean.csv;event_type;String;activation | termination;—;—;
+billing_clean.csv;customer_id;String;Идентификатор абонента;—;—;Ключ вместе с billing_month.
+billing_clean.csv;billing_month;Date;Расчётный месяц (1-е число);YYYY-MM-DD;—;400 значений DD.MM.YYYY приведены.
+billing_clean.csv;available_at;DateTime;Доступность строки = 00:00 МСК 1-го числа следующего месяца;YYYY-MM-DD HH:MM:SS МСК;—;Момент снимка для customer_month.
+billing_clean.csv;tariff;String;Basic | Comfort | Premium;—;available_at;200 написаний нормализованы.
+billing_clean.csv;monthly_fee_rub;Decimal(2);Полная цена тарифа;руб.;available_at;Точка — десятичный разделитель.
+billing_clean.csv;charged_rub;Decimal(2);Начислено;руб.;available_at;Точка — десятичный разделитель.
+billing_clean.csv;paid_rub;Decimal(2);Оплачено (включая старый долг);руб.;available_at;Точка — десятичный разделитель. 120 запятых заменены.
+billing_clean.csv;opening_debt_rub;Decimal(2);Долг на начало;руб.;available_at;Точка — десятичный разделитель.
+billing_clean.csv;closing_debt_rub;Decimal(2);Долг на конец = opening + charged − paid;руб.;available_at;Точка — десятичный разделитель. 40 значений восстановлены по тождеству.
+billing_clean.csv;traffic_gb;Decimal(2) nullable;Интернет-трафик;ГБ;available_at;Пропуск сохранён (240), не равен нулю.
+billing_clean.csv;voice_minutes;Integer nullable;Минуты связи;мин.;available_at;80 отрицательных → пропуск.
+billing_clean.csv;active_days;Integer;Дни действия договора в месяце;дни;available_at;
+billing_clean.csv;payment_delay_days;Integer;Показатель задержки оплаты;дни;available_at;
+billing_clean.csv;tariff_changes_count;Integer;Смен тарифа за месяц (0/1);шт.;available_at;
+billing_clean.csv;closing_debt_restored;Flag 0/1;closing_debt_rub восстановлен по тождеству;—;available_at;
+billing_clean.csv;voice_minutes_invalid;Flag 0/1;Исходные минуты были отрицательными;—;available_at;
+billing_clean.csv;traffic_missing;Flag 0/1;Трафик отсутствует в источнике;—;available_at;
+support_clean.csv;ticket_id;String;Идентификатор обращения;—;—;Ключ, уникален в объединённой таблице.
+support_clean.csv;customer_id;String;Идентификатор абонента;—;—;"Всегда есть в subscribers_clean; несвязанные — в карантине."
+support_clean.csv;source;String;legacy_csv | current_sqlite;—;—;
+support_clean.csv;created_at;DateTime;Создание обращения;YYYY-MM-DD HH:MM:SS МСК;—;"Legacy — МСК; current UTC Z → МСК; без зоны — МСК."
+support_clean.csv;available_at;DateTime;Доступность записи о создании;МСК;—;Обращение входит в снимок только при available_at ≤ snapshot.
+support_clean.csv;topic;String;network | billing | tariff | services | unknown;—;available_at;unknown — тема не указана.
+support_clean.csv;channel;String;phone | chat | office;—;available_at;
+support_clean.csv;resolved_at;DateTime nullable;Время закрытия;МСК;resolution_available_at;Пусто — закрытие не подтверждено или недостоверно.
+support_clean.csv;resolution_available_at;DateTime nullable;Доступность закрытия и оценки;МСК;—;
+support_clean.csv;satisfaction_score;Integer nullable;Оценка 1–5;балл;resolution_available_at;Пропуск допустим.
+support_clean.csv;billing_month;Date;Месяц создания по МСК;YYYY-MM-DD;—;Ключ связи с биллингом.
+support_clean.csv;created_tz_assumed;Flag 0/1;created_at был без зоны, принят МСК;—;—;
+support_clean.csv;score_invalid;Flag 0/1;Исходная оценка вне 1–5, обнулена;—;—;
+support_clean.csv;resolution_invalid;Flag 0/1;Закрытие раньше создания, закрытие и оценка обнулены;—;—;
+quarantine_support.csv;reason;String;Причина исключения из расчётов;—;—;customer_id_missing | customer_id_unknown | available_before_created | …
+quarantine_support.csv;customer_linked;Flag 0/1;Абонент найден в справочнике;—;—;1 — проблема учтена в support_quarantined_linked_count.
+quarantine_support.csv;customer_id_raw;String;customer_id как в источнике;—;—;Остальные поля — как в support_clean.
+customer_month.csv;customer_id, billing_month;Key;Одна строка на абонента и расчётный месяц;—;—;Строк = billing_clean (24 098).
+customer_month.csv;available_at;DateTime;Момент снимка строки;МСК;—;= available_at биллинга.
+customer_month.csv;поля billing_clean;—;Все показатели и флаги биллинга;—;available_at;Без изменений.
+customer_month.csv;activation_date … customer_segment;—;Постоянные характеристики из subscribers_clean;—;постоянно;
+customer_month.csv;support_count;Integer;Число обращений, созданных в billing_month и доступных к snapshot;шт.;available_at (snapshot);"Обращения из support_clean; 0 = нет доступных корректно связанных записей, а не отсутствие реальных обращений."
+customer_month.csv;support_network_count;Integer;То же, тема network;шт.;available_at (snapshot);
+customer_month.csv;support_billing_count;Integer;То же, тема billing;шт.;available_at (snapshot);
+customer_month.csv;support_tariff_count;Integer;То же, тема tariff;шт.;available_at (snapshot);
+customer_month.csv;support_services_count;Integer;То же, тема services;шт.;available_at (snapshot);
+customer_month.csv;support_unknown_topic_count;Integer;То же, тема не указана (unknown);шт.;available_at (snapshot);
+customer_month.csv;support_resolved_count;Integer;Из support_count: закрытия, доступные к snapshot (resolution_available_at ≤ snapshot);шт.;available_at (snapshot);Доп. задача.
+customer_month.csv;support_score_count;Integer;Число доступных к snapshot оценок;шт.;available_at (snapshot);
+customer_month.csv;support_score_mean;Decimal(3) nullable;Средняя доступная оценка;балл;available_at (snapshot);Пусто, если оценок нет. Не заменять нулём.
+customer_month.csv;support_flagged_count;Integer;Служебный: из support_count — обращения с флагами качества;шт.;available_at (snapshot);Для контроля, не признак модели.
+customer_month.csv;support_quarantined_linked_count;Integer;Служебный: обращения карантина, связанные с абонентом и месяцем создания;шт.;не определена;Время доступности недостоверно — НЕ использовать как признак.
+customer_month.csv;history_month_index;Integer;Порядковый номер месяца абонента в выгрузке;шт.;available_at;1 = первая строка биллинга.

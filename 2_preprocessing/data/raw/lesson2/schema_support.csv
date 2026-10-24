@@ -1,0 +1,10 @@
+﻿canonical_field;legacy_field;current_field;data_type;description;unit;rules
+ticket_id;ticket_no;ticket_id;String;Идентификатор обращения;—;Уникальный неизменяемый ключ. Разные обращения одного абонента не являются дублями.
+customer_id;abonent_id;customer_id;String;Идентификатор абонента;—;Связь со справочником первого занятия. Пробелы вокруг идентификатора незначимы.
+created_at;opened_local;created_at;DateTime;Создание обращения;дата и время;"Legacy: DD.MM.YYYY HH:MM:SS, Москва. Current: ISO 8601 UTC Z; значения без зоны — Москва."
+available_at;loaded_local;available_at;DateTime;Доступность записи создания;дата и время;Не раньше создания. Определяет включение обращения в исторический снимок.
+topic;issue_ru;topic;String;Тема обращения;—;"Качество связи=network; Оплата и начисления=billing; Тариф=tariff; Дополнительные услуги=services. Пропуск допускает unknown."
+channel;contact_ru;channel;String;Канал обращения;—;"Телефон=phone; Чат=chat; Офис=office."
+resolved_at;closed_local;resolved_at;DateTime nullable;Время закрытия;дата и время;Не раньше создания. Пусто, если закрытие не подтверждено. Закрытие после расторжения договора допустимо.
+resolution_available_at;closed_loaded_local;resolution_available_at;DateTime nullable;Доступность закрытия и оценки;дата и время;Не раньше resolved_at и available_at. Для использования результата не позже даты расчёта.
+satisfaction_score;rating;satisfaction_score;Integer nullable;Оценка обслуживания абонентом;балл;Целое 1–5. Может отсутствовать и после закрытия. Доступна только вместе с результатом закрытия.

@@ -1,0 +1,2601 @@
+﻿customer_id;activation_date;region;acquisition_channel;customer_segment
+C000001;2019-04-26;Москва;online;individual
+C000002;2024-09-26;Московская область;store;individual
+C000003;2022-08-18;Томская область;online;individual
+C000004;2023-10-04;Москва;partner;individual
+C000005;2021-10-02;Красноярский край;online;individual
+C000006;2019-12-18;Новосибирская область;store;individual
+C000007;2020-07-22;Московская область;online;individual
+C000008;2020-02-07;Красноярский край;online;individual
+C000009;2024-05-08;Московская область;partner;individual
+C000010;2023-12-10;Москва;online;individual
+C000011;2024-11-26;Томская область;partner;individual
+C000012;2020-07-07;Новосибирская область;online;individual
+C000013;2021-01-10;Московская область;store;individual
+C000014;2022-08-30;Москва;store;individual
+C000015;2021-01-03;Томская область;partner;individual
+C000016;2025-08-23;Красноярский край;online;individual
+C000017;2019-08-22;Красноярский край;partner;individual
+C000018;2022-11-24;Новосибирская область;online;individual
+C000019;2021-07-30;Томская область;online;individual
+C000020;2021-12-26;Новосибирская область;store;individual
+C000021;2023-07-05;Томская область;store;individual
+C000022;2025-02-23;Томская область;store;individual
+C000023;2024-03-24;Московская область;online;individual
+C000024;2025-08-26;Красноярский край;store;individual
+C000025;2024-04-28;Московская область;store;individual
+C000026;2023-01-26;Томская область;online;individual
+C000027;2022-03-27;Новосибирская область;partner;individual
+C000028;2025-08-15;Красноярский край;partner;individual
+C000029;2021-05-25;Новосибирская область;online;small_business
+C000030;2020-01-09;Москва;store;individual
+C000031;2020-10-01;Москва;online;individual
+C000032;2023-12-31;Новосибирская область;store;individual
+C000033;2025-05-20;Московская область;store;individual
+C000034;2023-07-06;Красноярский край;online;individual
+C000035;2024-08-07;Красноярский край;online;individual
+C000036;2025-04-27;Москва;store;individual
+C000037;2021-01-07;Томская область;online;individual
+C000038;2021-02-17;Москва;store;individual
+C000039;2020-10-20;Московская область;online;small_business
+C000040;2022-04-21;Москва;online;individual
+C000041;2024-03-02;Новосибирская область;online;individual
+C000042;2023-09-23;Томская область;store;small_business
+C000043;2023-02-01;Новосибирская область;store;individual
+C000044;2020-08-07;Томская область;store;individual
+C000045;2019-04-19;Новосибирская область;store;individual
+C000046;2020-03-07;Красноярский край;partner;individual
+C000047;2019-09-12;Новосибирская область;online;individual
+C000048;2024-09-03;Москва;online;individual
+C000049;2020-10-04;Московская область;store;individual
+C000050;2023-09-03;Московская область;online;individual
+C000051;2022-04-13;Красноярский край;online;individual
+C000052;2021-12-13;Новосибирская область;online;individual
+C000053;2019-12-29;Томская область;online;individual
+C000054;2019-01-03;Красноярский край;partner;individual
+C000055;2019-03-22;Москва;partner;small_business
+C000056;2023-01-29;Красноярский край;partner;individual
+C000057;2019-07-17;Московская область;online;individual
+C000058;2023-02-14;Томская область;store;individual
+C000059;2020-09-24;Красноярский край;store;individual
+C000060;2022-10-19;Новосибирская область;online;individual
+C000061;2024-09-05;Красноярский край;online;individual
+C000062;2023-05-27;Томская область;store;individual
+C000063;2020-06-28;Красноярский край;online;individual
+C000064;2019-04-14;Новосибирская область;store;individual
+C000065;2021-12-01;Томская область;partner;individual
+C000066;2019-03-15;Новосибирская область;online;individual
+C000067;2021-02-03;Московская область;partner;small_business
+C000068;2019-01-21;Москва;online;individual
+C000069;2023-09-19;Московская область;store;small_business
+C000070;2024-01-10;Новосибирская область;online;individual
+C000071;2019-03-21;Московская область;online;individual
+C000072;2025-08-06;Красноярский край;online;small_business
+C000073;;Томская область;store;individual
+C000074;2020-03-30;Красноярский край;online;individual
+C000075;2020-05-24;Московская область;partner;individual
+C000076;2020-02-26;Красноярский край;store;individual
+C000077;2023-06-16;Московская область;online;individual
+C000078;2022-01-11;Красноярский край;online;individual
+C000079;2019-02-11;Московская область;online;small_business
+C000080;2025-01-17;Московская область;partner;individual
+C000081;2023-12-01;Новосибирская область;store;individual
+C000082;2020-09-06;Новосибирская область;partner;individual
+C000083;2020-09-16;Красноярский край;online;individual
+C000084;2019-06-13;Московская область;online;individual
+C000085;2021-02-01;Московская область;online;individual
+C000086;2019-07-02;Москва;partner;individual
+C000087;2025-08-28;Красноярский край;store;small_business
+C000088;2020-10-31;Новосибирская область;store;individual
+C000089;2021-06-28;Новосибирская область;store;individual
+C000090;;Красноярский край;partner;individual
+C000091;2024-03-30;Московская область;store;small_business
+C000092;2024-05-07;Томская область;online;individual
+C000093;2022-08-22;Московская область;online;individual
+C000094;2019-09-20;Московская область;store;individual
+C000095;2025-02-08;Томская область;online;individual
+C000096;2019-08-17;Томская область;store;individual
+C000097;2019-07-17;Московская область;online;small_business
+C000098;2019-08-13;Новосибирская область;store;individual
+C000099;2019-01-28;Московская область;store;small_business
+C000100;2024-09-28;Томская область;online;small_business
+C000101;2025-02-07;Красноярский край;store;individual
+C000102;2023-03-02;Томская область;store;individual
+C000103;2023-04-13;Красноярский край;store;small_business
+C000104;2025-04-10;Красноярский край;store;individual
+C000105;2020-12-11;Новосибирская область;online;small_business
+C000106;2025-01-14;Новосибирская область;online;individual
+C000107;2024-11-09;Москва;store;individual
+C000108;2021-08-27;Красноярский край;online;individual
+C000109;2019-01-25;Московская область;store;individual
+C000110;2020-01-28;Москва;online;individual
+C000111;2024-11-25;Москва;store;individual
+C000112;2021-07-24;Томская область;partner;individual
+C000113;2022-07-15;Московская область;store;individual
+C000114;2023-10-18;Новосибирская область;store;individual
+C000115;2022-11-01;Томская область;store;individual
+C000116;2023-10-16;Томская область;online;individual
+C000117;2022-01-31;Томская область;online;individual
+C000118;2024-12-23;Москва;store;small_business
+C000119;2023-11-25;Томская область;store;individual
+C000120;2019-11-14;Томская область;partner;individual
+C000121;2023-07-20;Новосибирская область;store;individual
+C000122;2019-02-26;Москва;store;individual
+C000123;2019-06-13;Новосибирская область;store;individual
+C000124;2021-06-15;Московская область;store;individual
+C000125;;Москва;partner;individual
+C000126;2024-01-03;Красноярский край;partner;individual
+C000127;2025-08-05;Москва;store;individual
+C000128;2020-02-19;Красноярский край;online;individual
+C000129;2019-10-06;Московская область;online;individual
+C000130;2020-05-28;Московская область;online;individual
+C000131;2019-06-30;Томская область;store;individual
+C000132;2019-03-06;Новосибирская область;store;individual
+C000133;2025-04-26;Москва;online;individual
+C000134;2020-04-27;Московская область;online;individual
+C000135;2024-12-09;Московская область;online;individual
+C000136;2019-05-04;Москва;online;individual
+C000137;2019-05-18;Новосибирская область;online;individual
+C000138;2019-12-05;Москва;online;individual
+C000139;2021-07-29;Красноярский край;store;individual
+C000140;2021-02-21;Новосибирская область;online;individual
+C000141;2022-11-20;Московская область;online;individual
+C000142;2023-01-03;Новосибирская область;store;individual
+C000143;2025-04-08;Московская область;store;individual
+C000144;2019-02-28;Москва;online;individual
+C000145;2019-08-09;Томская область;store;individual
+C000146;2021-02-19;Томская область;online;individual
+C000147;2023-03-14;Новосибирская область;store;individual
+C000148;2023-04-17;Московская область;online;small_business
+C000149;2020-03-10;Московская область;online;small_business
+C000150;2023-05-06;Красноярский край;partner;individual
+C000151;2025-03-17;Томская область;partner;individual
+C000152;2020-04-13;Московская область;store;individual
+C000153;2024-09-07;Красноярский край;online;individual
+C000154;2022-08-26;Московская область;online;individual
+C000155;2019-04-07;Красноярский край;partner;individual
+C000156;2021-10-31;Московская область;online;individual
+C000157;2024-08-11;Красноярский край;store;individual
+C000158;2021-09-24;Красноярский край;online;individual
+C000159;2020-05-17;Красноярский край;online;individual
+C000160;2024-06-18;Красноярский край;online;individual
+C000161;2023-05-12;Новосибирская область;online;individual
+C000162;2022-09-06;Москва;store;individual
+C000163;2022-01-28;Томская область;online;small_business
+C000164;2023-06-07;Москва;partner;individual
+C000165;2024-07-24;Томская область;online;individual
+C000166;2024-08-28;Новосибирская область;online;individual
+C000167;2019-09-12;Томская область;online;individual
+C000168;2021-10-14;Новосибирская область;store;individual
+C000169;2024-11-15;Новосибирская область;online;individual
+C000170;2022-06-29;Новосибирская область;store;individual
+C000171;2025-08-20;Московская область;store;individual
+C000172;2022-02-09;Новосибирская область;partner;individual
+C000173;2022-05-27;Томская область;online;small_business
+C000174;2019-09-29;Москва;partner;individual
+C000175;2022-04-18;Томская область;online;individual
+C000176;2025-08-02;Томская область;online;individual
+C000177;2023-07-21;Томская область;partner;individual
+C000178;2021-02-08;Томская область;online;small_business
+C000179;2020-10-31;Москва;online;individual
+C000180;2023-10-28;Томская область;store;individual
+C000181;2023-09-22;Красноярский край;online;individual
+C000182;2023-04-02;Красноярский край;online;individual
+C000183;2024-10-28;Новосибирская область;online;individual
+C000184;2023-02-19;Московская область;partner;individual
+C000185;2024-05-19;Новосибирская область;store;small_business
+C000186;2019-11-24;Красноярский край;store;individual
+C000187;2023-02-25;Москва;store;individual
+C000188;2021-08-19;Красноярский край;online;individual
+C000189;2022-01-02;Московская область;partner;individual
+C000190;2025-04-16;Томская область;online;individual
+C000191;2025-01-04;Москва;online;individual
+C000192;2024-09-03;Москва;partner;individual
+C000193;2023-03-21;Новосибирская область;online;individual
+C000194;2024-08-04;Московская область;store;individual
+C000195;2023-03-17;Красноярский край;store;individual
+C000196;2025-04-19;Москва;store;individual
+C000197;2020-07-29;Московская область;store;individual
+C000198;2025-04-08;Новосибирская область;store;individual
+C000199;2025-03-28;Томская область;store;individual
+C000200;2019-01-08;Красноярский край;store;individual
+C000201;2022-11-29;Московская область;partner;individual
+C000202;2024-03-07;Москва;partner;individual
+C000203;2024-11-26;Красноярский край;store;individual
+C000204;2022-11-20;Московская область;store;individual
+C000205;2023-12-23;Томская область;online;small_business
+C000206;2022-12-21;Красноярский край;store;individual
+C000207;2024-02-06;Москва;partner;individual
+C000208;2023-01-09;Московская область;partner;individual
+C000209;2025-06-18;Новосибирская область;partner;individual
+C000210;2019-01-25;Томская область;online;individual
+C000211;2024-12-17;Московская область;online;individual
+C000212;2023-01-29;Москва;online;individual
+C000213;2022-10-17;Красноярский край;store;individual
+C000214;2025-06-30;Новосибирская область;online;individual
+C000215;2025-01-12;Новосибирская область;online;individual
+C000216;2019-11-04;Московская область;store;individual
+C000217;2020-11-17;Москва;online;individual
+C000218;2021-01-25;Новосибирская область;online;individual
+C000219;2021-12-09;Красноярский край;online;individual
+C000220;2024-04-24;Москва;online;individual
+C000221;2025-08-21;Москва;online;individual
+C000222;;Новосибирская область;store;individual
+C000223;2021-02-25;Томская область;online;individual
+C000224;2022-08-14;Новосибирская область;online;individual
+C000225;2025-07-28;Красноярский край;store;individual
+C000226;2021-12-08;Красноярский край;partner;individual
+C000227;2024-12-27;Новосибирская область;partner;individual
+C000228;2020-03-02;Москва;store;individual
+C000229;2024-05-16;Московская область;online;individual
+C000230;2019-04-16;Красноярский край;online;individual
+C000231;;Красноярский край;online;individual
+C000232;2025-04-30;Новосибирская область;store;individual
+C000233;2023-12-20;Томская область;partner;individual
+C000234;2024-09-16;Красноярский край;online;individual
+C000235;2021-03-10;Томская область;online;individual
+C000236;2022-10-22;Томская область;online;individual
+C000237;2021-01-08;Красноярский край;partner;individual
+C000238;2022-10-29;Красноярский край;online;individual
+C000239;2024-07-21;Московская область;store;individual
+C000240;2020-07-28;Новосибирская область;online;small_business
+C000241;2023-11-04;Красноярский край;store;individual
+C000242;2020-04-10;Красноярский край;online;individual
+C000243;2019-07-14;Красноярский край;online;individual
+C000244;2023-11-07;Красноярский край;partner;individual
+C000245;2021-01-12;Москва;online;individual
+C000246;2024-02-08;Московская область;online;individual
+C000247;2019-05-12;Красноярский край;store;individual
+C000248;2023-02-04;Томская область;online;individual
+C000249;2025-03-15;Томская область;partner;individual
+C000250;;Новосибирская область;online;individual
+C000251;2024-07-15;Москва;online;individual
+C000252;2025-05-24;Томская область;store;individual
+C000253;2022-07-30;Томская область;partner;individual
+C000254;2024-02-17;Москва;online;individual
+C000255;2021-05-18;Новосибирская область;online;individual
+C000256;2023-08-27;Московская область;online;individual
+C000257;2024-04-22;Красноярский край;online;individual
+C000258;2025-08-15;Красноярский край;store;individual
+C000259;2021-09-26;Московская область;store;individual
+C000260;2022-04-02;Красноярский край;online;individual
+C000261;2019-10-27;Красноярский край;online;individual
+C000262;2022-01-25;Новосибирская область;online;individual
+C000263;2024-02-29;Московская область;online;individual
+C000264;2023-11-17;Московская область;online;individual
+C000265;2020-07-19;Новосибирская область;online;individual
+C000266;2022-11-11;Красноярский край;online;individual
+C000267;2021-09-11;Москва;online;individual
+C000268;2019-05-13;Новосибирская область;partner;individual
+C000269;2024-02-26;Красноярский край;store;individual
+C000270;2022-03-15;Московская область;online;small_business
+C000271;2023-07-22;Красноярский край;online;individual
+C000272;2022-09-04;Москва;partner;individual
+C000273;2021-10-08;Москва;store;individual
+C000274;2024-05-30;Новосибирская область;store;individual
+C000275;2024-02-11;Красноярский край;store;individual
+C000276;2019-07-24;Московская область;partner;individual
+C000277;2019-02-02;Красноярский край;online;individual
+C000278;2025-06-19;Красноярский край;store;individual
+C000279;2020-02-15;Томская область;online;individual
+C000280;2025-06-24;Московская область;online;individual
+C000281;2023-03-18;Новосибирская область;partner;individual
+C000282;2021-09-16;Новосибирская область;partner;individual
+C000283;2021-08-25;Новосибирская область;online;individual
+C000284;2020-04-30;Москва;online;small_business
+C000285;2020-06-16;Красноярский край;online;individual
+C000286;2019-12-08;Новосибирская область;partner;individual
+C000287;2021-01-28;Московская область;store;individual
+C000288;2023-08-04;Томская область;online;individual
+C000289;2022-11-07;Томская область;store;individual
+C000290;2021-06-23;Московская область;partner;individual
+C000291;2021-05-28;Красноярский край;online;individual
+C000292;2021-08-18;Московская область;store;individual
+C000293;2020-11-29;Москва;partner;individual
+C000294;2019-05-27;Томская область;online;individual
+C000295;2025-02-26;Новосибирская область;store;individual
+C000296;2019-11-11;Томская область;store;individual
+C000297;2020-02-26;Новосибирская область;online;individual
+C000298;2019-12-30;Новосибирская область;store;individual
+C000299;2024-01-20;Красноярский край;online;individual
+C000300;2019-10-18;Красноярский край;store;individual
+C000301;2022-04-07;Москва;store;individual
+C000302;2022-03-28;Томская область;online;individual
+C000303;;Томская область;online;individual
+C000304;2025-05-11;Новосибирская область;online;individual
+C000305;2019-03-12;Москва;store;individual
+C000306;2020-02-03;Томская область;store;individual
+C000307;2023-05-30;Томская область;store;individual
+C000308;2023-10-11;Красноярский край;online;individual
+C000309;2019-01-28;Москва;online;individual
+C000310;2021-03-11;Новосибирская область;store;individual
+C000311;2023-12-30;Московская область;partner;individual
+C000312;2022-08-16;Красноярский край;online;individual
+C000313;2021-12-06;Московская область;online;individual
+C000314;2019-04-27;Томская область;partner;individual
+C000315;2020-02-03;Томская область;store;individual
+C000316;2022-11-20;Московская область;partner;individual
+C000317;2022-12-17;Томская область;online;individual
+C000318;2025-05-04;Красноярский край;partner;small_business
+C000319;2022-07-25;Московская область;online;individual
+C000320;2024-10-31;Московская область;store;individual
+C000321;2025-04-30;Москва;online;individual
+C000322;2024-09-10;Москва;online;individual
+C000323;2021-04-10;Новосибирская область;partner;individual
+C000324;2024-11-09;Томская область;store;individual
+C000325;2024-10-07;Московская область;partner;individual
+C000326;2025-08-23;Новосибирская область;online;individual
+C000327;2022-10-30;Новосибирская область;store;individual
+C000328;2020-11-22;Московская область;online;individual
+C000329;2022-08-25;Красноярский край;partner;individual
+C000330;2022-04-21;Новосибирская область;store;individual
+C000331;2024-01-10;Томская область;online;individual
+C000332;2025-07-28;Москва;store;individual
+C000333;2023-11-21;Москва;partner;individual
+C000334;2025-05-29;Новосибирская область;store;individual
+C000335;2022-12-12;Москва;partner;small_business
+C000336;2021-10-28;Московская область;store;individual
+C000337;2023-01-26;Московская область;store;individual
+C000338;2020-10-29;Москва;online;individual
+C000339;2022-01-20;Красноярский край;partner;individual
+C000340;2021-05-29;Москва;store;individual
+C000341;2021-03-21;Красноярский край;online;individual
+C000342;2021-04-21;Томская область;store;individual
+C000343;2024-06-27;Москва;online;individual
+C000344;2021-05-31;Московская область;partner;individual
+C000345;2025-06-14;Новосибирская область;online;individual
+C000346;2019-10-21;Новосибирская область;online;individual
+C000347;2021-08-09;Московская область;partner;individual
+C000348;2022-03-07;Томская область;store;individual
+C000349;2025-05-12;Москва;store;individual
+C000350;2019-02-25;Красноярский край;online;individual
+C000351;2019-01-16;Томская область;online;small_business
+C000352;2020-10-10;Московская область;store;individual
+C000353;2021-01-05;Москва;store;individual
+C000354;2024-01-11;Новосибирская область;online;individual
+C000355;2024-09-11;Москва;store;individual
+C000356;2023-06-22;Красноярский край;online;individual
+C000357;2024-10-16;Московская область;partner;individual
+C000358;2021-04-20;Москва;online;individual
+C000359;2021-07-30;Томская область;online;individual
+C000360;2023-12-15;Томская область;online;individual
+C000361;2019-04-13;Москва;store;individual
+C000362;2024-06-25;Новосибирская область;store;individual
+C000363;2023-04-21;Красноярский край;online;individual
+C000364;2021-07-09;Новосибирская область;online;individual
+C000365;2020-09-13;Московская область;online;individual
+C000366;2024-08-01;Московская область;online;individual
+C000367;2025-07-05;Новосибирская область;store;individual
+C000368;2021-08-24;Томская область;store;individual
+C000369;2022-02-18;Томская область;online;individual
+C000370;2023-08-01;Новосибирская область;store;individual
+C000371;2023-11-20;Красноярский край;partner;individual
+C000372;2023-06-23;Московская область;store;individual
+C000373;2022-07-07;Москва;store;individual
+C000374;2021-04-09;Новосибирская область;online;individual
+C000375;2022-03-09;Москва;online;individual
+C000376;2021-04-07;Москва;store;individual
+C000377;2020-05-16;Московская область;store;small_business
+C000378;2020-11-08;Москва;partner;individual
+C000379;2021-04-26;Москва;store;individual
+C000380;2021-06-26;Москва;online;individual
+C000381;2020-01-12;Московская область;partner;individual
+C000382;2021-06-26;Новосибирская область;store;individual
+C000383;2020-03-21;Москва;online;small_business
+C000384;2020-10-19;Московская область;online;individual
+C000385;2025-01-18;Томская область;partner;individual
+C000386;2025-08-10;Московская область;online;individual
+C000387;2024-01-25;Московская область;online;individual
+C000388;;Московская область;store;individual
+C000389;2021-06-29;Томская область;online;individual
+C000390;2019-10-17;Красноярский край;partner;individual
+C000391;2022-03-04;Новосибирская область;partner;individual
+C000392;2019-12-24;Красноярский край;online;individual
+C000393;2021-09-28;Красноярский край;online;individual
+C000394;2022-12-14;Новосибирская область;store;individual
+C000395;2019-03-27;Новосибирская область;online;individual
+C000396;2020-08-04;Москва;store;individual
+C000397;2019-04-29;Томская область;online;individual
+C000398;2020-04-26;Московская область;store;individual
+C000399;2023-03-07;Московская область;partner;individual
+C000400;2022-12-19;Московская область;partner;individual
+C000401;2020-09-25;Москва;partner;individual
+C000402;2022-11-25;Красноярский край;online;individual
+C000403;2021-02-20;Московская область;online;individual
+C000404;2021-12-06;Красноярский край;store;individual
+C000405;2022-03-15;Москва;online;individual
+C000406;2025-01-09;Красноярский край;store;individual
+C000407;2019-09-20;Красноярский край;partner;individual
+C000408;2019-09-19;Московская область;store;individual
+C000409;2019-02-09;Томская область;store;individual
+C000410;2025-01-16;Московская область;online;individual
+C000411;2021-09-24;Москва;partner;individual
+C000412;2019-03-01;Московская область;partner;individual
+C000413;2024-07-29;Новосибирская область;store;individual
+C000414;2021-04-21;Красноярский край;store;individual
+C000415;2022-03-03;Красноярский край;store;small_business
+C000416;2024-06-01;Москва;store;individual
+C000417;2025-05-11;Новосибирская область;store;individual
+C000418;2025-08-24;Красноярский край;online;individual
+C000419;2024-06-02;Новосибирская область;online;individual
+C000420;2021-10-15;Москва;partner;individual
+C000421;2024-03-27;Москва;online;individual
+C000422;2020-02-20;Томская область;partner;individual
+C000423;2019-06-23;Новосибирская область;store;individual
+C000424;2023-02-02;Красноярский край;online;individual
+C000425;2019-01-18;Красноярский край;online;individual
+C000426;2024-11-14;Московская область;online;individual
+C000427;2020-12-31;Новосибирская область;store;individual
+C000428;2024-05-17;Москва;store;individual
+C000429;2023-09-07;Томская область;online;individual
+C000430;2024-02-09;Томская область;store;individual
+C000431;2022-04-05;Московская область;store;individual
+C000432;2025-03-03;Томская область;partner;individual
+C000433;2025-03-07;Новосибирская область;online;small_business
+C000434;2023-01-19;Московская область;online;individual
+C000435;2023-02-08;Москва;online;individual
+C000436;2023-02-26;Москва;online;individual
+C000437;2019-05-18;Москва;online;individual
+C000438;2023-08-19;Москва;store;individual
+C000439;2024-11-14;Новосибирская область;online;individual
+C000440;2024-04-01;Новосибирская область;online;individual
+C000441;2019-04-01;Новосибирская область;store;small_business
+C000442;2025-04-09;Красноярский край;online;individual
+C000443;2024-07-17;Томская область;online;individual
+C000444;2020-02-15;Новосибирская область;online;individual
+C000445;2019-02-23;Новосибирская область;partner;individual
+C000446;2023-04-13;Московская область;online;individual
+C000447;2020-09-14;Московская область;online;individual
+C000448;2022-11-20;Московская область;online;individual
+C000449;2021-07-15;Томская область;partner;individual
+C000450;2024-12-14;Новосибирская область;store;individual
+C000451;2024-03-20;Москва;online;individual
+C000452;2020-04-09;Новосибирская область;store;individual
+C000453;2023-09-30;Московская область;partner;individual
+C000454;2023-03-10;Москва;online;individual
+C000455;2022-01-20;Москва;store;individual
+C000456;2024-12-03;Томская область;store;individual
+C000457;2020-09-04;Красноярский край;partner;individual
+C000458;2021-10-26;Новосибирская область;online;individual
+C000459;2022-04-06;Красноярский край;store;individual
+C000460;2020-06-20;Москва;online;individual
+C000461;2020-03-20;Томская область;store;individual
+C000462;2021-04-11;Московская область;store;individual
+C000463;2020-10-18;Красноярский край;store;individual
+C000464;2023-09-27;Москва;store;small_business
+C000465;2022-11-11;Новосибирская область;store;individual
+C000466;2020-06-09;Московская область;online;individual
+C000467;2019-04-21;Красноярский край;partner;individual
+C000468;2024-02-22;Московская область;store;small_business
+C000469;2019-08-04;Томская область;partner;individual
+C000470;2024-10-30;Томская область;store;individual
+C000471;2019-05-09;Томская область;store;individual
+C000472;2025-05-07;Томская область;store;individual
+C000473;2021-06-13;Красноярский край;store;individual
+C000474;2024-05-13;Москва;store;individual
+C000475;2022-04-30;Красноярский край;store;individual
+C000476;2019-10-08;Новосибирская область;partner;individual
+C000477;2023-10-24;Новосибирская область;online;individual
+C000478;2020-05-26;Новосибирская область;partner;individual
+C000479;2020-02-14;Москва;partner;individual
+C000480;2020-04-19;Московская область;online;individual
+C000481;2021-04-29;Новосибирская область;online;individual
+C000482;2021-06-17;Москва;online;individual
+C000483;2023-03-29;Новосибирская область;partner;individual
+C000484;;Москва;online;individual
+C000485;2022-02-19;Московская область;online;individual
+C000486;2022-01-22;Красноярский край;online;individual
+C000487;2025-05-21;Московская область;online;individual
+C000488;2021-09-25;Московская область;online;individual
+C000489;2020-07-04;Москва;store;individual
+C000490;2021-12-21;Красноярский край;partner;individual
+C000491;2024-11-28;Новосибирская область;store;individual
+C000492;2019-08-01;Московская область;store;individual
+C000493;2025-07-30;Москва;store;individual
+C000494;2021-11-02;Московская область;store;individual
+C000495;2024-04-02;Московская область;store;individual
+C000496;2020-12-12;Новосибирская область;store;individual
+C000497;2019-05-21;Московская область;online;individual
+C000498;2021-04-05;Томская область;online;individual
+C000499;2021-07-23;Москва;partner;individual
+C000500;2024-10-17;Новосибирская область;online;individual
+C000501;2022-12-12;Томская область;store;individual
+C000502;2023-11-26;Новосибирская область;store;individual
+C000503;2019-01-26;Красноярский край;store;individual
+C000504;2022-10-31;Москва;partner;individual
+C000505;2019-11-02;Красноярский край;online;individual
+C000506;2020-07-23;Томская область;online;individual
+C000507;2024-11-07;Томская область;store;individual
+C000508;2024-11-02;Красноярский край;online;individual
+C000509;2025-03-07;Красноярский край;partner;individual
+C000510;2023-06-01;Москва;store;individual
+C000511;2020-06-21;Московская область;online;individual
+C000512;2023-06-09;Новосибирская область;partner;individual
+C000513;2023-02-27;Красноярский край;store;individual
+C000514;2019-05-10;Томская область;store;individual
+C000515;2022-01-15;Томская область;online;individual
+C000516;2019-03-15;Новосибирская область;store;individual
+C000517;2019-12-14;Москва;online;individual
+C000518;2020-10-25;Новосибирская область;store;individual
+C000519;;Москва;online;individual
+C000520;;Московская область;online;individual
+C000521;2019-09-21;Красноярский край;online;individual
+C000522;2021-11-26;Новосибирская область;online;individual
+C000523;2024-03-04;Красноярский край;online;individual
+C000524;2022-08-24;Новосибирская область;store;individual
+C000525;2024-03-12;Томская область;partner;individual
+C000526;2020-07-13;Московская область;online;individual
+C000527;2025-08-17;Москва;online;individual
+C000528;2022-02-26;Красноярский край;store;individual
+C000529;2023-09-14;Красноярский край;online;individual
+C000530;2021-07-18;Красноярский край;partner;individual
+C000531;2021-05-29;Новосибирская область;store;individual
+C000532;2023-01-17;Новосибирская область;partner;individual
+C000533;2023-12-03;Москва;store;individual
+C000534;2020-12-27;Москва;online;individual
+C000535;2021-09-27;Москва;store;individual
+C000536;2025-06-12;Томская область;store;individual
+C000537;2022-07-01;Москва;online;individual
+C000538;;Москва;online;individual
+C000539;2023-06-20;Томская область;partner;individual
+C000540;2024-09-30;Новосибирская область;store;individual
+C000541;2024-08-11;Москва;store;individual
+C000542;2025-03-14;Москва;online;individual
+C000543;2023-05-06;Московская область;online;individual
+C000544;2019-05-24;Томская область;store;individual
+C000545;2025-07-07;Томская область;online;individual
+C000546;2020-05-21;Московская область;store;individual
+C000547;2021-07-27;Красноярский край;store;individual
+C000548;2021-06-14;Московская область;online;individual
+C000549;2023-05-23;Новосибирская область;online;individual
+C000550;2022-03-09;Москва;store;individual
+C000551;2022-04-07;Московская область;store;individual
+C000552;2019-05-29;Красноярский край;online;individual
+C000553;2020-01-02;Новосибирская область;online;individual
+C000554;2025-08-08;Новосибирская область;online;small_business
+C000555;2025-03-13;Москва;online;individual
+C000556;2020-09-17;Московская область;online;individual
+C000557;2023-03-25;Томская область;partner;individual
+C000558;2023-05-25;Красноярский край;store;individual
+C000559;2019-08-17;Москва;online;individual
+C000560;2021-09-16;Новосибирская область;online;individual
+C000561;2023-04-30;Москва;online;individual
+C000562;2020-03-04;Томская область;online;individual
+C000563;2025-05-15;Москва;store;individual
+C000564;2020-05-18;Москва;online;individual
+C000565;2025-03-07;Новосибирская область;store;small_business
+C000566;2023-08-27;Москва;store;individual
+C000567;2019-12-05;Томская область;online;individual
+C000568;2020-10-20;Новосибирская область;store;individual
+C000569;2021-05-11;Москва;online;small_business
+C000570;2021-11-24;Москва;online;individual
+C000571;2020-02-28;Москва;store;individual
+C000572;2024-08-03;Москва;online;individual
+C000573;2023-08-23;Москва;store;individual
+C000574;2025-05-23;Томская область;online;individual
+C000575;2022-04-24;Новосибирская область;partner;small_business
+C000576;2022-06-12;Московская область;online;individual
+C000577;2023-08-11;Томская область;online;individual
+C000578;2025-05-30;Новосибирская область;store;individual
+C000579;2021-04-08;Москва;partner;individual
+C000580;2019-07-28;Москва;store;small_business
+C000581;2024-01-20;Томская область;online;individual
+C000582;2023-03-05;Томская область;online;small_business
+C000583;2025-02-08;Москва;online;individual
+C000584;2022-06-13;Томская область;store;individual
+C000585;2022-07-11;Новосибирская область;store;individual
+C000586;2023-01-15;Красноярский край;store;individual
+C000587;2019-12-21;Томская область;store;individual
+C000588;2019-12-25;Московская область;store;individual
+C000589;2020-11-07;Москва;online;individual
+C000590;2022-10-14;Московская область;online;individual
+C000591;2023-01-13;Новосибирская область;store;individual
+C000592;2022-02-27;Московская область;online;individual
+C000593;2022-03-21;Новосибирская область;partner;individual
+C000594;;Московская область;online;individual
+C000595;2020-09-03;Москва;online;small_business
+C000596;2019-09-23;Томская область;partner;individual
+C000597;2025-03-12;Томская область;online;individual
+C000598;2022-02-16;Москва;online;individual
+C000599;2023-04-17;Томская область;store;individual
+C000600;2024-08-30;Москва;online;individual
+C000601;2019-08-12;Новосибирская область;store;individual
+C000602;2022-09-05;Москва;online;individual
+C000603;2020-07-19;Новосибирская область;online;individual
+C000604;2024-07-13;Москва;store;individual
+C000605;2019-11-04;Москва;store;small_business
+C000606;2021-10-10;Московская область;online;individual
+C000607;;Москва;store;individual
+C000608;2022-07-14;Томская область;online;individual
+C000609;2020-10-24;Томская область;online;individual
+C000610;2023-07-16;Новосибирская область;partner;individual
+C000611;2022-07-03;Московская область;online;individual
+C000612;2020-07-24;Москва;store;individual
+C000613;2025-01-29;Красноярский край;partner;individual
+C000614;2022-04-30;Новосибирская область;store;individual
+C000615;2024-09-16;Томская область;store;individual
+C000616;2020-12-13;Москва;online;individual
+C000617;2019-04-16;Томская область;store;individual
+C000618;2023-04-12;Томская область;online;individual
+C000619;2021-01-10;Московская область;partner;individual
+C000620;2021-07-08;Новосибирская область;partner;individual
+C000621;2021-05-05;Новосибирская область;store;individual
+C000622;2022-06-08;Москва;store;individual
+C000623;2022-08-04;Новосибирская область;partner;individual
+C000624;2019-11-07;Томская область;online;individual
+C000625;2023-04-13;Томская область;store;individual
+C000626;2022-08-19;Московская область;partner;individual
+C000627;2023-07-10;Новосибирская область;online;individual
+C000628;2022-01-13;Томская область;online;individual
+C000629;2020-09-05;Москва;store;individual
+C000630;2020-03-09;Москва;store;individual
+C000631;2022-10-10;Красноярский край;online;individual
+C000632;2024-03-07;Новосибирская область;store;individual
+C000633;2021-02-09;Москва;store;individual
+C000634;2023-09-11;Томская область;online;individual
+C000635;2021-10-05;Новосибирская область;store;individual
+C000636;;Московская область;online;small_business
+C000637;2025-02-14;Новосибирская область;partner;individual
+C000638;2021-11-01;Московская область;online;individual
+C000639;2025-06-14;Томская область;online;individual
+C000640;2025-04-04;Красноярский край;store;individual
+C000641;2020-10-12;Москва;online;individual
+C000642;2023-10-25;Москва;online;individual
+C000643;2021-06-04;Новосибирская область;store;individual
+C000644;2022-10-07;Томская область;store;individual
+C000645;2021-08-11;Красноярский край;online;individual
+C000646;2025-06-09;Московская область;store;small_business
+C000647;2019-04-29;Новосибирская область;partner;individual
+C000648;2021-05-29;Москва;online;individual
+C000649;2019-06-03;Москва;online;individual
+C000650;2020-02-13;Томская область;store;individual
+C000651;2025-04-23;Томская область;online;individual
+C000652;2019-05-12;Московская область;online;individual
+C000653;2024-05-01;Московская область;store;individual
+C000654;2023-02-05;Томская область;store;individual
+C000655;2021-05-25;Новосибирская область;partner;individual
+C000656;2021-12-27;Томская область;store;individual
+C000657;2020-04-06;Москва;online;individual
+C000658;2024-01-23;Московская область;store;individual
+C000659;2019-07-08;Новосибирская область;online;individual
+C000660;2023-02-06;Московская область;partner;individual
+C000661;2022-05-13;Москва;partner;individual
+C000662;2019-07-03;Красноярский край;partner;individual
+C000663;2021-12-23;Новосибирская область;online;individual
+C000664;2020-06-26;Новосибирская область;online;individual
+C000665;2022-09-13;Новосибирская область;partner;individual
+C000666;2021-11-16;Москва;online;individual
+C000667;2019-02-04;Новосибирская область;store;individual
+C000668;2025-05-31;Красноярский край;store;individual
+C000669;2022-12-27;Красноярский край;store;individual
+C000670;2019-03-13;Новосибирская область;online;individual
+C000671;2021-09-12;Москва;online;individual
+C000672;2022-07-17;Красноярский край;partner;individual
+C000673;2024-12-28;Новосибирская область;online;individual
+C000674;2021-11-21;Москва;online;individual
+C000675;2023-03-29;Новосибирская область;store;individual
+C000676;2020-01-20;Новосибирская область;store;individual
+C000677;2023-08-20;Красноярский край;partner;individual
+C000678;2024-08-27;Красноярский край;online;individual
+C000679;2019-03-27;Новосибирская область;store;individual
+C000680;2025-05-18;Томская область;online;individual
+C000681;2025-06-21;Москва;online;individual
+C000682;2021-05-18;Томская область;online;individual
+C000683;2020-12-19;Томская область;online;individual
+C000684;2023-06-05;Томская область;online;individual
+C000685;2022-05-17;Москва;store;individual
+C000686;2022-08-28;Красноярский край;online;individual
+C000687;2020-10-13;Московская область;store;small_business
+C000688;2025-05-24;Красноярский край;online;individual
+C000689;2024-10-05;Томская область;online;individual
+C000690;2023-09-14;Красноярский край;partner;individual
+C000691;2023-09-16;Красноярский край;store;individual
+C000692;2024-07-07;Новосибирская область;partner;individual
+C000693;2024-10-25;Москва;store;small_business
+C000694;2024-03-07;Новосибирская область;online;individual
+C000695;2023-06-17;Томская область;store;individual
+C000696;2021-10-16;Красноярский край;store;individual
+C000697;2021-11-12;Московская область;store;individual
+C000698;2021-08-21;Красноярский край;online;individual
+C000699;2025-05-29;Новосибирская область;online;individual
+C000700;2024-07-12;Москва;online;individual
+C000701;2023-01-18;Красноярский край;partner;individual
+C000702;2020-02-02;Новосибирская область;store;individual
+C000703;2024-02-24;Новосибирская область;partner;individual
+C000704;2024-06-01;Московская область;online;individual
+C000705;2021-02-16;Москва;store;individual
+C000706;2021-07-09;Новосибирская область;partner;individual
+C000707;2020-05-15;Московская область;online;individual
+C000708;2019-01-26;Томская область;online;individual
+C000709;2020-03-02;Томская область;store;individual
+C000710;2022-12-13;Московская область;online;individual
+C000711;2020-08-13;Московская область;online;individual
+C000712;2024-07-25;Новосибирская область;online;individual
+C000713;2021-10-28;Московская область;store;individual
+C000714;2019-02-13;Красноярский край;online;small_business
+C000715;2019-04-24;Новосибирская область;online;individual
+C000716;;Новосибирская область;online;individual
+C000717;2022-04-17;Москва;partner;small_business
+C000718;2025-01-29;Москва;online;individual
+C000719;2025-01-02;Томская область;online;individual
+C000720;2019-11-25;Московская область;store;individual
+C000721;2024-01-29;Московская область;store;individual
+C000722;2023-05-18;Московская область;store;individual
+C000723;2020-02-26;Красноярский край;store;individual
+C000724;2023-01-20;Московская область;online;individual
+C000725;2020-01-30;Москва;online;individual
+C000726;2023-06-25;Москва;store;individual
+C000727;2024-02-01;Московская область;partner;individual
+C000728;2022-10-22;Московская область;online;individual
+C000729;2019-04-21;Москва;online;individual
+C000730;2022-12-23;Новосибирская область;store;individual
+C000731;2021-03-06;Москва;store;individual
+C000732;2025-03-27;Новосибирская область;store;individual
+C000733;2024-08-05;Москва;online;individual
+C000734;2024-03-12;Московская область;online;individual
+C000735;;Новосибирская область;online;individual
+C000736;2024-03-23;Новосибирская область;online;individual
+C000737;2024-01-03;Москва;online;individual
+C000738;2025-04-13;Новосибирская область;store;individual
+C000739;2021-02-28;Томская область;store;individual
+C000740;2020-11-17;Новосибирская область;partner;individual
+C000741;2022-04-04;Красноярский край;partner;individual
+C000742;2019-09-25;Новосибирская область;partner;small_business
+C000743;2021-03-04;Московская область;online;individual
+C000744;2021-12-01;Московская область;online;individual
+C000745;2023-10-08;Московская область;online;small_business
+C000746;2021-11-15;Томская область;online;small_business
+C000747;2020-12-25;Томская область;partner;individual
+C000748;2022-10-12;Красноярский край;online;small_business
+C000749;2023-12-21;Москва;online;individual
+C000750;2022-09-08;Томская область;store;individual
+C000751;2021-12-01;Новосибирская область;online;individual
+C000752;2023-06-13;Москва;online;individual
+C000753;2024-04-25;Новосибирская область;online;individual
+C000754;2019-08-21;Томская область;online;individual
+C000755;2022-07-17;Красноярский край;online;individual
+C000756;2024-11-23;Московская область;online;individual
+C000757;2022-03-17;Томская область;store;individual
+C000758;2023-12-24;Красноярский край;store;small_business
+C000759;2025-02-16;Московская область;store;individual
+C000760;2022-12-04;Красноярский край;store;individual
+C000761;2020-06-21;Красноярский край;store;individual
+C000762;2021-08-22;Новосибирская область;online;individual
+C000763;2019-10-27;Москва;online;small_business
+C000764;2025-02-08;Томская область;store;small_business
+C000765;2021-04-24;Москва;online;individual
+C000766;2020-01-18;Красноярский край;store;individual
+C000767;2019-04-10;Томская область;store;individual
+C000768;;Красноярский край;online;individual
+C000769;2020-11-10;Красноярский край;online;small_business
+C000770;2023-09-18;Московская область;online;individual
+C000771;2022-04-10;Московская область;store;individual
+C000772;2023-06-04;Новосибирская область;store;individual
+C000773;2022-06-21;Новосибирская область;online;individual
+C000774;2021-10-25;Томская область;store;individual
+C000775;2019-12-09;Красноярский край;store;individual
+C000776;2022-01-04;Москва;online;individual
+C000777;;Новосибирская область;store;individual
+C000778;2024-08-28;Красноярский край;store;individual
+C000779;2019-06-01;Москва;partner;individual
+C000780;2025-03-18;Томская область;store;individual
+C000781;2022-12-08;Московская область;store;individual
+C000782;;Новосибирская область;store;individual
+C000783;2019-10-19;Новосибирская область;online;individual
+C000784;2020-11-23;Москва;store;individual
+C000785;2021-07-09;Томская область;partner;small_business
+C000786;2024-09-14;Томская область;online;individual
+C000787;2019-09-30;Новосибирская область;store;individual
+C000788;2019-11-09;Москва;store;individual
+C000789;2024-08-28;Красноярский край;online;individual
+C000790;2020-04-09;Московская область;partner;individual
+C000791;2023-06-01;Московская область;online;individual
+C000792;2024-08-13;Томская область;store;individual
+C000793;2022-10-30;Московская область;store;individual
+C000794;2024-02-02;Московская область;partner;individual
+C000795;2019-01-26;Новосибирская область;store;individual
+C000796;2025-05-30;Томская область;partner;individual
+C000797;2023-06-17;Новосибирская область;store;individual
+C000798;2021-10-15;Москва;online;individual
+C000799;2019-09-12;Москва;store;individual
+C000800;2023-01-03;Красноярский край;online;small_business
+C000801;2019-03-18;Москва;online;individual
+C000802;2020-11-01;Московская область;partner;small_business
+C000803;2024-05-24;Москва;store;individual
+C000804;2019-12-26;Москва;store;individual
+C000805;2020-05-20;Московская область;partner;individual
+C000806;2024-09-27;Московская область;online;individual
+C000807;2019-07-16;Московская область;store;individual
+C000808;2025-08-19;Новосибирская область;online;individual
+C000809;2022-04-01;Красноярский край;store;individual
+C000810;2021-01-16;Москва;partner;individual
+C000811;2022-01-05;Красноярский край;store;individual
+C000812;2023-03-10;Московская область;online;individual
+C000813;2019-07-13;Московская область;store;small_business
+C000814;2024-12-31;Московская область;online;individual
+C000815;2022-09-24;Новосибирская область;store;small_business
+C000816;2021-06-09;Томская область;store;individual
+C000817;2021-09-10;Новосибирская область;online;individual
+C000818;2021-12-03;Московская область;online;individual
+C000819;2019-11-14;Московская область;online;individual
+C000820;2019-09-24;Томская область;partner;individual
+C000821;2021-11-18;Москва;store;individual
+C000822;2019-04-11;Москва;store;individual
+C000823;2023-06-05;Красноярский край;online;individual
+C000824;2020-11-05;Новосибирская область;online;individual
+C000825;2022-09-27;Красноярский край;store;individual
+C000826;2025-02-27;Московская область;online;individual
+C000827;2020-10-01;Московская область;online;individual
+C000828;2019-02-28;Московская область;online;individual
+C000829;2023-01-16;Томская область;online;individual
+C000830;2021-11-11;Томская область;online;individual
+C000831;2024-06-27;Красноярский край;store;individual
+C000832;2023-01-13;Москва;partner;individual
+C000833;2025-06-10;Москва;store;individual
+C000834;2019-01-06;Новосибирская область;store;small_business
+C000835;2021-03-19;Москва;store;individual
+C000836;2021-05-12;Красноярский край;online;individual
+C000837;2024-11-28;Московская область;partner;individual
+C000838;2024-08-08;Московская область;store;individual
+C000839;2020-02-07;Красноярский край;online;individual
+C000840;2020-07-28;Москва;store;individual
+C000841;2021-01-05;Новосибирская область;store;individual
+C000842;2022-07-29;Новосибирская область;store;individual
+C000843;2024-02-16;Московская область;online;individual
+C000844;2024-10-14;Новосибирская область;store;individual
+C000845;2021-03-15;Томская область;partner;individual
+C000846;2019-01-28;Томская область;online;individual
+C000847;2022-11-11;Томская область;store;individual
+C000848;2025-04-16;Москва;online;individual
+C000849;2022-08-26;Московская область;online;individual
+C000850;2022-09-13;Москва;online;individual
+C000851;2019-02-06;Новосибирская область;online;individual
+C000852;2022-12-27;Томская область;store;individual
+C000853;;Московская область;partner;individual
+C000854;2020-11-15;Москва;online;individual
+C000855;2019-08-14;Московская область;store;individual
+C000856;2020-09-22;Москва;online;individual
+C000857;2022-04-19;Красноярский край;partner;individual
+C000858;;Томская область;store;individual
+C000859;2021-02-16;Москва;online;individual
+C000860;2025-06-15;Красноярский край;online;individual
+C000861;2024-09-12;Новосибирская область;online;individual
+C000862;2025-08-06;Красноярский край;online;individual
+C000863;2021-05-21;Томская область;store;individual
+C000864;2023-10-19;Московская область;online;individual
+C000865;2020-06-11;Новосибирская область;online;individual
+C000866;2019-05-05;Москва;store;individual
+C000867;2023-06-18;Красноярский край;store;individual
+C000868;2025-05-02;Красноярский край;store;individual
+C000869;2021-04-16;Красноярский край;online;individual
+C000870;2021-09-09;Московская область;store;individual
+C000871;2021-02-17;Томская область;online;individual
+C000872;2025-04-05;Московская область;online;individual
+C000873;2021-06-15;Новосибирская область;online;individual
+C000874;2019-07-12;Красноярский край;online;individual
+C000875;2019-01-04;Томская область;online;individual
+C000876;2023-07-05;Томская область;online;individual
+C000877;;Московская область;store;individual
+C000878;2021-04-01;Московская область;store;individual
+C000879;2024-12-20;Москва;store;individual
+C000880;2020-10-29;Московская область;partner;individual
+C000881;2019-06-29;Томская область;online;individual
+C000882;2019-04-27;Томская область;online;individual
+C000883;2024-04-01;Новосибирская область;partner;individual
+C000884;2020-05-14;Московская область;store;individual
+C000885;2025-07-12;Томская область;online;individual
+C000886;2024-10-21;Московская область;store;individual
+C000887;2024-12-20;Москва;store;individual
+C000888;2021-09-12;Красноярский край;store;individual
+C000889;2019-12-15;Томская область;online;individual
+C000890;2021-07-21;Томская область;partner;individual
+C000891;2022-03-28;Томская область;store;individual
+C000892;2020-09-03;Томская область;online;individual
+C000893;;Москва;online;individual
+C000894;2025-06-11;Томская область;store;individual
+C000895;2024-06-13;Красноярский край;store;individual
+C000896;2024-07-13;Новосибирская область;store;individual
+C000897;2021-06-22;Томская область;store;individual
+C000898;2024-11-02;Новосибирская область;online;individual
+C000899;2020-05-08;Новосибирская область;partner;individual
+C000900;2020-09-01;Московская область;online;individual
+C000901;2022-05-29;Московская область;online;individual
+C000902;;Московская область;store;individual
+C000903;2019-09-24;Москва;online;individual
+C000904;2024-10-30;Москва;online;individual
+C000905;2020-09-14;Новосибирская область;online;individual
+C000906;2022-09-30;Красноярский край;store;individual
+C000907;2019-04-01;Красноярский край;partner;individual
+C000908;2022-07-28;Московская область;online;individual
+C000909;2020-01-02;Москва;online;individual
+C000910;2024-11-03;Новосибирская область;online;individual
+C000911;2020-05-08;Московская область;online;individual
+C000912;2023-10-07;Московская область;online;individual
+C000913;2019-11-07;Московская область;online;individual
+C000914;2019-10-21;Московская область;store;individual
+C000915;2022-09-05;Московская область;online;individual
+C000916;2024-07-31;Москва;online;individual
+C000917;2022-02-21;Томская область;online;individual
+C000918;2024-08-28;Красноярский край;store;individual
+C000919;2024-10-14;Томская область;partner;individual
+C000920;2019-11-20;Томская область;online;individual
+C000921;2023-10-27;Новосибирская область;online;individual
+C000922;2022-04-02;Московская область;online;individual
+C000923;2020-03-24;Томская область;store;individual
+C000924;2024-08-22;Московская область;store;small_business
+C000925;2023-07-08;Новосибирская область;online;individual
+C000926;2021-07-19;Томская область;online;individual
+C000927;2024-03-12;Новосибирская область;store;individual
+C000928;2019-06-15;Новосибирская область;store;individual
+C000929;2022-10-04;Московская область;store;individual
+C000930;2025-03-06;Москва;online;individual
+C000931;2024-04-05;Новосибирская область;partner;individual
+C000932;2024-09-19;Новосибирская область;online;individual
+C000933;2022-07-12;Московская область;online;individual
+C000934;2019-04-08;Новосибирская область;online;individual
+C000935;2023-07-08;Томская область;online;individual
+C000936;2019-10-09;Новосибирская область;partner;individual
+C000937;2024-03-31;Красноярский край;store;individual
+C000938;;Московская область;store;individual
+C000939;2023-06-17;Новосибирская область;store;individual
+C000940;2024-06-25;Новосибирская область;online;individual
+C000941;2019-03-12;Москва;online;individual
+C000942;2023-05-10;Томская область;online;individual
+C000943;2023-05-14;Новосибирская область;partner;individual
+C000944;2020-08-27;Новосибирская область;online;individual
+C000945;2021-08-22;Москва;online;individual
+C000946;2019-11-29;Красноярский край;partner;individual
+C000947;2021-03-29;Московская область;store;individual
+C000948;2025-03-30;Новосибирская область;online;small_business
+C000949;2025-03-31;Новосибирская область;partner;small_business
+C000950;2025-01-16;Красноярский край;store;individual
+C000951;2019-11-04;Томская область;online;individual
+C000952;2023-07-13;Московская область;partner;individual
+C000953;2019-12-04;Москва;online;individual
+C000954;2020-06-15;Новосибирская область;partner;small_business
+C000955;2021-11-12;Московская область;store;individual
+C000956;2025-02-16;Новосибирская область;store;individual
+C000957;2023-09-11;Томская область;online;individual
+C000958;2021-03-14;Московская область;partner;individual
+C000959;2020-03-01;Томская область;store;individual
+C000960;2020-01-20;Москва;store;individual
+C000961;2019-01-04;Красноярский край;online;small_business
+C000962;2024-12-27;Красноярский край;partner;individual
+C000963;2022-08-23;Красноярский край;partner;individual
+C000964;2021-09-13;Московская область;store;individual
+C000965;2022-11-04;Москва;online;individual
+C000966;2021-01-12;Московская область;store;individual
+C000967;2025-07-02;Томская область;online;individual
+C000968;2023-01-30;Москва;online;individual
+C000969;2023-08-11;Московская область;partner;individual
+C000970;2020-08-08;Новосибирская область;store;individual
+C000971;2019-05-04;Московская область;store;individual
+C000972;2020-08-28;Красноярский край;online;small_business
+C000973;2020-03-17;Москва;partner;individual
+C000974;2024-02-26;Московская область;online;individual
+C000975;2024-03-09;Томская область;online;individual
+C000976;2021-06-20;Московская область;online;individual
+C000977;2020-01-24;Новосибирская область;online;individual
+C000978;2024-01-15;Томская область;store;individual
+C000979;2019-07-30;Томская область;store;small_business
+C000980;2021-01-12;Московская область;online;small_business
+C000981;2022-10-05;Томская область;online;individual
+C000982;2019-11-06;Москва;store;individual
+C000983;2019-10-19;Новосибирская область;online;individual
+C000984;2019-12-29;Томская область;online;individual
+C000985;2021-10-26;Новосибирская область;partner;individual
+C000986;2025-07-27;Томская область;store;individual
+C000987;2021-03-30;Москва;store;individual
+C000988;2022-08-09;Новосибирская область;online;individual
+C000989;2024-12-15;Московская область;online;individual
+C000990;2023-10-04;Москва;online;individual
+C000991;2021-12-21;Москва;partner;individual
+C000992;2019-12-21;Красноярский край;partner;individual
+C000993;2022-10-31;Москва;online;individual
+C000994;2022-05-20;Томская область;partner;small_business
+C000995;2022-10-02;Москва;store;individual
+C000996;2019-11-10;Московская область;store;individual
+C000997;2019-05-26;Новосибирская область;online;individual
+C000998;2023-08-14;Московская область;store;individual
+C000999;2022-05-12;Красноярский край;store;individual
+C001000;2024-08-20;Томская область;store;individual
+C001001;2019-12-04;Москва;online;individual
+C001002;2019-04-15;Томская область;partner;individual
+C001003;2022-11-03;Новосибирская область;online;individual
+C001004;2020-02-06;Новосибирская область;online;individual
+C001005;2025-01-30;Томская область;online;individual
+C001006;2024-07-03;Красноярский край;online;individual
+C001007;2023-08-08;Московская область;partner;individual
+C001008;2022-06-09;Московская область;online;individual
+C001009;2023-11-16;Новосибирская область;store;individual
+C001010;2024-05-02;Красноярский край;store;individual
+C001011;2021-06-30;Красноярский край;online;individual
+C001012;2022-04-01;Москва;store;individual
+C001013;2020-10-31;Томская область;store;individual
+C001014;2021-04-23;Новосибирская область;online;individual
+C001015;;Томская область;online;individual
+C001016;2025-06-22;Томская область;partner;individual
+C001017;2019-05-27;Красноярский край;store;individual
+C001018;2024-07-30;Красноярский край;store;individual
+C001019;2021-04-08;Москва;partner;small_business
+C001020;;Новосибирская область;online;small_business
+C001021;2019-12-26;Томская область;online;individual
+C001022;2022-09-21;Москва;online;individual
+C001023;2020-03-23;Томская область;store;individual
+C001024;2025-04-19;Московская область;online;individual
+C001025;2020-12-16;Московская область;online;small_business
+C001026;2019-02-18;Москва;partner;individual
+C001027;2020-04-27;Красноярский край;partner;individual
+C001028;2023-04-05;Томская область;online;individual
+C001029;2024-04-27;Москва;online;individual
+C001030;2021-12-13;Томская область;online;individual
+C001031;2021-04-06;Московская область;store;individual
+C001032;2025-02-15;Московская область;online;small_business
+C001033;2023-06-04;Московская область;store;individual
+C001034;2021-04-18;Московская область;store;individual
+C001035;2023-11-29;Красноярский край;partner;individual
+C001036;2023-02-14;Москва;online;individual
+C001037;2022-08-29;Красноярский край;online;individual
+C001038;2020-08-18;Москва;online;individual
+C001039;2022-02-01;Новосибирская область;store;individual
+C001040;2021-03-14;Красноярский край;online;small_business
+C001041;2019-04-02;Москва;online;individual
+C001042;;Новосибирская область;partner;individual
+C001043;2022-12-09;Красноярский край;store;individual
+C001044;2024-01-13;Красноярский край;store;individual
+C001045;2020-11-24;Красноярский край;online;individual
+C001046;2022-09-22;Томская область;store;individual
+C001047;2019-02-08;Московская область;partner;individual
+C001048;2019-09-06;Москва;online;individual
+C001049;2021-06-13;Томская область;partner;individual
+C001050;2022-09-15;Москва;store;individual
+C001051;2023-05-06;Московская область;store;individual
+C001052;2019-11-09;Красноярский край;online;individual
+C001053;2022-05-28;Москва;online;individual
+C001054;2021-06-30;Московская область;online;individual
+C001055;2019-06-11;Томская область;online;individual
+C001056;2023-05-30;Красноярский край;partner;individual
+C001057;2021-10-31;Красноярский край;store;small_business
+C001058;2023-08-27;Томская область;online;individual
+C001059;2022-12-16;Новосибирская область;online;individual
+C001060;2020-09-13;Москва;online;individual
+C001061;2024-08-25;Красноярский край;partner;individual
+C001062;2021-09-03;Томская область;store;individual
+C001063;2020-10-14;Новосибирская область;store;individual
+C001064;2023-02-17;Красноярский край;partner;individual
+C001065;2023-06-12;Московская область;online;individual
+C001066;2023-11-12;Московская область;partner;individual
+C001067;2019-04-21;Красноярский край;online;individual
+C001068;2025-08-19;Красноярский край;online;individual
+C001069;2021-04-21;Новосибирская область;online;individual
+C001070;;Красноярский край;store;individual
+C001071;2025-02-15;Москва;store;individual
+C001072;2019-03-06;Красноярский край;online;individual
+C001073;2025-08-25;Томская область;partner;individual
+C001074;2023-02-24;Красноярский край;store;individual
+C001075;2021-10-29;Москва;store;individual
+C001076;2024-08-11;Томская область;partner;individual
+C001077;2024-05-21;Московская область;partner;individual
+C001078;2025-08-19;Новосибирская область;partner;individual
+C001079;2019-03-30;Москва;online;individual
+C001080;2020-09-30;Красноярский край;store;individual
+C001081;2022-04-17;Томская область;store;individual
+C001082;2022-04-30;Московская область;online;individual
+C001083;2024-01-05;Томская область;online;individual
+C001084;2020-10-22;Новосибирская область;partner;individual
+C001085;2019-06-07;Томская область;store;individual
+C001086;2023-10-05;Московская область;online;individual
+C001087;2020-07-11;Красноярский край;partner;individual
+C001088;2025-05-31;Томская область;online;individual
+C001089;2023-08-06;Красноярский край;online;individual
+C001090;2019-10-23;Красноярский край;store;individual
+C001091;2024-08-31;Новосибирская область;online;small_business
+C001092;2020-11-25;Томская область;online;individual
+C001093;2022-02-28;Москва;online;individual
+C001094;2023-07-29;Красноярский край;partner;individual
+C001095;;Томская область;online;individual
+C001096;2023-04-16;Москва;online;individual
+C001097;2022-12-25;Новосибирская область;store;individual
+C001098;2022-11-05;Москва;store;individual
+C001099;2021-12-28;Московская область;store;individual
+C001100;2023-10-28;Москва;online;individual
+C001101;2021-10-21;Москва;online;small_business
+C001102;2023-07-06;Красноярский край;online;individual
+C001103;2022-04-11;Новосибирская область;online;individual
+C001104;2021-04-28;Московская область;online;individual
+C001105;2020-12-01;Томская область;online;individual
+C001106;2023-04-13;Красноярский край;online;individual
+C001107;2020-12-29;Томская область;online;small_business
+C001108;2024-03-03;Томская область;online;individual
+C001109;2021-01-03;Московская область;store;individual
+C001110;2024-10-19;Новосибирская область;store;small_business
+C001111;2023-12-08;Томская область;store;individual
+C001112;2024-07-25;Томская область;online;individual
+C001113;2021-12-25;Московская область;online;individual
+C001114;2021-09-20;Московская область;online;individual
+C001115;2023-05-14;Новосибирская область;store;individual
+C001116;2024-10-24;Новосибирская область;online;individual
+C001117;2023-10-11;Красноярский край;partner;individual
+C001118;2024-02-13;Томская область;online;individual
+C001119;2024-11-19;Москва;store;individual
+C001120;2025-08-03;Красноярский край;online;individual
+C001121;2021-01-23;Новосибирская область;online;individual
+C001122;2021-03-05;Новосибирская область;partner;individual
+C001123;2022-05-08;Красноярский край;store;individual
+C001124;2023-05-17;Томская область;store;individual
+C001125;;Красноярский край;store;individual
+C001126;2020-12-11;Московская область;online;individual
+C001127;2021-07-20;Томская область;online;individual
+C001128;2025-02-26;Московская область;online;individual
+C001129;2020-11-09;Красноярский край;online;individual
+C001130;2022-07-26;Красноярский край;partner;individual
+C001131;2021-12-29;Москва;online;individual
+C001132;2022-09-02;Томская область;online;individual
+C001133;2023-04-21;Красноярский край;store;individual
+C001134;2022-06-10;Томская область;store;small_business
+C001135;2020-06-04;Томская область;online;individual
+C001136;2021-08-15;Москва;partner;individual
+C001137;2019-05-04;Москва;store;individual
+C001138;2022-01-11;Красноярский край;store;individual
+C001139;2025-05-27;Красноярский край;online;individual
+C001140;2021-03-16;Москва;partner;individual
+C001141;2021-08-17;Москва;store;individual
+C001142;;Москва;store;individual
+C001143;2021-05-25;Красноярский край;store;individual
+C001144;2022-01-14;Красноярский край;online;individual
+C001145;2024-09-14;Москва;store;individual
+C001146;2021-11-01;Московская область;online;small_business
+C001147;2020-11-01;Новосибирская область;online;individual
+C001148;2022-01-19;Томская область;online;individual
+C001149;2022-02-19;Новосибирская область;online;individual
+C001150;2025-08-30;Красноярский край;online;individual
+C001151;;Москва;store;individual
+C001152;2024-05-22;Новосибирская область;online;individual
+C001153;2025-07-16;Красноярский край;partner;individual
+C001154;2022-06-01;Томская область;online;individual
+C001155;2019-08-22;Томская область;online;individual
+C001156;2020-03-13;Москва;online;individual
+C001157;2020-12-27;Красноярский край;partner;individual
+C001158;2022-12-25;Москва;online;individual
+C001159;2019-07-01;Новосибирская область;online;individual
+C001160;2021-02-19;Томская область;online;individual
+C001161;2023-11-27;Томская область;store;individual
+C001162;2024-12-31;Новосибирская область;store;individual
+C001163;2020-02-09;Красноярский край;store;individual
+C001164;2022-03-01;Красноярский край;online;individual
+C001165;2024-02-20;Москва;partner;individual
+C001166;2022-02-07;Новосибирская область;online;individual
+C001167;2019-05-31;Красноярский край;store;individual
+C001168;2019-10-26;Московская область;online;individual
+C001169;2022-03-06;Новосибирская область;online;individual
+C001170;2019-12-25;Москва;partner;individual
+C001171;2025-01-07;Красноярский край;store;individual
+C001172;2020-09-16;Московская область;store;individual
+C001173;2022-12-22;Московская область;store;small_business
+C001174;2024-08-17;Московская область;online;small_business
+C001175;2022-11-01;Красноярский край;online;individual
+C001176;2025-08-18;Томская область;store;individual
+C001177;2020-12-12;Томская область;online;individual
+C001178;2025-08-14;Москва;store;individual
+C001179;2024-11-30;Красноярский край;online;individual
+C001180;2019-03-22;Новосибирская область;store;individual
+C001181;2020-10-10;Новосибирская область;store;small_business
+C001182;2021-03-01;Новосибирская область;store;individual
+C001183;2022-12-30;Красноярский край;online;individual
+C001184;2023-04-05;Красноярский край;online;individual
+C001185;2021-02-01;Красноярский край;store;individual
+C001186;2024-10-30;Московская область;online;individual
+C001187;2023-10-12;Томская область;store;small_business
+C001188;2024-12-21;Москва;partner;individual
+C001189;;Москва;store;small_business
+C001190;2020-07-02;Томская область;store;small_business
+C001191;;Томская область;online;individual
+C001192;2021-07-10;Москва;online;individual
+C001193;2019-04-28;Новосибирская область;partner;individual
+C001194;2024-01-05;Томская область;online;individual
+C001195;2020-01-16;Московская область;partner;individual
+C001196;2024-09-21;Красноярский край;online;individual
+C001197;2020-06-03;Московская область;store;individual
+C001198;2024-02-26;Новосибирская область;store;individual
+C001199;2024-06-12;Москва;online;individual
+C001200;2021-08-19;Томская область;online;individual
+C001201;2021-04-26;Красноярский край;partner;individual
+C001202;2021-05-30;Москва;online;individual
+C001203;2021-09-28;Томская область;online;individual
+C001204;2025-05-02;Новосибирская область;online;individual
+C001205;2019-06-12;Красноярский край;partner;individual
+C001206;2023-02-11;Москва;online;individual
+C001207;2022-04-05;Москва;store;small_business
+C001208;2024-11-05;Московская область;store;individual
+C001209;2020-02-06;Томская область;online;individual
+C001210;2021-06-24;Томская область;partner;individual
+C001211;2024-07-16;Томская область;online;individual
+C001212;2023-05-11;Москва;online;individual
+C001213;2023-03-23;Московская область;partner;individual
+C001214;2023-09-20;Томская область;store;individual
+C001215;2025-05-25;Томская область;online;individual
+C001216;2021-09-16;Новосибирская область;store;individual
+C001217;2019-02-04;Томская область;online;individual
+C001218;2023-10-31;Томская область;online;individual
+C001219;2024-11-12;Московская область;online;individual
+C001220;2019-10-28;Томская область;store;individual
+C001221;2023-09-30;Красноярский край;online;individual
+C001222;2025-04-19;Красноярский край;store;individual
+C001223;2024-10-17;Москва;partner;individual
+C001224;2019-01-18;Москва;online;small_business
+C001225;2022-09-19;Красноярский край;store;individual
+C001226;2019-05-12;Новосибирская область;store;individual
+C001227;2023-06-20;Новосибирская область;online;individual
+C001228;2025-06-29;Московская область;partner;individual
+C001229;2023-09-19;Томская область;online;individual
+C001230;2023-04-09;Москва;online;individual
+C001231;2022-11-23;Московская область;store;individual
+C001232;2025-05-27;Томская область;online;individual
+C001233;2023-04-25;Красноярский край;store;individual
+C001234;2019-10-30;Москва;online;individual
+C001235;2023-11-27;Новосибирская область;store;small_business
+C001236;2022-06-16;Томская область;online;individual
+C001237;2025-06-04;Новосибирская область;online;individual
+C001238;2019-02-02;Московская область;online;individual
+C001239;2025-05-13;Томская область;online;individual
+C001240;2020-04-18;Новосибирская область;store;individual
+C001241;;Красноярский край;online;small_business
+C001242;2020-07-29;Красноярский край;store;individual
+C001243;2022-10-13;Московская область;store;individual
+C001244;2022-08-08;Москва;online;individual
+C001245;2024-06-28;Московская область;store;individual
+C001246;2025-07-13;Томская область;store;individual
+C001247;2019-11-16;Новосибирская область;online;individual
+C001248;2024-04-14;Томская область;online;individual
+C001249;2024-05-28;Москва;online;small_business
+C001250;2025-01-20;Новосибирская область;store;individual
+C001251;2025-03-28;Новосибирская область;store;small_business
+C001252;2019-11-23;Московская область;partner;individual
+C001253;2023-11-30;Томская область;store;individual
+C001254;2024-12-24;Московская область;online;individual
+C001255;2021-05-21;Московская область;partner;individual
+C001256;2019-07-12;Томская область;store;individual
+C001257;2024-10-12;Новосибирская область;online;individual
+C001258;2022-05-18;Томская область;store;individual
+C001259;2021-03-16;Московская область;online;individual
+C001260;2019-09-26;Новосибирская область;partner;individual
+C001261;2022-09-26;Москва;online;individual
+C001262;2020-09-17;Москва;online;individual
+C001263;2020-03-29;Московская область;online;individual
+C001264;2021-05-27;Красноярский край;online;small_business
+C001265;2022-05-23;Новосибирская область;store;individual
+C001266;2024-10-11;Новосибирская область;online;individual
+C001267;2020-01-22;Москва;online;individual
+C001268;2020-09-29;Томская область;online;individual
+C001269;2019-02-21;Новосибирская область;online;individual
+C001270;2021-08-14;Томская область;store;individual
+C001271;2023-01-11;Московская область;store;individual
+C001272;2024-11-26;Новосибирская область;online;individual
+C001273;2021-05-12;Томская область;partner;individual
+C001274;2021-10-18;Томская область;partner;individual
+C001275;2022-10-10;Москва;store;small_business
+C001276;2024-06-10;Московская область;online;individual
+C001277;2023-08-01;Красноярский край;store;individual
+C001278;2019-08-21;Московская область;partner;individual
+C001279;2020-04-22;Томская область;online;individual
+C001280;2021-02-06;Московская область;online;individual
+C001281;2020-08-13;Москва;online;individual
+C001282;2021-04-14;Москва;online;individual
+C001283;2020-02-27;Томская область;store;individual
+C001284;2021-07-29;Красноярский край;store;individual
+C001285;2020-06-01;Московская область;online;individual
+C001286;2020-09-27;Красноярский край;online;individual
+C001287;2024-06-21;Московская область;store;individual
+C001288;2021-10-03;Московская область;store;individual
+C001289;2019-05-29;Москва;online;individual
+C001290;2021-07-10;Красноярский край;online;individual
+C001291;2021-03-01;Новосибирская область;partner;individual
+C001292;2021-01-08;Москва;store;individual
+C001293;2024-10-28;Томская область;online;individual
+C001294;2019-06-06;Московская область;partner;individual
+C001295;2025-01-12;Красноярский край;store;individual
+C001296;2019-06-19;Новосибирская область;partner;individual
+C001297;2019-02-23;Московская область;online;individual
+C001298;2022-08-14;Томская область;online;individual
+C001299;2023-10-28;Томская область;online;individual
+C001300;2019-08-03;Новосибирская область;online;individual
+C001301;;Московская область;store;individual
+C001302;2022-01-27;Томская область;online;individual
+C001303;2019-07-21;Новосибирская область;online;individual
+C001304;2022-08-20;Новосибирская область;online;individual
+C001305;2024-05-21;Московская область;store;individual
+C001306;2019-05-15;Москва;online;individual
+C001307;2023-07-18;Новосибирская область;store;individual
+C001308;2025-06-13;Красноярский край;store;individual
+C001309;2020-04-13;Московская область;online;individual
+C001310;2023-12-06;Москва;online;individual
+C001311;2020-11-09;Томская область;online;individual
+C001312;2024-05-15;Новосибирская область;online;individual
+C001313;2025-05-24;Томская область;store;individual
+C001314;2021-06-18;Новосибирская область;store;individual
+C001315;2021-07-12;Москва;online;individual
+C001316;2020-12-13;Томская область;partner;individual
+C001317;2024-08-02;Московская область;online;individual
+C001318;2024-12-14;Томская область;online;individual
+C001319;2019-10-09;Московская область;online;individual
+C001320;2020-03-30;Красноярский край;store;individual
+C001321;2022-04-06;Новосибирская область;online;individual
+C001322;2024-06-15;Москва;partner;individual
+C001323;2022-10-07;Новосибирская область;online;individual
+C001324;2023-10-12;Москва;store;individual
+C001325;2022-01-12;Москва;online;individual
+C001326;2019-07-06;Московская область;online;individual
+C001327;2024-05-06;Красноярский край;online;individual
+C001328;2024-12-31;Красноярский край;store;individual
+C001329;2022-08-31;Москва;online;individual
+C001330;2020-03-18;Томская область;online;individual
+C001331;2019-09-09;Московская область;partner;individual
+C001332;2019-05-28;Новосибирская область;online;individual
+C001333;2019-06-04;Москва;partner;individual
+C001334;2020-11-19;Новосибирская область;partner;individual
+C001335;2021-03-29;Новосибирская область;online;individual
+C001336;2023-12-19;Красноярский край;store;individual
+C001337;2025-05-16;Москва;online;individual
+C001338;2023-10-16;Томская область;online;individual
+C001339;2021-03-05;Новосибирская область;partner;individual
+C001340;2019-12-11;Томская область;online;individual
+C001341;2021-03-19;Московская область;online;individual
+C001342;2025-01-06;Томская область;online;individual
+C001343;;Красноярский край;store;individual
+C001344;2023-10-29;Новосибирская область;partner;individual
+C001345;2019-05-18;Москва;store;individual
+C001346;2022-02-06;Новосибирская область;store;small_business
+C001347;2023-02-08;Томская область;online;individual
+C001348;2019-11-16;Новосибирская область;store;small_business
+C001349;2023-02-16;Красноярский край;online;small_business
+C001350;2021-12-25;Красноярский край;online;individual
+C001351;2024-11-18;Московская область;online;individual
+C001352;2023-01-23;Новосибирская область;online;individual
+C001353;2020-08-01;Новосибирская область;store;individual
+C001354;2025-01-10;Московская область;online;individual
+C001355;2020-05-29;Томская область;online;individual
+C001356;2021-03-10;Томская область;store;individual
+C001357;2021-03-10;Московская область;store;individual
+C001358;2024-11-15;Москва;online;individual
+C001359;2022-11-14;Новосибирская область;online;individual
+C001360;2022-10-29;Москва;store;individual
+C001361;2025-02-13;Московская область;online;individual
+C001362;2024-08-28;Москва;online;individual
+C001363;2022-10-27;Московская область;store;individual
+C001364;2024-02-11;Москва;store;individual
+C001365;2020-07-10;Московская область;online;individual
+C001366;2023-12-28;Новосибирская область;store;individual
+C001367;;Московская область;store;individual
+C001368;2024-04-02;Красноярский край;online;individual
+C001369;2023-02-25;Томская область;store;individual
+C001370;2021-05-21;Томская область;store;individual
+C001371;2019-09-15;Московская область;online;individual
+C001372;2024-08-16;Томская область;store;individual
+C001373;2022-04-17;Красноярский край;store;individual
+C001374;2023-03-15;Новосибирская область;store;individual
+C001375;2020-06-24;Москва;online;individual
+C001376;2025-08-07;Красноярский край;online;individual
+C001377;2020-09-02;Москва;store;individual
+C001378;2023-08-05;Московская область;store;individual
+C001379;2020-09-14;Новосибирская область;online;small_business
+C001380;2024-05-11;Московская область;online;individual
+C001381;2020-07-13;Красноярский край;store;small_business
+C001382;2021-06-09;Красноярский край;partner;individual
+C001383;2025-03-08;Московская область;partner;individual
+C001384;2023-03-01;Московская область;partner;individual
+C001385;2022-04-01;Новосибирская область;store;individual
+C001386;2023-02-23;Московская область;partner;individual
+C001387;2025-05-10;Московская область;store;individual
+C001388;2022-08-06;Красноярский край;store;individual
+C001389;2021-01-08;Московская область;online;individual
+C001390;2024-01-22;Московская область;online;individual
+C001391;2021-11-21;Московская область;online;individual
+C001392;2024-09-07;Московская область;store;individual
+C001393;2024-01-03;Москва;store;individual
+C001394;2023-11-12;Томская область;partner;individual
+C001395;2019-02-26;Новосибирская область;store;individual
+C001396;2024-11-01;Томская область;store;individual
+C001397;2020-03-14;Новосибирская область;store;individual
+C001398;2019-11-17;Томская область;partner;individual
+C001399;2020-05-14;Томская область;store;individual
+C001400;2020-01-06;Москва;online;individual
+C001401;2024-07-04;Московская область;partner;individual
+C001402;2022-08-04;Московская область;store;small_business
+C001403;2020-12-11;Москва;store;individual
+C001404;2022-06-02;Москва;store;small_business
+C001405;2023-05-12;Москва;store;individual
+C001406;2021-12-26;Москва;online;individual
+C001407;2024-04-15;Москва;store;individual
+C001408;2021-09-13;Томская область;online;individual
+C001409;2024-10-14;Москва;store;individual
+C001410;2021-09-30;Новосибирская область;store;individual
+C001411;2021-08-04;Москва;online;individual
+C001412;2022-09-21;Новосибирская область;online;individual
+C001413;2022-02-17;Москва;online;individual
+C001414;2021-05-29;Томская область;online;small_business
+C001415;2023-11-19;Москва;online;individual
+C001416;2023-05-17;Томская область;partner;individual
+C001417;2025-03-20;Московская область;store;individual
+C001418;2021-07-01;Московская область;partner;individual
+C001419;2024-10-15;Красноярский край;online;individual
+C001420;2025-01-02;Новосибирская область;store;individual
+C001421;2024-06-26;Москва;store;individual
+C001422;2023-08-11;Томская область;store;small_business
+C001423;2024-10-12;Томская область;online;individual
+C001424;2019-06-10;Московская область;store;small_business
+C001425;2024-01-10;Красноярский край;online;individual
+C001426;2023-12-10;Новосибирская область;online;individual
+C001427;2024-06-11;Москва;online;individual
+C001428;2025-06-03;Московская область;online;individual
+C001429;2022-10-14;Красноярский край;online;individual
+C001430;2019-01-08;Красноярский край;online;individual
+C001431;2024-08-24;Московская область;partner;individual
+C001432;2020-06-21;Красноярский край;store;individual
+C001433;2023-05-25;Московская область;online;individual
+C001434;2020-12-14;Красноярский край;store;individual
+C001435;2023-04-24;Москва;online;individual
+C001436;2024-06-18;Томская область;store;individual
+C001437;2020-08-15;Московская область;online;individual
+C001438;2021-05-02;Красноярский край;online;individual
+C001439;2023-02-22;Москва;online;small_business
+C001440;2021-08-28;Новосибирская область;store;individual
+C001441;2021-09-03;Новосибирская область;online;individual
+C001442;2020-02-04;Новосибирская область;partner;individual
+C001443;2022-04-22;Новосибирская область;online;individual
+C001444;2019-04-21;Томская область;online;individual
+C001445;2024-09-08;Томская область;store;small_business
+C001446;2019-04-05;Москва;store;individual
+C001447;2019-09-09;Красноярский край;store;individual
+C001448;2022-05-19;Московская область;store;individual
+C001449;2024-11-02;Томская область;online;individual
+C001450;2023-02-18;Томская область;online;individual
+C001451;2024-12-16;Новосибирская область;online;individual
+C001452;2024-05-22;Красноярский край;online;individual
+C001453;2022-07-01;Красноярский край;store;individual
+C001454;2024-08-15;Новосибирская область;partner;individual
+C001455;2024-10-22;Москва;store;individual
+C001456;2022-02-27;Новосибирская область;partner;individual
+C001457;2020-07-27;Московская область;store;individual
+C001458;2019-01-19;Томская область;online;individual
+C001459;2022-05-17;Томская область;online;individual
+C001460;;Москва;online;individual
+C001461;2022-04-06;Московская область;online;individual
+C001462;2025-01-13;Московская область;store;individual
+C001463;2020-09-03;Томская область;store;individual
+C001464;2019-10-13;Москва;online;small_business
+C001465;2023-05-14;Красноярский край;store;individual
+C001466;2019-02-21;Красноярский край;store;individual
+C001467;2022-07-24;Московская область;online;individual
+C001468;2020-12-19;Москва;store;individual
+C001469;2021-05-27;Новосибирская область;store;individual
+C001470;2019-09-28;Красноярский край;store;individual
+C001471;2021-02-24;Красноярский край;online;individual
+C001472;2024-05-13;Новосибирская область;store;individual
+C001473;;Новосибирская область;online;individual
+C001474;2023-09-03;Московская область;online;individual
+C001475;2023-02-22;Московская область;partner;individual
+C001476;2020-08-27;Красноярский край;store;small_business
+C001477;2023-06-30;Московская область;partner;individual
+C001478;2023-01-22;Красноярский край;online;individual
+C001479;2019-09-06;Москва;online;individual
+C001480;2021-11-01;Новосибирская область;store;individual
+C001481;2021-05-18;Москва;store;individual
+C001482;2022-04-11;Новосибирская область;online;individual
+C001483;2020-04-07;Красноярский край;online;small_business
+C001484;2019-02-12;Московская область;online;individual
+C001485;2024-06-19;Новосибирская область;store;individual
+C001486;2022-08-20;Красноярский край;online;individual
+C001487;2019-06-14;Москва;online;individual
+C001488;2024-12-04;Томская область;store;individual
+C001489;2022-04-08;Новосибирская область;store;individual
+C001490;2021-02-13;Томская область;store;individual
+C001491;2021-07-26;Красноярский край;online;individual
+C001492;2020-04-26;Томская область;partner;individual
+C001493;2024-09-29;Томская область;online;individual
+C001494;2020-04-18;Московская область;online;individual
+C001495;2023-10-03;Красноярский край;partner;individual
+C001496;2019-03-29;Томская область;partner;small_business
+C001497;2021-06-02;Новосибирская область;store;individual
+C001498;2020-06-06;Красноярский край;store;individual
+C001499;2025-01-30;Москва;online;individual
+C001500;2020-03-17;Томская область;store;individual
+C001501;2022-01-13;Томская область;online;individual
+C001502;2020-08-08;Московская область;store;individual
+C001503;2023-08-24;Томская область;online;individual
+C001504;2025-06-09;Московская область;online;small_business
+C001505;2020-06-03;Московская область;partner;individual
+C001506;2021-09-14;Москва;online;individual
+C001507;2020-08-26;Томская область;online;individual
+C001508;2019-11-03;Красноярский край;store;individual
+C001509;2020-01-18;Новосибирская область;partner;individual
+C001510;2021-05-30;Москва;online;individual
+C001511;2023-04-07;Москва;store;individual
+C001512;;Москва;store;individual
+C001513;;Новосибирская область;store;individual
+C001514;2021-09-01;Красноярский край;store;individual
+C001515;2023-12-28;Москва;store;individual
+C001516;2024-02-29;Красноярский край;store;individual
+C001517;2023-10-20;Новосибирская область;store;individual
+C001518;2021-06-06;Новосибирская область;online;individual
+C001519;2024-02-18;Томская область;partner;individual
+C001520;2025-05-18;Московская область;online;individual
+C001521;2020-06-28;Москва;online;individual
+C001522;2019-02-07;Томская область;partner;individual
+C001523;2022-05-20;Новосибирская область;online;individual
+C001524;2022-05-02;Томская область;partner;individual
+C001525;2019-08-14;Новосибирская область;online;individual
+C001526;2023-10-11;Новосибирская область;online;individual
+C001527;2019-08-22;Томская область;partner;individual
+C001528;2022-12-09;Красноярский край;online;individual
+C001529;2022-12-24;Красноярский край;partner;small_business
+C001530;2023-10-04;Московская область;online;individual
+C001531;2020-01-01;Красноярский край;store;individual
+C001532;2024-02-11;Новосибирская область;online;individual
+C001533;2025-05-27;Красноярский край;online;small_business
+C001534;2019-01-05;Москва;store;individual
+C001535;;Томская область;partner;individual
+C001536;2025-08-07;Новосибирская область;partner;individual
+C001537;2021-09-13;Московская область;store;individual
+C001538;2024-10-23;Московская область;online;individual
+C001539;2024-10-16;Томская область;store;individual
+C001540;2020-03-03;Томская область;store;individual
+C001541;2023-08-20;Новосибирская область;online;individual
+C001542;2021-08-16;Московская область;partner;individual
+C001543;2024-08-23;Москва;online;individual
+C001544;2023-11-24;Новосибирская область;store;individual
+C001545;2023-08-30;Красноярский край;store;individual
+C001546;2024-11-02;Новосибирская область;store;individual
+C001547;2024-02-19;Московская область;store;small_business
+C001548;2020-06-04;Томская область;partner;individual
+C001549;2022-12-07;Красноярский край;online;individual
+C001550;2023-11-19;Москва;online;individual
+C001551;2020-03-19;Красноярский край;online;individual
+C001552;2023-10-07;Томская область;online;individual
+C001553;2023-03-28;Новосибирская область;partner;individual
+C001554;2024-11-07;Новосибирская область;store;small_business
+C001555;2019-09-26;Новосибирская область;online;individual
+C001556;2021-10-12;Томская область;online;individual
+C001557;2022-03-24;Томская область;store;individual
+C001558;2023-03-16;Москва;online;individual
+C001559;2020-09-20;Москва;store;individual
+C001560;2025-04-16;Московская область;online;individual
+C001561;2023-09-08;Москва;partner;individual
+C001562;2021-08-11;Красноярский край;partner;individual
+C001563;2024-06-15;Новосибирская область;store;individual
+C001564;2019-09-16;Москва;partner;individual
+C001565;2021-10-12;Москва;partner;individual
+C001566;2022-10-28;Москва;online;individual
+C001567;2021-06-08;Томская область;partner;individual
+C001568;2025-08-24;Новосибирская область;online;individual
+C001569;2024-05-09;Красноярский край;store;individual
+C001570;2020-01-20;Новосибирская область;online;small_business
+C001571;2023-09-10;Москва;store;individual
+C001572;2022-09-15;Московская область;store;individual
+C001573;2020-09-27;Томская область;store;individual
+C001574;2019-11-14;Новосибирская область;online;individual
+C001575;2019-10-29;Московская область;online;small_business
+C001576;2025-04-30;Московская область;store;individual
+C001577;2021-02-06;Новосибирская область;online;individual
+C001578;2019-08-23;Новосибирская область;online;individual
+C001579;2023-11-27;Томская область;store;individual
+C001580;2023-12-24;Москва;online;individual
+C001581;2023-05-19;Москва;store;individual
+C001582;2022-08-06;Новосибирская область;online;individual
+C001583;2024-07-17;Томская область;online;individual
+C001584;2020-03-25;Томская область;store;individual
+C001585;;Москва;partner;individual
+C001586;2024-01-07;Москва;store;individual
+C001587;2021-11-15;Новосибирская область;online;individual
+C001588;2019-02-18;Новосибирская область;store;individual
+C001589;2025-08-03;Московская область;partner;individual
+C001590;2019-07-23;Красноярский край;store;individual
+C001591;2022-11-24;Томская область;online;individual
+C001592;2025-07-03;Москва;partner;individual
+C001593;2022-07-31;Томская область;online;individual
+C001594;2019-08-18;Московская область;partner;individual
+C001595;2021-01-11;Красноярский край;store;individual
+C001596;2023-06-08;Московская область;online;individual
+C001597;2021-08-21;Красноярский край;store;individual
+C001598;2020-09-28;Московская область;partner;small_business
+C001599;2024-05-14;Московская область;partner;individual
+C001600;2021-12-09;Московская область;online;individual
+C001601;2019-01-17;Томская область;partner;individual
+C001602;2020-06-12;Томская область;online;individual
+C001603;2022-04-20;Красноярский край;store;individual
+C001604;2020-07-01;Москва;online;individual
+C001605;2023-07-22;Москва;online;individual
+C001606;2021-08-11;Новосибирская область;store;individual
+C001607;2019-08-07;Москва;online;individual
+C001608;2021-03-21;Красноярский край;store;individual
+C001609;2023-03-21;Московская область;store;individual
+C001610;;Москва;store;individual
+C001611;2022-11-10;Новосибирская область;store;individual
+C001612;;Новосибирская область;partner;individual
+C001613;2021-05-15;Красноярский край;online;individual
+C001614;2024-11-17;Московская область;online;individual
+C001615;2020-09-25;Москва;store;individual
+C001616;2025-03-25;Красноярский край;partner;individual
+C001617;2023-02-26;Москва;online;individual
+C001618;2019-02-14;Новосибирская область;partner;individual
+C001619;2021-05-28;Красноярский край;online;individual
+C001620;2022-12-09;Московская область;partner;individual
+C001621;2020-06-29;Новосибирская область;partner;individual
+C001622;2020-10-20;Красноярский край;store;individual
+C001623;2022-09-12;Новосибирская область;store;individual
+C001624;2021-09-07;Томская область;partner;individual
+C001625;2022-08-28;Томская область;online;individual
+C001626;2021-10-11;Москва;partner;individual
+C001627;2024-09-15;Красноярский край;partner;individual
+C001628;2024-09-06;Москва;online;individual
+C001629;;Москва;online;individual
+C001630;2019-08-15;Томская область;online;individual
+C001631;2021-10-01;Красноярский край;store;individual
+C001632;2020-05-12;Москва;online;individual
+C001633;2022-01-17;Новосибирская область;online;individual
+C001634;2024-06-14;Москва;online;individual
+C001635;2023-12-14;Красноярский край;online;individual
+C001636;2022-12-12;Красноярский край;online;individual
+C001637;2025-03-31;Новосибирская область;online;small_business
+C001638;2024-06-21;Новосибирская область;online;individual
+C001639;2023-11-30;Красноярский край;partner;individual
+C001640;2025-07-14;Москва;store;small_business
+C001641;2020-08-07;Томская область;online;individual
+C001642;2021-12-26;Москва;online;individual
+C001643;2019-11-07;Красноярский край;partner;individual
+C001644;2019-06-23;Новосибирская область;store;individual
+C001645;2019-06-14;Московская область;store;individual
+C001646;2024-10-05;Томская область;online;individual
+C001647;2019-11-25;Московская область;partner;individual
+C001648;2019-08-22;Московская область;store;individual
+C001649;2020-05-05;Москва;store;individual
+C001650;2023-12-15;Красноярский край;online;individual
+C001651;2019-09-25;Москва;store;individual
+C001652;2025-01-30;Москва;store;individual
+C001653;2025-05-03;Москва;partner;individual
+C001654;2022-01-13;Московская область;store;individual
+C001655;2020-08-19;Красноярский край;online;individual
+C001656;2022-10-18;Томская область;partner;individual
+C001657;2020-09-22;Томская область;online;individual
+C001658;2023-02-19;Красноярский край;partner;individual
+C001659;2024-08-14;Томская область;online;individual
+C001660;2024-11-30;Томская область;online;individual
+C001661;2020-11-14;Москва;online;individual
+C001662;2021-04-26;Московская область;online;individual
+C001663;2024-04-25;Московская область;online;individual
+C001664;2019-10-21;Москва;store;individual
+C001665;2024-09-23;Московская область;online;individual
+C001666;2019-02-10;Красноярский край;partner;individual
+C001667;2022-05-23;Московская область;store;individual
+C001668;2020-12-06;Москва;online;individual
+C001669;2024-08-06;Томская область;online;individual
+C001670;2024-07-30;Томская область;store;individual
+C001671;2023-07-21;Москва;online;individual
+C001672;2021-12-19;Московская область;store;individual
+C001673;2024-02-10;Новосибирская область;store;individual
+C001674;2020-11-24;Красноярский край;store;individual
+C001675;2024-02-20;Москва;store;individual
+C001676;2022-04-23;Московская область;online;individual
+C001677;2025-03-04;Московская область;store;individual
+C001678;2023-09-21;Московская область;store;small_business
+C001679;2025-04-09;Москва;store;individual
+C001680;2022-08-25;Томская область;partner;individual
+C001681;2024-04-29;Новосибирская область;store;individual
+C001682;2024-01-11;Томская область;online;individual
+C001683;2020-05-09;Московская область;store;individual
+C001684;2020-10-31;Красноярский край;online;individual
+C001685;2021-04-03;Московская область;online;individual
+C001686;2020-11-14;Томская область;online;individual
+C001687;2022-01-18;Московская область;online;individual
+C001688;2025-07-09;Московская область;online;individual
+C001689;2019-02-25;Красноярский край;online;individual
+C001690;2022-10-15;Новосибирская область;partner;individual
+C001691;2024-03-19;Новосибирская область;online;individual
+C001692;2022-06-29;Новосибирская область;store;small_business
+C001693;2023-04-22;Москва;store;individual
+C001694;2021-08-11;Новосибирская область;store;individual
+C001695;2020-05-31;Москва;online;individual
+C001696;2023-07-09;Москва;online;individual
+C001697;2019-01-18;Москва;partner;individual
+C001698;2022-01-03;Новосибирская область;partner;small_business
+C001699;2022-06-27;Новосибирская область;store;individual
+C001700;2021-01-31;Красноярский край;online;individual
+C001701;2023-10-25;Москва;online;individual
+C001702;2024-01-22;Новосибирская область;store;individual
+C001703;2022-09-07;Томская область;online;individual
+C001704;2019-04-19;Красноярский край;online;individual
+C001705;2022-02-12;Красноярский край;partner;individual
+C001706;2022-02-25;Москва;online;individual
+C001707;2021-06-30;Томская область;online;individual
+C001708;2022-01-31;Москва;online;small_business
+C001709;2022-06-18;Красноярский край;store;individual
+C001710;2020-05-28;Москва;store;individual
+C001711;2023-07-16;Новосибирская область;store;individual
+C001712;2019-11-21;Новосибирская область;store;individual
+C001713;2023-10-17;Новосибирская область;online;small_business
+C001714;2019-06-23;Московская область;online;individual
+C001715;2022-05-16;Московская область;store;individual
+C001716;2025-01-12;Москва;online;small_business
+C001717;2023-04-05;Москва;store;individual
+C001718;2019-05-06;Московская область;store;individual
+C001719;2023-12-04;Томская область;store;individual
+C001720;2024-12-06;Красноярский край;online;individual
+C001721;2020-07-03;Москва;store;individual
+C001722;2021-05-21;Красноярский край;online;individual
+C001723;2022-10-30;Новосибирская область;online;individual
+C001724;;Москва;store;individual
+C001725;2019-01-02;Москва;online;individual
+C001726;2021-07-11;Томская область;online;individual
+C001727;2022-11-07;Красноярский край;partner;individual
+C001728;2019-03-30;Москва;online;individual
+C001729;2025-07-24;Московская область;partner;individual
+C001730;2021-07-01;Томская область;store;individual
+C001731;2022-05-28;Москва;online;individual
+C001732;2023-10-13;Красноярский край;store;individual
+C001733;2020-08-15;Томская область;online;individual
+C001734;2024-03-08;Московская область;partner;individual
+C001735;2024-04-05;Красноярский край;store;individual
+C001736;2024-12-04;Московская область;online;individual
+C001737;2020-02-05;Москва;online;individual
+C001738;2024-02-03;Москва;partner;individual
+C001739;2019-09-01;Красноярский край;online;individual
+C001740;2020-08-20;Московская область;store;small_business
+C001741;2021-08-07;Новосибирская область;partner;individual
+C001742;2021-03-07;Москва;store;individual
+C001743;2023-06-01;Красноярский край;partner;individual
+C001744;2019-02-19;Московская область;online;individual
+C001745;2025-08-25;Москва;online;individual
+C001746;2023-01-31;Москва;online;individual
+C001747;2025-03-11;Красноярский край;online;individual
+C001748;2022-04-19;Красноярский край;online;individual
+C001749;2021-01-16;Новосибирская область;partner;individual
+C001750;2023-08-04;Москва;store;individual
+C001751;;Новосибирская область;store;individual
+C001752;2022-05-22;Красноярский край;online;individual
+C001753;2022-10-30;Томская область;store;individual
+C001754;2020-07-16;Новосибирская область;store;individual
+C001755;2023-03-08;Томская область;online;individual
+C001756;2024-04-03;Красноярский край;store;individual
+C001757;2024-09-12;Новосибирская область;store;individual
+C001758;2022-12-21;Красноярский край;online;individual
+C001759;2020-05-26;Новосибирская область;online;individual
+C001760;2025-05-16;Новосибирская область;online;individual
+C001761;2019-12-26;Москва;store;individual
+C001762;2020-03-06;Томская область;online;small_business
+C001763;;Красноярский край;partner;individual
+C001764;2023-12-29;Москва;store;individual
+C001765;2021-06-02;Москва;online;individual
+C001766;2023-03-14;Красноярский край;store;individual
+C001767;2020-11-23;Новосибирская область;online;individual
+C001768;2022-08-06;Томская область;online;individual
+C001769;2020-04-21;Московская область;store;small_business
+C001770;2020-01-20;Красноярский край;store;individual
+C001771;2020-01-27;Красноярский край;store;individual
+C001772;2021-05-21;Москва;online;individual
+C001773;2022-12-09;Красноярский край;store;individual
+C001774;2021-07-04;Москва;partner;individual
+C001775;2019-06-02;Красноярский край;online;individual
+C001776;2024-10-06;Москва;online;individual
+C001777;2025-07-20;Москва;online;individual
+C001778;2019-10-07;Томская область;online;individual
+C001779;2022-05-22;Новосибирская область;store;individual
+C001780;2021-05-10;Московская область;store;individual
+C001781;2020-02-16;Красноярский край;store;individual
+C001782;2021-02-22;Новосибирская область;partner;individual
+C001783;2021-08-16;Москва;store;small_business
+C001784;2024-09-26;Новосибирская область;store;individual
+C001785;2019-07-16;Москва;store;individual
+C001786;2021-06-11;Московская область;partner;individual
+C001787;2024-12-02;Красноярский край;store;individual
+C001788;2020-03-03;Московская область;partner;individual
+C001789;2019-11-20;Московская область;partner;individual
+C001790;2024-04-14;Москва;online;small_business
+C001791;2023-10-09;Томская область;partner;individual
+C001792;2024-06-23;Новосибирская область;online;individual
+C001793;2024-03-23;Московская область;partner;individual
+C001794;2023-10-10;Новосибирская область;online;individual
+C001795;2021-11-07;Москва;online;individual
+C001796;2024-06-11;Новосибирская область;online;individual
+C001797;2023-12-03;Томская область;online;individual
+C001798;2025-07-23;Томская область;online;individual
+C001799;2025-08-10;Красноярский край;online;individual
+C001800;2022-12-23;Московская область;online;individual
+C001801;2021-10-23;Московская область;online;small_business
+C001802;2022-06-13;Новосибирская область;store;individual
+C001803;2022-03-30;Новосибирская область;online;individual
+C001804;2023-04-05;Новосибирская область;online;individual
+C001805;2025-01-03;Новосибирская область;store;individual
+C001806;2024-11-16;Московская область;online;individual
+C001807;2023-08-04;Московская область;online;individual
+C001808;2024-10-30;Новосибирская область;online;small_business
+C001809;2022-04-22;Новосибирская область;store;individual
+C001810;2025-05-21;Новосибирская область;store;individual
+C001811;2021-02-02;Томская область;partner;individual
+C001812;2022-03-09;Красноярский край;store;individual
+C001813;2023-10-30;Московская область;partner;individual
+C001814;2022-06-11;Новосибирская область;store;individual
+C001815;2024-08-01;Новосибирская область;store;individual
+C001816;2025-05-06;Томская область;online;individual
+C001817;2024-08-09;Томская область;online;small_business
+C001818;2025-08-30;Москва;store;individual
+C001819;2022-03-21;Московская область;partner;individual
+C001820;2024-12-23;Московская область;store;individual
+C001821;2021-09-06;Москва;store;individual
+C001822;;Москва;partner;individual
+C001823;2020-04-25;Московская область;store;individual
+C001824;2025-07-22;Томская область;online;individual
+C001825;2025-02-28;Московская область;online;small_business
+C001826;2024-02-29;Томская область;online;small_business
+C001827;2025-04-05;Томская область;partner;individual
+C001828;2024-03-07;Томская область;online;individual
+C001829;2021-07-27;Московская область;online;individual
+C001830;2023-07-19;Москва;store;individual
+C001831;2023-06-06;Томская область;online;individual
+C001832;2024-10-27;Красноярский край;online;small_business
+C001833;2019-09-04;Томская область;store;individual
+C001834;2020-04-13;Красноярский край;online;individual
+C001835;2021-06-25;Новосибирская область;online;individual
+C001836;2023-10-05;Новосибирская область;online;small_business
+C001837;2019-10-20;Томская область;online;individual
+C001838;2021-12-04;Томская область;store;individual
+C001839;2022-08-24;Новосибирская область;store;individual
+C001840;2024-06-02;Московская область;store;individual
+C001841;2020-05-26;Новосибирская область;partner;individual
+C001842;2024-12-14;Московская область;online;individual
+C001843;2023-04-16;Томская область;online;individual
+C001844;2023-04-29;Томская область;store;individual
+C001845;2021-10-20;Московская область;store;individual
+C001846;2021-04-19;Новосибирская область;store;individual
+C001847;2020-10-13;Красноярский край;store;individual
+C001848;2021-12-25;Красноярский край;store;individual
+C001849;2023-12-09;Томская область;partner;individual
+C001850;2024-11-01;Московская область;online;individual
+C001851;2019-05-13;Новосибирская область;store;individual
+C001852;2022-01-30;Красноярский край;online;individual
+C001853;2023-10-15;Москва;online;individual
+C001854;2021-04-05;Томская область;online;individual
+C001855;2021-01-06;Московская область;online;individual
+C001856;2019-04-07;Москва;online;individual
+C001857;2021-09-02;Московская область;online;individual
+C001858;2021-04-15;Новосибирская область;store;individual
+C001859;2019-02-12;Красноярский край;store;individual
+C001860;2024-11-27;Москва;online;individual
+C001861;2020-03-28;Москва;online;individual
+C001862;2020-01-04;Москва;store;individual
+C001863;2023-08-30;Новосибирская область;partner;individual
+C001864;2020-12-31;Москва;store;individual
+C001865;2021-04-27;Новосибирская область;online;individual
+C001866;2023-06-03;Красноярский край;store;individual
+C001867;2019-05-28;Москва;store;individual
+C001868;2022-12-19;Московская область;online;individual
+C001869;2020-04-20;Новосибирская область;online;individual
+C001870;2025-03-28;Красноярский край;online;individual
+C001871;2021-09-24;Москва;store;individual
+C001872;2024-04-30;Московская область;store;individual
+C001873;2025-01-29;Красноярский край;store;individual
+C001874;2020-02-24;Томская область;store;individual
+C001875;2022-04-17;Красноярский край;online;individual
+C001876;2020-02-10;Красноярский край;online;individual
+C001877;2023-08-09;Томская область;online;individual
+C001878;2019-07-27;Новосибирская область;online;individual
+C001879;2024-04-03;Новосибирская область;online;individual
+C001880;2022-02-27;Томская область;partner;individual
+C001881;2022-01-06;Новосибирская область;store;individual
+C001882;2022-10-31;Красноярский край;online;individual
+C001883;2019-09-22;Московская область;store;individual
+C001884;2020-09-18;Томская область;store;individual
+C001885;2025-02-07;Томская область;online;individual
+C001886;2025-03-19;Томская область;online;individual
+C001887;2019-05-28;Томская область;store;individual
+C001888;2025-04-17;Москва;online;small_business
+C001889;2024-02-16;Москва;online;individual
+C001890;2019-11-18;Московская область;partner;individual
+C001891;2020-03-23;Красноярский край;online;individual
+C001892;2019-09-12;Томская область;store;individual
+C001893;2024-02-18;Московская область;partner;individual
+C001894;2020-08-01;Москва;online;individual
+C001895;2022-09-14;Томская область;partner;individual
+C001896;2020-09-24;Красноярский край;store;individual
+C001897;2021-01-17;Новосибирская область;store;individual
+C001898;2019-10-28;Красноярский край;store;small_business
+C001899;2020-02-13;Москва;online;small_business
+C001900;2020-09-07;Красноярский край;store;individual
+C001901;2025-08-19;Новосибирская область;online;individual
+C001902;2023-04-27;Новосибирская область;partner;small_business
+C001903;2024-01-22;Москва;store;individual
+C001904;2020-12-07;Красноярский край;online;individual
+C001905;2024-08-24;Томская область;store;individual
+C001906;2019-05-25;Москва;online;individual
+C001907;2021-02-03;Московская область;store;individual
+C001908;2019-03-20;Томская область;online;individual
+C001909;2023-07-09;Московская область;online;individual
+C001910;2019-07-26;Красноярский край;online;individual
+C001911;2023-01-21;Красноярский край;store;individual
+C001912;2020-06-24;Новосибирская область;partner;individual
+C001913;2024-12-06;Московская область;store;individual
+C001914;2024-10-31;Москва;online;individual
+C001915;2024-09-11;Томская область;store;individual
+C001916;2019-11-07;Томская область;store;individual
+C001917;2022-06-04;Красноярский край;partner;individual
+C001918;2023-01-27;Московская область;store;individual
+C001919;2023-12-11;Москва;partner;small_business
+C001920;2022-06-25;Новосибирская область;store;individual
+C001921;2023-08-25;Москва;store;individual
+C001922;2023-12-14;Новосибирская область;online;individual
+C001923;2023-02-23;Москва;store;individual
+C001924;2020-09-06;Московская область;online;individual
+C001925;2025-03-21;Красноярский край;partner;individual
+C001926;2022-07-26;Московская область;partner;individual
+C001927;2023-07-04;Томская область;store;individual
+C001928;2021-09-23;Новосибирская область;store;individual
+C001929;2020-03-15;Москва;online;individual
+C001930;2022-02-11;Красноярский край;online;individual
+C001931;2024-06-16;Томская область;store;individual
+C001932;2023-10-23;Красноярский край;online;individual
+C001933;2020-09-06;Томская область;store;individual
+C001934;2021-09-19;Московская область;online;individual
+C001935;2024-08-17;Москва;online;individual
+C001936;2024-03-28;Московская область;store;individual
+C001937;2019-10-08;Московская область;online;individual
+C001938;2023-08-02;Томская область;store;individual
+C001939;2021-12-20;Новосибирская область;online;individual
+C001940;2020-09-01;Московская область;online;individual
+C001941;2023-08-22;Москва;store;individual
+C001942;2020-02-25;Томская область;store;individual
+C001943;2023-12-11;Новосибирская область;online;individual
+C001944;2025-04-29;Москва;online;individual
+C001945;2021-11-03;Томская область;online;individual
+C001946;2025-01-09;Новосибирская область;store;individual
+C001947;2021-11-01;Томская область;store;individual
+C001948;2019-03-26;Новосибирская область;online;individual
+C001949;2021-09-20;Томская область;online;small_business
+C001950;;Томская область;store;individual
+C001951;2023-10-02;Московская область;online;individual
+C001952;2021-06-02;Новосибирская область;partner;individual
+C001953;2022-06-23;Новосибирская область;store;small_business
+C001954;2020-05-22;Москва;store;individual
+C001955;2021-05-17;Томская область;store;individual
+C001956;2023-04-13;Красноярский край;online;individual
+C001957;2020-01-21;Красноярский край;store;individual
+C001958;2019-12-29;Новосибирская область;online;individual
+C001959;2019-03-11;Красноярский край;online;individual
+C001960;2025-03-27;Новосибирская область;online;individual
+C001961;2019-12-20;Москва;partner;individual
+C001962;2023-12-16;Новосибирская область;store;individual
+C001963;2021-08-09;Новосибирская область;online;individual
+C001964;2023-07-07;Московская область;partner;individual
+C001965;2020-02-03;Томская область;partner;individual
+C001966;2023-04-16;Новосибирская область;partner;individual
+C001967;2019-08-26;Томская область;store;individual
+C001968;2022-06-15;Москва;online;individual
+C001969;2023-07-01;Красноярский край;store;individual
+C001970;2024-11-09;Томская область;store;small_business
+C001971;2025-02-27;Красноярский край;store;individual
+C001972;2023-02-07;Московская область;store;individual
+C001973;2021-04-12;Московская область;store;individual
+C001974;2023-02-18;Московская область;partner;individual
+C001975;2025-02-10;Московская область;online;individual
+C001976;2020-02-22;Московская область;online;individual
+C001977;2020-02-20;Томская область;online;individual
+C001978;2022-08-10;Новосибирская область;store;individual
+C001979;2023-04-27;Томская область;online;individual
+C001980;2019-06-09;Красноярский край;store;individual
+C001981;2025-06-11;Красноярский край;store;individual
+C001982;2019-09-23;Москва;online;individual
+C001983;2020-02-15;Томская область;online;individual
+C001984;2021-08-22;Красноярский край;online;individual
+C001985;2024-10-10;Московская область;online;individual
+C001986;2020-12-16;Томская область;partner;individual
+C001987;2024-06-12;Новосибирская область;online;individual
+C001988;2024-06-12;Томская область;store;individual
+C001989;2020-06-14;Московская область;online;individual
+C001990;2020-10-31;Красноярский край;online;individual
+C001991;2024-07-10;Томская область;online;individual
+C001992;2024-07-22;Московская область;online;individual
+C001993;2020-12-30;Новосибирская область;online;individual
+C001994;2020-02-10;Новосибирская область;online;individual
+C001995;2020-07-25;Красноярский край;store;individual
+C001996;2022-12-06;Новосибирская область;store;individual
+C001997;2023-10-10;Томская область;store;individual
+C001998;2024-07-24;Томская область;store;individual
+C001999;2022-06-30;Красноярский край;store;individual
+C002000;2024-12-10;Красноярский край;online;individual
+C002001;2025-10-24;Новосибирская область;online;individual
+C002002;2025-10-28;Новосибирская область;store;individual
+C002003;2025-10-11;Москва;store;individual
+C002004;2025-10-06;Москва;online;individual
+C002005;2025-10-12;Москва;online;individual
+C002006;2025-10-27;Новосибирская область;store;individual
+C002007;2025-10-18;Москва;partner;individual
+C002008;2025-10-27;Москва;partner;individual
+C002009;2025-10-02;Томская область;store;individual
+C002010;2025-10-17;Москва;store;individual
+C002011;2025-10-03;Московская область;partner;small_business
+C002012;2025-10-22;Москва;online;individual
+C002013;2025-10-16;Новосибирская область;online;individual
+C002014;2025-10-27;Красноярский край;store;individual
+C002015;2025-10-03;Москва;online;individual
+C002016;2025-10-02;Москва;partner;individual
+C002017;2025-10-28;Красноярский край;online;individual
+C002018;2025-10-31;Москва;online;individual
+C002019;2025-10-12;Томская область;store;small_business
+C002020;2025-10-29;Томская область;online;individual
+C002021;2025-10-25;Новосибирская область;online;individual
+C002022;2025-10-31;Красноярский край;online;individual
+C002023;2025-10-08;Московская область;store;individual
+C002024;2025-10-05;Томская область;partner;individual
+C002025;2025-10-09;Московская область;online;individual
+C002026;2025-10-02;Московская область;online;individual
+C002027;2025-10-29;Красноярский край;online;individual
+C002028;2025-10-16;Москва;store;individual
+C002029;2025-10-17;Томская область;online;individual
+C002030;2025-10-16;Томская область;online;individual
+C002031;2025-10-06;Москва;store;individual
+C002032;2025-10-20;Московская область;store;individual
+C002033;2025-10-31;Москва;online;individual
+C002034;2025-10-18;Москва;partner;individual
+C002035;2025-10-05;Новосибирская область;store;individual
+C002036;2025-10-23;Томская область;store;individual
+C002037;2025-10-23;Томская область;online;individual
+C002038;2025-10-21;Москва;store;individual
+C002039;2025-10-14;Москва;partner;individual
+C002040;2025-10-04;Красноярский край;partner;small_business
+C002041;2025-10-12;Томская область;online;individual
+C002042;2025-10-14;Новосибирская область;online;individual
+C002043;2025-10-20;Москва;partner;individual
+C002044;2025-10-31;Москва;store;individual
+C002045;2025-10-25;Красноярский край;store;individual
+C002046;2025-10-31;Московская область;online;individual
+C002047;2025-10-14;Томская область;store;individual
+C002048;2025-10-28;Томская область;online;individual
+C002049;2025-10-16;Новосибирская область;store;individual
+C002050;2025-10-26;Красноярский край;online;individual
+C002051;2025-11-09;Томская область;partner;individual
+C002052;2025-11-30;Москва;online;individual
+C002053;2025-11-15;Красноярский край;store;individual
+C002054;2025-11-03;Московская область;online;individual
+C002055;2025-11-18;Московская область;partner;individual
+C002056;2025-11-18;Красноярский край;online;individual
+C002057;2025-11-07;Красноярский край;online;individual
+C002058;2025-11-28;Красноярский край;store;individual
+C002059;2025-11-09;Новосибирская область;store;individual
+C002060;2025-11-27;Томская область;store;individual
+C002061;2025-11-22;Томская область;partner;individual
+C002062;2025-11-26;Московская область;online;individual
+C002063;2025-11-13;Красноярский край;store;individual
+C002064;2025-11-19;Москва;online;small_business
+C002065;2025-11-30;Томская область;partner;individual
+C002066;2025-11-19;Томская область;store;individual
+C002067;2025-11-27;Красноярский край;store;individual
+C002068;2025-11-26;Красноярский край;online;individual
+C002069;2025-11-12;Новосибирская область;store;individual
+C002070;2025-11-18;Томская область;store;individual
+C002071;2025-11-12;Томская область;partner;small_business
+C002072;2025-11-24;Московская область;store;individual
+C002073;2025-11-06;Красноярский край;online;individual
+C002074;2025-11-14;Томская область;online;individual
+C002075;2025-11-19;Москва;online;individual
+C002076;2025-11-12;Москва;online;individual
+C002077;2025-11-30;Новосибирская область;online;individual
+C002078;2025-11-04;Московская область;online;individual
+C002079;2025-11-14;Москва;online;individual
+C002080;2025-11-23;Московская область;store;individual
+C002081;2025-11-03;Красноярский край;online;individual
+C002082;2025-11-06;Новосибирская область;online;individual
+C002083;2025-11-14;Новосибирская область;store;individual
+C002084;2025-11-14;Красноярский край;partner;individual
+C002085;2025-11-13;Москва;store;individual
+C002086;2025-11-26;Томская область;online;individual
+C002087;2025-11-17;Новосибирская область;partner;individual
+C002088;2025-11-13;Новосибирская область;store;individual
+C002089;2025-11-09;Томская область;online;small_business
+C002090;2025-11-29;Красноярский край;online;individual
+C002091;2025-11-07;Московская область;store;individual
+C002092;2025-11-19;Красноярский край;partner;individual
+C002093;2025-11-21;Московская область;store;individual
+C002094;2025-11-27;Томская область;online;individual
+C002095;2025-11-13;Красноярский край;store;individual
+C002096;2025-11-12;Московская область;online;individual
+C002097;2025-11-11;Москва;store;individual
+C002098;2025-11-28;Московская область;online;individual
+C002099;2025-11-17;Красноярский край;store;individual
+C002100;2025-11-26;Новосибирская область;partner;individual
+C002101;2025-12-07;Томская область;store;individual
+C002102;2025-12-15;Томская область;store;individual
+C002103;2025-12-16;Красноярский край;partner;individual
+C002104;2025-12-21;Москва;partner;small_business
+C002105;2025-12-19;Московская область;partner;individual
+C002106;2025-12-12;Новосибирская область;store;individual
+C002107;2025-12-09;Красноярский край;online;individual
+C002108;2025-12-28;Красноярский край;online;individual
+C002109;2025-12-20;Красноярский край;partner;individual
+C002110;2025-12-04;Томская область;online;individual
+C002111;2025-12-07;Красноярский край;online;individual
+C002112;2025-12-12;Новосибирская область;online;individual
+C002113;2025-12-16;Красноярский край;store;individual
+C002114;2025-12-24;Красноярский край;online;individual
+C002115;2025-12-14;Москва;online;individual
+C002116;2025-12-31;Томская область;store;individual
+C002117;2025-12-10;Московская область;online;individual
+C002118;2025-12-16;Красноярский край;store;individual
+C002119;2025-12-05;Московская область;partner;individual
+C002120;2025-12-05;Красноярский край;store;individual
+C002121;2025-12-21;Москва;online;individual
+C002122;2025-12-14;Томская область;online;individual
+C002123;2025-12-03;Красноярский край;online;individual
+C002124;2025-12-23;Московская область;online;individual
+C002125;2025-12-08;Томская область;partner;individual
+C002126;2025-12-09;Москва;online;individual
+C002127;2025-12-05;Томская область;store;individual
+C002128;2025-12-22;Красноярский край;partner;small_business
+C002129;2025-12-27;Новосибирская область;store;individual
+C002130;2025-12-28;Московская область;online;individual
+C002131;2025-12-16;Томская область;partner;individual
+C002132;2025-12-05;Томская область;online;individual
+C002133;2025-12-31;Красноярский край;online;individual
+C002134;2025-12-10;Красноярский край;online;individual
+C002135;2025-12-14;Москва;online;individual
+C002136;2025-12-16;Москва;online;individual
+C002137;2025-12-09;Новосибирская область;store;small_business
+C002138;2025-12-30;Новосибирская область;store;individual
+C002139;2025-12-31;Красноярский край;store;individual
+C002140;2025-12-03;Новосибирская область;online;individual
+C002141;2025-12-13;Томская область;store;individual
+C002142;2025-12-08;Московская область;partner;individual
+C002143;;Красноярский край;online;individual
+C002144;2025-12-08;Москва;store;individual
+C002145;2025-12-30;Томская область;online;individual
+C002146;2025-12-12;Новосибирская область;online;small_business
+C002147;2025-12-11;Московская область;online;individual
+C002148;2025-12-08;Московская область;online;individual
+C002149;2025-12-17;Московская область;online;individual
+C002150;2025-12-16;Москва;store;individual
+C002151;2026-01-04;Красноярский край;online;individual
+C002152;2026-01-05;Московская область;partner;individual
+C002153;2026-01-22;Московская область;store;individual
+C002154;2026-01-18;Москва;partner;individual
+C002155;2026-01-18;Москва;partner;individual
+C002156;2026-01-06;Новосибирская область;store;individual
+C002157;2026-01-10;Красноярский край;store;individual
+C002158;2026-01-04;Новосибирская область;online;individual
+C002159;2026-01-23;Красноярский край;online;individual
+C002160;2026-01-30;Томская область;store;individual
+C002161;2026-01-20;Красноярский край;partner;individual
+C002162;2026-01-12;Новосибирская область;partner;individual
+C002163;2026-01-08;Новосибирская область;online;small_business
+C002164;2026-01-26;Москва;online;individual
+C002165;2026-01-10;Новосибирская область;online;individual
+C002166;2026-01-09;Московская область;store;individual
+C002167;2026-01-31;Томская область;partner;individual
+C002168;2026-01-07;Новосибирская область;online;individual
+C002169;2026-01-15;Москва;partner;individual
+C002170;2026-01-20;Москва;partner;individual
+C002171;2026-01-07;Москва;online;individual
+C002172;2026-01-25;Томская область;store;individual
+C002173;2026-01-14;Новосибирская область;partner;individual
+C002174;2026-01-18;Томская область;store;individual
+C002175;2026-01-13;Москва;online;individual
+C002176;2026-01-12;Красноярский край;store;individual
+C002177;2026-01-25;Новосибирская область;partner;individual
+C002178;2026-01-13;Москва;store;individual
+C002179;2026-01-15;Новосибирская область;online;individual
+C002180;2026-01-03;Москва;store;individual
+C002181;2026-01-18;Московская область;store;small_business
+C002182;2026-01-21;Московская область;store;small_business
+C002183;2026-01-03;Московская область;store;individual
+C002184;2026-01-09;Томская область;store;individual
+C002185;2026-01-27;Москва;online;individual
+C002186;2026-01-12;Москва;online;individual
+C002187;2026-01-19;Красноярский край;online;individual
+C002188;2026-01-30;Московская область;store;individual
+C002189;2026-01-06;Красноярский край;store;individual
+C002190;2026-01-08;Новосибирская область;store;individual
+C002191;2026-01-07;Москва;online;individual
+C002192;2026-01-23;Новосибирская область;online;individual
+C002193;2026-01-22;Красноярский край;online;individual
+C002194;2026-01-17;Московская область;online;individual
+C002195;2026-01-05;Томская область;online;small_business
+C002196;2026-01-25;Новосибирская область;online;individual
+C002197;2026-01-27;Москва;store;individual
+C002198;2026-01-07;Москва;online;individual
+C002199;2026-01-19;Москва;store;individual
+C002200;2026-01-21;Московская область;online;individual
+C002201;2026-02-10;Красноярский край;online;individual
+C002202;2026-02-18;Красноярский край;store;individual
+C002203;2026-02-08;Московская область;store;individual
+C002204;2026-02-12;Московская область;store;individual
+C002205;2026-02-06;Томская область;partner;small_business
+C002206;2026-02-15;Москва;partner;individual
+C002207;2026-02-09;Красноярский край;store;individual
+C002208;2026-02-27;Новосибирская область;online;individual
+C002209;2026-02-19;Москва;online;individual
+C002210;2026-02-11;Московская область;online;individual
+C002211;2026-02-02;Московская область;partner;individual
+C002212;2026-02-07;Москва;online;individual
+C002213;2026-02-05;Московская область;store;individual
+C002214;2026-02-03;Красноярский край;online;individual
+C002215;2026-02-16;Томская область;online;individual
+C002216;2026-02-22;Новосибирская область;store;individual
+C002217;2026-02-20;Москва;store;individual
+C002218;2026-02-14;Новосибирская область;online;small_business
+C002219;2026-02-19;Москва;store;individual
+C002220;2026-02-17;Томская область;online;individual
+C002221;2026-02-12;Новосибирская область;online;individual
+C002222;2026-02-26;Красноярский край;partner;individual
+C002223;2026-02-28;Новосибирская область;store;individual
+C002224;2026-02-24;Красноярский край;partner;individual
+C002225;2026-02-03;Москва;partner;individual
+C002226;;Москва;online;individual
+C002227;2026-02-19;Томская область;online;individual
+C002228;2026-02-18;Московская область;online;individual
+C002229;2026-02-28;Томская область;store;small_business
+C002230;2026-02-10;Красноярский край;online;individual
+C002231;2026-02-17;Московская область;partner;individual
+C002232;2026-02-05;Новосибирская область;store;individual
+C002233;2026-02-16;Красноярский край;online;individual
+C002234;2026-02-16;Томская область;online;individual
+C002235;2026-02-24;Томская область;store;individual
+C002236;2026-02-02;Новосибирская область;store;individual
+C002237;2026-02-14;Московская область;online;individual
+C002238;2026-02-14;Московская область;online;individual
+C002239;2026-02-02;Московская область;store;individual
+C002240;2026-02-13;Томская область;online;individual
+C002241;2026-02-12;Москва;online;individual
+C002242;2026-02-28;Красноярский край;online;individual
+C002243;2026-02-05;Москва;online;individual
+C002244;2026-02-18;Московская область;store;individual
+C002245;2026-02-02;Москва;store;individual
+C002246;2026-02-26;Новосибирская область;store;individual
+C002247;2026-02-27;Новосибирская область;online;individual
+C002248;2026-02-06;Красноярский край;store;individual
+C002249;2026-02-18;Красноярский край;store;individual
+C002250;2026-02-28;Красноярский край;online;individual
+C002251;2026-03-24;Москва;online;individual
+C002252;2026-03-24;Москва;store;individual
+C002253;2026-03-22;Новосибирская область;online;individual
+C002254;2026-03-27;Новосибирская область;online;individual
+C002255;2026-03-04;Москва;partner;individual
+C002256;2026-03-31;Московская область;online;individual
+C002257;2026-03-12;Москва;online;individual
+C002258;2026-03-24;Московская область;online;individual
+C002259;2026-03-21;Новосибирская область;online;individual
+C002260;2026-03-17;Томская область;online;individual
+C002261;2026-03-27;Красноярский край;store;small_business
+C002262;2026-03-16;Москва;online;small_business
+C002263;2026-03-07;Новосибирская область;store;individual
+C002264;2026-03-11;Москва;online;individual
+C002265;2026-03-18;Красноярский край;partner;individual
+C002266;2026-03-03;Новосибирская область;store;individual
+C002267;;Московская область;online;individual
+C002268;2026-03-02;Красноярский край;store;individual
+C002269;2026-03-23;Московская область;store;individual
+C002270;2026-03-28;Московская область;partner;individual
+C002271;2026-03-07;Красноярский край;partner;individual
+C002272;2026-03-29;Новосибирская область;store;individual
+C002273;2026-03-03;Томская область;online;individual
+C002274;2026-03-24;Московская область;online;individual
+C002275;2026-03-31;Красноярский край;partner;individual
+C002276;2026-03-27;Новосибирская область;partner;small_business
+C002277;2026-03-14;Томская область;store;individual
+C002278;2026-03-12;Красноярский край;partner;individual
+C002279;2026-03-19;Московская область;store;individual
+C002280;2026-03-07;Москва;online;individual
+C002281;2026-03-24;Новосибирская область;store;individual
+C002282;2026-03-29;Красноярский край;partner;individual
+C002283;2026-03-19;Московская область;store;individual
+C002284;2026-03-10;Московская область;online;individual
+C002285;2026-03-23;Московская область;online;individual
+C002286;2026-03-16;Москва;online;individual
+C002287;2026-03-20;Московская область;store;individual
+C002288;2026-03-04;Томская область;partner;individual
+C002289;2026-03-26;Москва;online;small_business
+C002290;2026-03-19;Московская область;online;individual
+C002291;2026-03-11;Красноярский край;online;individual
+C002292;2026-03-12;Новосибирская область;online;individual
+C002293;2026-03-27;Красноярский край;online;individual
+C002294;2026-03-20;Красноярский край;online;small_business
+C002295;2026-03-27;Красноярский край;partner;individual
+C002296;2026-03-06;Москва;online;individual
+C002297;2026-03-22;Томская область;online;small_business
+C002298;2026-03-15;Красноярский край;online;individual
+C002299;2026-03-24;Москва;store;individual
+C002300;2026-03-08;Томская область;store;individual
+C002301;2026-04-02;Московская область;online;small_business
+C002302;2026-04-10;Томская область;online;individual
+C002303;2026-04-24;Московская область;online;individual
+C002304;2026-04-29;Красноярский край;partner;individual
+C002305;2026-04-06;Москва;online;individual
+C002306;2026-04-29;Томская область;online;individual
+C002307;2026-04-03;Красноярский край;online;individual
+C002308;2026-04-15;Томская область;store;individual
+C002309;2026-04-21;Томская область;store;individual
+C002310;2026-04-08;Москва;online;small_business
+C002311;2026-04-17;Красноярский край;online;individual
+C002312;2026-04-25;Москва;store;individual
+C002313;2026-04-05;Томская область;store;individual
+C002314;2026-04-16;Красноярский край;online;small_business
+C002315;2026-04-29;Новосибирская область;store;individual
+C002316;2026-04-12;Красноярский край;store;small_business
+C002317;2026-04-24;Томская область;online;individual
+C002318;2026-04-19;Новосибирская область;online;individual
+C002319;2026-04-23;Москва;partner;individual
+C002320;2026-04-27;Москва;online;individual
+C002321;2026-04-06;Новосибирская область;store;individual
+C002322;2026-04-24;Москва;partner;individual
+C002323;2026-04-19;Москва;partner;individual
+C002324;2026-04-05;Красноярский край;store;individual
+C002325;2026-04-24;Москва;online;individual
+C002326;2026-04-30;Москва;online;small_business
+C002327;2026-04-04;Новосибирская область;online;individual
+C002328;2026-04-29;Москва;store;individual
+C002329;2026-04-28;Москва;store;individual
+C002330;2026-04-29;Новосибирская область;partner;individual
+C002331;2026-04-26;Красноярский край;online;individual
+C002332;2026-04-27;Московская область;online;individual
+C002333;2026-04-27;Новосибирская область;store;individual
+C002334;2026-04-12;Томская область;partner;small_business
+C002335;2026-04-14;Московская область;store;individual
+C002336;2026-04-22;Москва;online;individual
+C002337;2026-04-03;Томская область;online;individual
+C002338;2026-04-20;Красноярский край;store;individual
+C002339;2026-04-11;Москва;store;individual
+C002340;2026-04-18;Москва;partner;individual
+C002341;2026-04-08;Новосибирская область;online;individual
+C002342;2026-04-23;Красноярский край;store;individual
+C002343;2026-04-10;Московская область;partner;individual
+C002344;2026-04-10;Новосибирская область;partner;individual
+C002345;2026-04-07;Москва;online;individual
+C002346;2026-04-28;Новосибирская область;partner;individual
+C002347;2026-04-06;Красноярский край;store;individual
+C002348;2026-04-09;Томская область;store;individual
+C002349;2026-04-24;Томская область;partner;individual
+C002350;2026-04-29;Красноярский край;partner;individual
+C002351;2026-05-23;Томская область;store;individual
+C002352;2026-05-27;Московская область;online;individual
+C002353;2026-05-06;Новосибирская область;partner;individual
+C002354;2026-05-02;Московская область;online;individual
+C002355;2026-05-21;Томская область;online;individual
+C002356;2026-05-09;Новосибирская область;store;individual
+C002357;2026-05-04;Московская область;store;individual
+C002358;2026-05-29;Москва;online;individual
+C002359;2026-05-18;Новосибирская область;store;individual
+C002360;2026-05-13;Томская область;store;individual
+C002361;2026-05-12;Томская область;store;individual
+C002362;2026-05-04;Московская область;partner;small_business
+C002363;2026-05-15;Томская область;store;individual
+C002364;2026-05-12;Московская область;online;individual
+C002365;2026-05-27;Томская область;store;individual
+C002366;2026-05-09;Красноярский край;store;individual
+C002367;2026-05-09;Московская область;store;individual
+C002368;2026-05-15;Томская область;online;individual
+C002369;2026-05-08;Красноярский край;online;individual
+C002370;2026-05-17;Москва;online;individual
+C002371;2026-05-06;Новосибирская область;online;individual
+C002372;2026-05-05;Москва;partner;individual
+C002373;2026-05-15;Новосибирская область;store;individual
+C002374;2026-05-18;Красноярский край;online;individual
+C002375;2026-05-09;Москва;online;individual
+C002376;2026-05-14;Новосибирская область;online;individual
+C002377;2026-05-21;Новосибирская область;online;individual
+C002378;2026-05-13;Московская область;online;small_business
+C002379;2026-05-24;Томская область;online;individual
+C002380;2026-05-26;Москва;store;individual
+C002381;2026-05-09;Новосибирская область;online;individual
+C002382;2026-05-08;Московская область;online;small_business
+C002383;2026-05-20;Московская область;store;individual
+C002384;2026-05-13;Томская область;online;individual
+C002385;2026-05-08;Красноярский край;online;individual
+C002386;2026-05-28;Красноярский край;online;individual
+C002387;2026-05-08;Новосибирская область;online;individual
+C002388;;Красноярский край;store;small_business
+C002389;2026-05-15;Москва;partner;individual
+C002390;2026-05-07;Новосибирская область;store;individual
+C002391;2026-05-14;Красноярский край;online;individual
+C002392;2026-05-04;Новосибирская область;online;individual
+C002393;2026-05-19;Московская область;online;individual
+C002394;2026-05-17;Московская область;online;individual
+C002395;2026-05-24;Московская область;store;small_business
+C002396;2026-05-28;Томская область;online;individual
+C002397;2026-05-22;Москва;store;individual
+C002398;2026-05-28;Красноярский край;online;individual
+C002399;2026-05-07;Томская область;online;individual
+C002400;2026-05-28;Москва;online;individual
+C002401;2026-06-10;Томская область;partner;small_business
+C002402;2026-06-03;Новосибирская область;online;individual
+C002403;2026-06-06;Московская область;store;individual
+C002404;2026-06-14;Москва;store;individual
+C002405;2026-06-12;Московская область;online;individual
+C002406;2026-06-22;Красноярский край;online;individual
+C002407;2026-06-05;Москва;online;small_business
+C002408;2026-06-05;Новосибирская область;store;individual
+C002409;2026-06-22;Московская область;store;individual
+C002410;2026-06-05;Новосибирская область;store;individual
+C002411;2026-06-08;Московская область;partner;individual
+C002412;2026-06-17;Московская область;online;individual
+C002413;2026-06-04;Московская область;online;individual
+C002414;2026-06-17;Томская область;partner;individual
+C002415;2026-06-26;Красноярский край;store;individual
+C002416;2026-06-26;Москва;store;individual
+C002417;2026-06-03;Новосибирская область;online;individual
+C002418;2026-06-24;Москва;online;individual
+C002419;2026-06-16;Томская область;online;individual
+C002420;2026-06-07;Новосибирская область;online;individual
+C002421;2026-06-02;Новосибирская область;store;individual
+C002422;;Новосибирская область;online;individual
+C002423;2026-06-19;Томская область;online;individual
+C002424;2026-06-22;Москва;online;individual
+C002425;2026-06-20;Красноярский край;online;individual
+C002426;2026-06-14;Москва;store;individual
+C002427;2026-06-14;Московская область;online;individual
+C002428;2026-06-20;Московская область;store;individual
+C002429;2026-06-02;Москва;online;individual
+C002430;2026-06-11;Московская область;store;individual
+C002431;2026-06-27;Москва;online;individual
+C002432;;Новосибирская область;online;individual
+C002433;2026-06-10;Красноярский край;online;individual
+C002434;2026-06-02;Московская область;online;individual
+C002435;2026-06-15;Московская область;partner;individual
+C002436;2026-06-30;Москва;store;individual
+C002437;2026-06-26;Новосибирская область;online;individual
+C002438;2026-06-06;Московская область;online;individual
+C002439;2026-06-21;Новосибирская область;online;individual
+C002440;2026-06-23;Московская область;store;individual
+C002441;;Московская область;store;individual
+C002442;2026-06-04;Новосибирская область;store;individual
+C002443;2026-06-09;Томская область;partner;individual
+C002444;2026-06-27;Красноярский край;online;individual
+C002445;2026-06-22;Томская область;store;individual
+C002446;;Новосибирская область;store;individual
+C002447;2026-06-09;Красноярский край;store;small_business
+C002448;2026-06-23;Москва;online;individual
+C002449;2026-06-10;Красноярский край;online;individual
+C002450;2026-06-26;Москва;store;individual
+C002451;2026-07-05;Москва;partner;individual
+C002452;2026-07-17;Москва;store;individual
+C002453;2026-07-28;Москва;store;individual
+C002454;2026-07-05;Московская область;store;individual
+C002455;2026-07-30;Москва;online;individual
+C002456;2026-07-06;Московская область;store;individual
+C002457;2026-07-06;Московская область;online;individual
+C002458;2026-07-06;Москва;partner;individual
+C002459;2026-07-08;Красноярский край;store;individual
+C002460;2026-07-18;Томская область;online;individual
+C002461;2026-07-03;Томская область;online;individual
+C002462;2026-07-03;Красноярский край;store;individual
+C002463;2026-07-12;Москва;partner;individual
+C002464;2026-07-11;Томская область;online;individual
+C002465;2026-07-16;Томская область;partner;individual
+C002466;2026-07-31;Московская область;partner;individual
+C002467;2026-07-26;Московская область;store;individual
+C002468;2026-07-18;Московская область;online;individual
+C002469;2026-07-31;Томская область;partner;individual
+C002470;2026-07-06;Московская область;online;individual
+C002471;2026-07-14;Томская область;store;small_business
+C002472;2026-07-02;Московская область;store;individual
+C002473;2026-07-13;Москва;store;individual
+C002474;2026-07-25;Красноярский край;partner;individual
+C002475;2026-07-27;Московская область;store;individual
+C002476;2026-07-25;Новосибирская область;online;individual
+C002477;2026-07-05;Новосибирская область;online;individual
+C002478;2026-07-03;Москва;store;individual
+C002479;2026-07-06;Томская область;partner;small_business
+C002480;2026-07-03;Московская область;online;small_business
+C002481;2026-07-10;Новосибирская область;store;individual
+C002482;2026-07-13;Москва;store;individual
+C002483;2026-07-11;Москва;online;individual
+C002484;2026-07-26;Красноярский край;store;individual
+C002485;2026-07-20;Томская область;online;individual
+C002486;2026-07-15;Томская область;online;individual
+C002487;2026-07-16;Московская область;online;individual
+C002488;2026-07-14;Москва;partner;individual
+C002489;2026-07-27;Новосибирская область;store;individual
+C002490;2026-07-24;Томская область;online;individual
+C002491;2026-07-30;Красноярский край;online;individual
+C002492;2026-07-12;Красноярский край;online;individual
+C002493;2026-07-20;Москва;online;individual
+C002494;2026-07-24;Московская область;online;individual
+C002495;2026-07-18;Московская область;online;individual
+C002496;;Томская область;store;small_business
+C002497;2026-07-11;Новосибирская область;store;individual
+C002498;2026-07-09;Москва;online;individual
+C002499;2026-07-31;Красноярский край;online;individual
+C002500;2026-07-06;Московская область;store;individual
+C002501;;Москва;partner;individual
+C002502;2026-08-05;Новосибирская область;store;individual
+C002503;2026-08-10;Москва;store;individual
+C002504;2026-08-23;Москва;online;individual
+C002505;2026-08-13;Московская область;store;individual
+C002506;2026-08-18;Московская область;store;individual
+C002507;2026-08-13;Москва;online;individual
+C002508;2026-08-06;Москва;online;small_business
+C002509;2026-08-17;Красноярский край;partner;individual
+C002510;2026-08-20;Москва;partner;individual
+C002511;2026-08-07;Москва;store;individual
+C002512;2026-08-09;Новосибирская область;store;individual
+C002513;2026-08-31;Новосибирская область;online;individual
+C002514;2026-08-02;Красноярский край;online;individual
+C002515;;Красноярский край;store;individual
+C002516;2026-08-31;Красноярский край;online;individual
+C002517;2026-08-13;Москва;store;individual
+C002518;2026-08-18;Красноярский край;online;individual
+C002519;2026-08-30;Новосибирская область;partner;individual
+C002520;2026-08-09;Новосибирская область;online;individual
+C002521;2026-08-31;Красноярский край;store;individual
+C002522;2026-08-31;Красноярский край;online;individual
+C002523;2026-08-08;Томская область;partner;small_business
+C002524;2026-08-05;Новосибирская область;store;individual
+C002525;2026-08-04;Томская область;online;individual
+C002526;2026-08-02;Москва;store;small_business
+C002527;2026-08-09;Красноярский край;online;individual
+C002528;2026-08-19;Томская область;store;individual
+C002529;2026-08-03;Новосибирская область;online;individual
+C002530;2026-08-25;Москва;online;individual
+C002531;2026-08-21;Новосибирская область;store;individual
+C002532;2026-08-28;Новосибирская область;store;individual
+C002533;2026-08-12;Московская область;online;individual
+C002534;2026-08-30;Москва;store;individual
+C002535;2026-08-09;Томская область;online;individual
+C002536;2026-08-28;Москва;online;individual
+C002537;2026-08-20;Новосибирская область;online;individual
+C002538;2026-08-22;Томская область;online;individual
+C002539;2026-08-27;Красноярский край;online;individual
+C002540;2026-08-19;Московская область;store;individual
+C002541;2026-08-29;Москва;online;individual
+C002542;2026-08-21;Москва;store;individual
+C002543;2026-08-25;Москва;online;individual
+C002544;2026-08-14;Московская область;online;individual
+C002545;2026-08-22;Новосибирская область;online;individual
+C002546;2026-08-24;Красноярский край;store;individual
+C002547;2026-08-10;Новосибирская область;partner;individual
+C002548;2026-08-18;Новосибирская область;online;individual
+C002549;2026-08-14;Красноярский край;online;individual
+C002550;2026-08-27;Московская область;online;individual
+C002551;2026-09-03;Новосибирская область;store;individual
+C002552;2026-09-02;Москва;store;individual
+C002553;2026-09-26;Новосибирская область;store;individual
+C002554;2026-09-10;Москва;store;individual
+C002555;2026-09-22;Москва;store;individual
+C002556;2026-09-14;Новосибирская область;online;individual
+C002557;2026-09-22;Москва;partner;individual
+C002558;2026-09-19;Московская область;store;individual
+C002559;2026-09-26;Томская область;partner;individual
+C002560;2026-09-05;Московская область;partner;individual
+C002561;2026-09-16;Новосибирская область;partner;individual
+C002562;2026-09-22;Томская область;store;individual
+C002563;2026-09-22;Томская область;online;individual
+C002564;2026-09-27;Московская область;online;individual
+C002565;2026-09-21;Томская область;store;individual
+C002566;2026-09-16;Томская область;store;individual
+C002567;2026-09-06;Московская область;online;individual
+C002568;2026-09-12;Москва;store;individual
+C002569;2026-09-21;Красноярский край;store;individual
+C002570;2026-09-12;Томская область;online;individual
+C002571;2026-09-15;Новосибирская область;store;individual
+C002572;2026-09-09;Красноярский край;online;individual
+C002573;2026-09-10;Томская область;partner;small_business
+C002574;2026-09-03;Томская область;store;individual
+C002575;2026-09-05;Московская область;online;individual
+C002576;2026-09-11;Томская область;online;individual
+C002577;2026-09-03;Московская область;online;individual
+C002578;2026-09-29;Красноярский край;store;individual
+C002579;2026-09-29;Москва;online;individual
+C002580;2026-09-21;Новосибирская область;online;individual
+C002581;2026-09-12;Московская область;online;individual
+C002582;2026-09-17;Красноярский край;store;individual
+C002583;2026-09-14;Московская область;online;individual
+C002584;2026-09-05;Новосибирская область;store;individual
+C002585;2026-09-24;Москва;online;individual
+C002586;2026-09-06;Красноярский край;store;individual
+C002587;2026-09-14;Москва;online;individual
+C002588;2026-09-15;Красноярский край;online;individual
+C002589;2026-09-28;Новосибирская область;partner;individual
+C002590;2026-09-14;Красноярский край;online;individual
+C002591;2026-09-25;Московская область;online;individual
+C002592;2026-09-17;Томская область;store;individual
+C002593;2026-09-04;Красноярский край;partner;individual
+C002594;2026-09-29;Москва;online;individual
+C002595;2026-09-16;Новосибирская область;store;individual
+C002596;2026-09-28;Москва;partner;individual
+C002597;2026-09-20;Красноярский край;online;small_business
+C002598;2026-09-27;Красноярский край;online;individual
+C002599;2026-09-19;Томская область;online;individual
+C002600;2026-09-25;Красноярский край;store;individual
