@@ -83,13 +83,11 @@ def test_two_tickets_same_day_are_both_counted():
 
 
 def test_late_arrival_excluded_boundary_example():
-    # Создано 31 августа 23:00, загружено 1 сентября 09:00 -> на 1 сентября 00:00 неизвестно.
     rows = [ticket("T1", "C1", "2026-08-31 23:00", "2026-09-01 09:00")]
     out = aggregate_support(
         frame(rows), keys(("C1", "2026-08-01"), ("C1", "2026-09-01"))
     )
     assert row(out, "C1", "2026-08-01")["support_count"] == 0
-    # и не переносится в сентябрь: месяц создания — август
     assert row(out, "C1", "2026-09-01")["support_count"] == 0
 
 

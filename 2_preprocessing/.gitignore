@@ -3,3 +3,4 @@ __pycache__/
 .venv/
 out*/
 !output/
+.venv_py314/
