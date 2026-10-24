@@ -3,6 +3,7 @@
 Все значения читаются как строки: пустая ячейка остаётся пустой строкой, а не NaN,
 чтобы аудит качества видел исходный вид данных.
 """
+
 from __future__ import annotations
 
 import hashlib
@@ -24,7 +25,9 @@ class Config:
     root: Path
 
     @classmethod
-    def load(cls, path: Path | None = None, output_dir: Path | None = None) -> "Config":
+    def load(
+        cls, path: Path | None = None, output_dir: Path | None = None
+    ) -> "Config":
         path = path or ROOT / "config.json"
         raw = json.loads(Path(path).read_text(encoding="utf-8"))
         if output_dir is not None:
@@ -80,13 +83,20 @@ def read_support_sqlite(db: Path, sql_file: Path) -> pd.DataFrame:
 
 def run_diagnostics(db: Path, sql_file: Path) -> pd.DataFrame:
     """Выполняет именованные запросы из sql/diagnostics.sql (блоки `-- name: ...`)."""
-    blocks = re.split(r"--\s*name:\s*", sql_file.read_text(encoding="utf-8"))[1:]
+    blocks = re.split(r"--\s*name:\s*", sql_file.read_text(encoding="utf-8"))[
+        1:
+    ]
     rows = []
     with sqlite3.connect(f"file:{db.resolve()}?mode=ro", uri=True) as conn:
         for block in blocks:
             name, _, body = block.partition("\n")
             query = first_statement(body)
-            rows.append({"query": name.strip(), "value": conn.execute(query).fetchone()[0]})
+            rows.append(
+                {
+                    "query": name.strip(),
+                    "value": conn.execute(query).fetchone()[0],
+                }
+            )
     return pd.DataFrame(rows)
 
 
@@ -96,13 +106,14 @@ def load_all(cfg: Config) -> dict[str, pd.DataFrame]:
         "billing": read_csv(cfg.raw_path("lesson1", "billing")),
         "events": read_csv(cfg.raw_path("lesson1", "events")),
         "support_legacy": read_csv(cfg.raw_path("lesson2", "legacy_csv")),
-        "support_current": read_support_sqlite(cfg.raw_path("lesson2", "sqlite"), cfg.path("sql_extract")),
+        "support_current": read_support_sqlite(
+            cfg.raw_path("lesson2", "sqlite"), cfg.path("sql_extract")
+        ),
         "schema_support": read_csv(cfg.raw_path("lesson2", "schema")),
     }
-    # Резервная CSV-копия не объединяется с SQLite: только сверка, что это та же таблица.
     backup = read_csv(cfg.raw_path("lesson2", "current_csv_backup"))
     cur = sources["support_current"]
-    sources["_sqlite_equals_csv_backup"] = (
-        backup.shape == cur.shape and bool((backup.values == cur.values).all())
+    sources["_sqlite_equals_csv_backup"] = backup.shape == cur.shape and bool(
+        (backup.values == cur.values).all()
     )
     return sources

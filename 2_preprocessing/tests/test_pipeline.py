@@ -1,9 +1,9 @@
 """Проверки результата полного запуска и воспроизводимости."""
+
 import json
 
 import pandas as pd
 import pytest
-
 from prep.common import parse_current
 from prep.load import CSV_KW
 from prep.pipeline import run
@@ -36,11 +36,16 @@ def test_sqlite_and_csv_backup_are_same_table(runs):
 
 def test_customer_month_does_not_multiply_billing(runs):
     _, _, out = runs
-    billing, cm = read(out / "billing_clean.csv"), read(out / "customer_month.csv")
+    billing, cm = (
+        read(out / "billing_clean.csv"),
+        read(out / "customer_month.csv"),
+    )
     assert len(cm) == len(billing)
     assert not cm.duplicated(["customer_id", "billing_month"]).any()
     for col in ["charged_rub", "paid_rub", "closing_debt_rub"]:
-        assert pd.to_numeric(cm[col]).sum() == pytest.approx(pd.to_numeric(billing[col]).sum())
+        assert pd.to_numeric(cm[col]).sum() == pytest.approx(
+            pd.to_numeric(billing[col]).sum()
+        )
 
 
 def test_no_subscriber_removed(runs):
@@ -52,7 +57,10 @@ def test_no_subscriber_removed(runs):
 
 def test_support_keys_and_links(runs):
     _, _, out = runs
-    sup, subs = read(out / "support_clean.csv"), read(out / "subscribers_clean.csv")
+    sup, subs = (
+        read(out / "support_clean.csv"),
+        read(out / "subscribers_clean.csv"),
+    )
     assert sup["ticket_id"].is_unique
     assert sup["customer_id"].isin(set(subs["customer_id"])).all()
     q = read(out / "quarantine_support.csv")
@@ -65,7 +73,10 @@ def test_all_support_accounted(runs):
     inv = {i["source"]: i["rows"] for i in s["inventory"]}
     raw = inv["support_legacy (CSV)"] + inv["support_current (SQLite)"]
     copies = 30 + 100
-    assert s["rows_out"]["support_clean"] + s["rows_out"]["quarantine_support"] == raw - copies
+    assert (
+        s["rows_out"]["support_clean"] + s["rows_out"]["quarantine_support"]
+        == raw - copies
+    )
 
 
 def test_availability_checks_pass(runs):
@@ -79,6 +90,6 @@ def test_no_errors_left_after_cleaning(runs):
 def test_timezone_rules():
     s = pd.Series(["2026-08-31T21:00:00Z", "2026-09-01T00:00:00", ""])
     msk, naive = parse_current(s)
-    assert msk.iloc[0] == pd.Timestamp("2026-09-01 00:00:00")   # UTC + 3 ч
-    assert msk.iloc[1] == pd.Timestamp("2026-09-01 00:00:00")   # без зоны = МСК
+    assert msk.iloc[0] == pd.Timestamp("2026-09-01 00:00:00")
+    assert msk.iloc[1] == pd.Timestamp("2026-09-01 00:00:00")
     assert pd.isna(msk.iloc[2]) and naive.tolist() == [False, True, False]
