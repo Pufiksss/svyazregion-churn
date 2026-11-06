@@ -1,0 +1,128 @@
+{
+  "selected_experiment": "exp04_hgb_leaf7",
+  "params": {
+    "id": "exp04_hgb_leaf7",
+    "family": "hist_gradient_boosting",
+    "params": {
+      "max_leaf_nodes": 7,
+      "max_iter": 100,
+      "learning_rate": 0.07,
+      "min_samples_leaf": 40,
+      "l2_regularization": 1.0
+    },
+    "why": "простые деревья: взаимодействия долг × стаж без переобучения"
+  },
+  "input_columns_in_order": [
+    "tenure_days",
+    "debt_prev_rub",
+    "payment_delay_prev_days",
+    "traffic_prev_gb",
+    "voice_prev_min",
+    "debt_change_1m_rub",
+    "traffic_change_1m_gb",
+    "debt_months_3m",
+    "pay_to_charge_ratio_3m",
+    "traffic_per_active_day_3m",
+    "tariff_changes_3m",
+    "support_3m",
+    "support_prev",
+    "support_billing_3m",
+    "support_network_3m",
+    "support_open_at_T",
+    "app_sessions_prev",
+    "payment_attempts_prev",
+    "payment_fail_rate_prev",
+    "sessions_per_observed_day_prev",
+    "selfservice_prev",
+    "app_sessions_per_day_3m",
+    "digital_last_obs_age_months",
+    "digital_last_obs_sessions",
+    "digital_observed_months_3m",
+    "n_billing_months_3m",
+    "n_traffic_known_3m",
+    "history_months_available",
+    "tariff_prev",
+    "region",
+    "customer_segment",
+    "acquisition_channel",
+    "digital_status_prev"
+  ],
+  "x_width_after_preprocess": 58,
+  "seed": 42,
+  "feature_version": "stage4_v1 (4_features/output, 33 признака)",
+  "feature_files_sha256_16": {
+    "features.csv": "1f9b93b70cb66e16",
+    "labels.csv": "6409be750d070a4f",
+    "split.csv": "2a896b7b75fd35d8"
+  },
+  "versions": {
+    "python": "3.13.16",
+    "pandas": "2.2.3",
+    "numpy": "2.1.3",
+    "sklearn": "1.5.2",
+    "joblib": "1.4.2"
+  },
+  "selection_rule": "max validation macro Recall@K; при равенстве max validation macro AP; при равенстве — более ранний опыт в порядке списка (более простая модель)",
+  "input_checks": {
+    "train dates": [
+      "2025-12-01",
+      "2026-01-01",
+      "2026-02-01",
+      "2026-03-01",
+      "2026-04-01",
+      "2026-05-01",
+      "2026-06-01",
+      "2026-07-01"
+    ],
+    "validation dates": [
+      "2026-08-01"
+    ],
+    "train rows per T": {
+      "2025-12-01 00:00:00": 1969,
+      "2026-01-01 00:00:00": 1971,
+      "2026-02-01 00:00:00": 1971,
+      "2026-03-01 00:00:00": 1969,
+      "2026-04-01 00:00:00": 1965,
+      "2026-05-01 00:00:00": 1959,
+      "2026-06-01 00:00:00": 1951,
+      "2026-07-01 00:00:00": 1941
+    },
+    "validation rows per T": {
+      "2026-08-01 00:00:00": 1929
+    },
+    "X columns": 33
+  },
+  "validation": {
+    "candidate": {
+      "id": "exp04_hgb_leaf7",
+      "part": "validation",
+      "macro_recall_at_K": 0.31746031746031744,
+      "macro_precision_at_K": 0.10416666666666667,
+      "macro_AP": 0.07186514837991448,
+      "pooled_recall_at_K": 0.31746031746031744,
+      "hits": 20,
+      "churn": 63,
+      "K_total": 192,
+      "n_rows": 1929,
+      "n_dates": 1,
+      "train_minus_validation_recall": 0.22596217821954756
+    },
+    "baseline": {
+      "id": "baseline",
+      "part": "validation",
+      "macro_recall_at_K": 0.2222222222222222,
+      "macro_precision_at_K": 0.07291666666666667,
+      "macro_AP": 0.05826225020359142,
+      "pooled_recall_at_K": 0.2222222222222222,
+      "hits": 14,
+      "churn": 63,
+      "K_total": 192,
+      "n_rows": 1929,
+      "n_dates": 1,
+      "train_minus_validation_recall": 0.1740448005471643
+    },
+    "extra_hits_vs_baseline": 6
+  },
+  "test_used": false,
+  "retrained_on_train_plus_validation": false
+}

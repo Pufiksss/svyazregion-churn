@@ -1,0 +1,6 @@
+﻿customer_id;in_base_at_T;churn_target;expected_in_base;expected_target;rule
+A;1;1;1;1;termination = T: был в базе перед событиями T, ушёл в горизонте
+B;0;;0;;activation = T: не входит (подключение в день T)
+C;1;0;1;0;termination = конец горизонта: конец исключён -> 0 (уход относится к следующему T)
+D;1;1;1;1;termination в последний день горизонта -> 1
+E;1;0;1;0;activation накануне T: входит, история короткая

@@ -1,0 +1,16 @@
+{
+  "prepared_dir": "../2_preprocessing/output",
+  "new_data_dir": "data/raw",
+  "output_dir": "output",
+  "horizon": "calendar_month",
+  "active_mode": "before_events",
+  "active_rule": "activation < T and (no termination or termination >= T)",
+  "window_months": 3,
+  "train_dates": ["2025-12-01", "2026-01-01", "2026-02-01", "2026-03-01",
+                  "2026-04-01", "2026-05-01", "2026-06-01", "2026-07-01"],
+  "validation_dates": ["2026-08-01"],
+  "test_dates": ["2026-09-01"],
+  "observation_end_exclusive": "2026-10-01",
+  "campaign_fraction": 0.1,
+  "digital_last_report_max_age_months": 3
+}

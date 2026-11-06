@@ -1,0 +1,4 @@
+﻿tariff;n_observations;n_customers;n_churn;churn_rate;small_group
+Basic;6239;1009;155;0.02484;0
+Comfort;6286;1044;186;0.02959;0
+Premium;3171;549;99;0.03122;0

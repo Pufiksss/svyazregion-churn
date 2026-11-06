@@ -1,0 +1,19 @@
+﻿field;data_type;description;unit;availability_note
+customer_id;String;Абонент;—;ключ вместе с snapshot_at
+snapshot_at;DateTime;Дата расчёта T, 00:00 МСК 1-го числа;—;ключ
+split;String;eda | validation | test;—;в выводах EDA — только eda
+source_billing_month;Date;Месяц биллинга, из которого взяты показатели (= T − 1 мес.);—;проверка доступности
+billing_available_at;DateTime;Доступность строки биллинга;—;≤ snapshot_at во всех строках
+has_prev_month;Flag;Есть строка биллинга за T − 1 мес.;—;везде 1
+history_months_available;Integer;Строк биллинга, доступных к T;мес.;короткая история не удаляется
+region, acquisition_channel, customer_segment;String;Постоянные характеристики;—;subscribers_clean
+tenure_days;Integer;Стаж на T = T − activation_date;дни;доступно на T
+tariff … tariff_changes_count;—;Показатели customer_month за source_billing_month;как в словаре этапа 2;доступно на T
+traffic_missing, voice_minutes_invalid;Flag;Флаги качества биллинга;—;проверка данных, не признак
+support_count, support_network_count, support_billing_count, support_unknown_topic_count;Integer;Обращения, созданные в source_billing_month и доступные к T;шт.;0 = нет доступных корректно связанных
+debt_group;String;долг = 0 / долг > 0 / неизвестно по closing_debt_rub;—;границы заданы заранее
+support_group;String;0 / 1 / 2+ / нет данных по support_count;—;
+tenure_group;String;<90 дн. / ≥90 дн.;—;порог задан заранее
+target_end_exclusive;DateTime;Конец горизонта (исключён) = 1-е число следующего месяца;—;не признак
+churn_target;Integer nullable;"1 — termination в [T, target_end_exclusive); пусто — исход не наблюдаем";—;ТОЛЬКО метка, не признак
+base_rule;String;Правило активной базы;—;"activation<T; termination absent or >=T"

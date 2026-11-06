@@ -1,0 +1,22 @@
+﻿check;passed;detail
+ключ (customer_id, snapshot_at) уникален во всех слоях;True;19541
+порядок ключей одинаков в features/labels/split/audit;True;
+строк на T = независимо рассчитанная активная база;True;0 расхождений
+признаки на T не меняются при изменении будущих записей и меток;True;T = 2026-04-01, 1965 строк
+цифровой отчёт ровно в T включён, через 1 секунду — нет;True;C000002: observed / not_published_at_T
+короткая история не превращается в 3 месяца нулей;True;строк с <3 месяцами: 980
+при одном месяце истории разности неизвестны;True;500 строк
+пропущенный месяц не подменяется предыдущим в разности;True;
+0 попыток оплаты → доля ошибок неизвестна;True;1906 строк
+not_enabled / export_gap / поздний отчёт не становятся нулевыми сессиями;True;{'not_published_at_T': 9801, 'not_enabled': 2485, 'export_gap': 399}
+метка не входит в признаки;True;
+медианы преобразователя = медианы train;True;fit только на train
+новая категория в validation → нули в One-Hot, без ошибки;True;Ultra_NEW
+transform сохраняет число и порядок строк;True;(1929, 58), (1916, 58)
+источник: digital_key_unique;True;
+источник: digital_refs_ok;True;
+источник: digital_status_domain_ok;True;
+источник: digital_pairs_equal_billing;True;
+источник: digital_failures_le_attempts;True;
+источник: digital_available_after_month_end;True;
+источник: digital_nonobserved_empty;True;

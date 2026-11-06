@@ -1,0 +1,69 @@
+{
+  "python": "3.13.16",
+  "pandas": "2.2.3",
+  "numpy": "2.1.3",
+  "sklearn": "1.5.2",
+  "config": {
+    "horizon": "calendar_month",
+    "active_mode": "before_events",
+    "active_rule": "activation < T and (no termination or termination >= T)",
+    "window_months": 3,
+    "train_dates": [
+      "2025-12-01",
+      "2026-01-01",
+      "2026-02-01",
+      "2026-03-01",
+      "2026-04-01",
+      "2026-05-01",
+      "2026-06-01",
+      "2026-07-01"
+    ],
+    "validation_dates": [
+      "2026-08-01"
+    ],
+    "test_dates": [
+      "2026-09-01"
+    ],
+    "observation_end_exclusive": "2026-10-01",
+    "campaign_fraction": 0.1,
+    "digital_last_report_max_age_months": 3
+  },
+  "n_numeric": 28,
+  "n_categorical": 5,
+  "x_width": 58,
+  "n_content_features": 27,
+  "split": [
+    {
+      "split": "test",
+      "dates": 1,
+      "rows": 1916,
+      "customers": 1916
+    },
+    {
+      "split": "train",
+      "dates": 8,
+      "rows": 15696,
+      "customers": 2319
+    },
+    {
+      "split": "validation",
+      "dates": 1,
+      "rows": 1929,
+      "customers": 1929
+    }
+  ],
+  "checks_passed": true,
+  "csv_sha256": {
+    "baseline_train.csv": "417cf0e058a2477dc5a293d6df51e9577f4b69674333f1ff3cf1dcbc7e81d1e4",
+    "checks.csv": "47c9b264dd31a01a5c3ea4d6d1a503059fede1bbfb047a4cb63f57097af46a72",
+    "feature_audit.csv": "8e9629d963deee2fa38a6942f066412c37311664291612461558afeafb1ceda6",
+    "feature_catalog.csv": "1f2b26d59a5c85db314cbfcad4eef744f9e5edf3426df30f5be4d820dbe8e40a",
+    "features.csv": "1f9b93b70cb66e1662fbca70bc62511544cb9b8a13d7ea226e6c7992ea0889f4",
+    "labels.csv": "6409be750d070a4f2fb0af84ea410c2dd20136b2abbc65e4bed2812ad7a0ad77",
+    "split.csv": "2a896b7b75fd35d8864a17cdff7e002cdf4252ad7ce322bf2638a513a50d27d8",
+    "split_summary.csv": "993974e84732e4ec420715c6ab039e74ee114f56726f6ac649c0714130b73f14",
+    "train_medians.csv": "29ad6425550d84df7718365534c526e142a7374edc2d2264abef97e9891bf7b2",
+    "x_columns.csv": "122c2fc18b42c7b25b8af7f2c4b213e1a307d170aeaca16b2b37a64f5f1cfd94",
+    "x_shapes.csv": "f143ed7877b370ee386e2d21b1723efa89b933a3b7c6ae69bb595a7fadf9fbeb"
+  }
+}

@@ -1,0 +1,10 @@
+﻿source;field;data_type;description;unit;rules
+digital_usage_monthly.csv;customer_id;String;Идентификатор абонента;—;"Связь с subscribers_clean; ключ с usage_month."
+digital_usage_monthly.csv;usage_month;Date;Первый день календарного месяца наблюдения;месяц;"YYYY-MM-DD, месяцы Москвы; сентябрь 2025 — август 2026."
+digital_usage_monthly.csv;available_at;DateTime;Публикация всей строки, включая статус;дата и время;ISO 8601 +03:00. Не раньше конца usage_month. Для использования не позже snapshot_at.
+digital_usage_monthly.csv;observation_status;String;Состояние наблюдения в конкретной выгрузке;—;observed, not_enabled, export_gap. До available_at статус строки неизвестен.
+digital_usage_monthly.csv;observed_days;Integer nullable;Дни полного наблюдения внутри активных дней договора;дни;"При observed равно активным дням биллинга, 1–число дней месяца; иначе пусто. Не число дней использования кабинета."
+digital_usage_monthly.csv;app_sessions;Integer nullable;Число сессий личного кабинета;сессия;"При observed целое неотрицательное; 0 — измеренный ноль. При остальных статусах неизвестно."
+digital_usage_monthly.csv;payment_attempts;Integer nullable;Число попыток оплаты в кабинете;попытка;Целое неотрицательное при observed. Не сумма проведённых платежей, не все каналы оплаты.
+digital_usage_monthly.csv;payment_failures;Integer nullable;Число неуспешных попыток оплаты;попытка;Подмножество payment_attempts, от 0 до attempts. Доля определена только при attempts > 0.
+digital_usage_monthly.csv;selfservice_actions;Integer nullable;Число действий самообслуживания;действие;"Неотрицательное при observed. Синтетический счётчик; не формальная заявка на расторжение."

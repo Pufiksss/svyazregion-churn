@@ -1,0 +1,3 @@
+﻿debt_group;n_observations;n_customers;n_churn;churn_rate;small_group
+долг = 0;12035;2241;164;0.01363;0
+долг > 0;3661;1784;276;0.07539;0

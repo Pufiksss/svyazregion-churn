@@ -1,0 +1,33 @@
+{
+  "prepared_dir": "../4_features/output",
+  "output_dir": "output",
+  "models_dir": "models",
+  "feature_version": "stage4_v1 (4_features/output, 33 признака)",
+  "seed": 42,
+  "campaign_fraction": 0.1,
+  "baseline_feature": "debt_prev_rub",
+  "baseline_unknown_score": -1.0,
+  "selection_rule": "max validation macro Recall@K; при равенстве max validation macro AP; при равенстве — более ранний опыт в порядке списка (более простая модель)",
+  "inner_check": {"fit_until": "2026-04-01", "eval_from": "2026-05-01", "eval_until": "2026-07-01"},
+  "numeric_columns": ["tenure_days", "debt_prev_rub", "payment_delay_prev_days", "traffic_prev_gb", "voice_prev_min",
+    "debt_change_1m_rub", "traffic_change_1m_gb", "debt_months_3m", "pay_to_charge_ratio_3m", "traffic_per_active_day_3m",
+    "tariff_changes_3m", "support_3m", "support_prev", "support_billing_3m", "support_network_3m", "support_open_at_T",
+    "app_sessions_prev", "payment_attempts_prev", "payment_fail_rate_prev", "sessions_per_observed_day_prev",
+    "selfservice_prev", "app_sessions_per_day_3m", "digital_last_obs_age_months", "digital_last_obs_sessions",
+    "digital_observed_months_3m", "n_billing_months_3m", "n_traffic_known_3m", "history_months_available"],
+  "categorical_columns": ["tariff_prev", "region", "customer_segment", "acquisition_channel", "digital_status_prev"],
+  "experiments": [
+    {"id": "exp01_lr_c01", "family": "logistic_regression", "params": {"C": 0.1},
+     "why": "сильная регуляризация: 440 уходов, 58 столбцов X"},
+    {"id": "exp02_lr_c1", "family": "logistic_regression", "params": {"C": 1.0},
+     "why": "слабее регуляризация — проверить, не теряем ли сигнал"},
+    {"id": "exp03_lr_c01_bal", "family": "logistic_regression", "params": {"C": 0.1, "class_weight": "balanced"},
+     "why": "веса классов при доле ухода 2,8 % (отдельный обоснованный опыт)"},
+    {"id": "exp04_hgb_leaf7", "family": "hist_gradient_boosting",
+     "params": {"max_leaf_nodes": 7, "max_iter": 100, "learning_rate": 0.07, "min_samples_leaf": 40, "l2_regularization": 1.0},
+     "why": "простые деревья: взаимодействия долг × стаж без переобучения"},
+    {"id": "exp05_hgb_leaf15", "family": "hist_gradient_boosting",
+     "params": {"max_leaf_nodes": 15, "max_iter": 100, "learning_rate": 0.07, "min_samples_leaf": 40, "l2_regularization": 1.0},
+     "why": "более сложные деревья — проверить прирост или переобучение"}
+  ]
+}

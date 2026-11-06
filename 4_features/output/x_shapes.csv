@@ -1,0 +1,4 @@
+﻿part;rows;x_columns
+train;15696;58
+validation;1929;58
+test;1916;58

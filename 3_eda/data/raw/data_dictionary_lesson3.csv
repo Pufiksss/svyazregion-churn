@@ -1,0 +1,16 @@
+﻿source;field;data_type;description;unit;rules
+network_quality_monthly.csv;region;String;Регион обслуживания;—;Одно из пяти значений subscribers_clean.region. Составной ключ с measurement_month.
+network_quality_monthly.csv;measurement_month;Date;Первый день месяца измерений;месяц;YYYY-MM-DD. Измерения относятся к полному календарному месяцу Москвы. Сентябрь 2025 — август 2026.
+network_quality_monthly.csv;report_available_at;DateTime;Момент публикации окончательного отчёта;дата и время;ISO 8601 +03:00. Не раньше конца месяца. Для исторического использования не позже snapshot_at. Версий отчётов нет.
+network_quality_monthly.csv;probe_count;Integer;Число контрольных загрузок;проба;"Положительное число. Не число абонентов. Пробы могут повторяться с одной точки; случайная репрезентативная выборка индивидуального опыта не заявлена."
+network_quality_monthly.csv;failed_probe_count;Integer;Число загрузок, не завершённых за 30 секунд;проба;От 0 до probe_count. Доля ошибок = failed_probe_count / probe_count. Для нескольких регионов делите суммы числителей и знаменателей.
+network_quality_monthly.csv;download_mbps_p50;Decimal;Медиана скорости успешных контрольных загрузок;Мбит/с;Положительна. По успешным пробам. Не усредняйте квантили для получения общей медианы.
+network_quality_monthly.csv;download_mbps_p90;Decimal;90-й процентиль скорости успешных загрузок;Мбит/с;Не меньше download_mbps_p50. Из региональных квантилей нельзя получить общий квантиль без исходных измерений.
+business_context.csv;context_id;String;Идентификатор сообщения;—;Уникален. Календарь контекста, не персональные события абонента.
+business_context.csv;event_start;Date;Начало описанного периода;дата;"YYYY-MM-DD; начало включено, календарные даты Москвы."
+business_context.csv;event_end;Date;Последний день описанного периода;дата;"YYYY-MM-DD; конец включён. Не раньше event_start."
+business_context.csv;scope;String;Область события;—;all_regions или region.
+business_context.csv;region;String nullable;Регион локального события;—;Заполнен при scope=region, пуст при all_regions. Это неприменимое значение, а не потерянный регион.
+business_context.csv;event_type;String;Тип контекста;—;support_migration, seasonal_context, measurement_alert. Не кодируйте числами для корреляции.
+business_context.csv;description;String;Сообщение заказчика;текст;Контекст и гипотезы, а не доказанные причины ухода.
+business_context.csv;announced_at;DateTime;Момент доступности сообщения;дата и время;ISO 8601 +03:00. Может быть позже события. Для исторического использования не позже snapshot_at.

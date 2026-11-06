@@ -1,0 +1,4 @@
+﻿split;dates;rows;customers
+test;1;1916;1916
+train;8;15696;2319
+validation;1;1929;1929

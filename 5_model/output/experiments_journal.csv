@@ -1,0 +1,7 @@
+﻿id;family;params;seed;feature_version;fit_seconds;status;warnings;why;decision
+baseline;rule;"debt_prev_rub ↓, customer_id ↑; неизвестный долг после известных";;stage4_v1;;ok;;планка этапа 4;рабочая альтернатива
+exp01_lr_c01;logistic_regression;"{""C"": 0.1}";42;stage4_v1;0.124;ok_with_warnings;OptimizeWarning: Unknown solver options: iprint;сильная регуляризация: 440 уходов, 58 столбцов X;не выбран
+exp02_lr_c1;logistic_regression;"{""C"": 1.0}";42;stage4_v1;0.098;ok_with_warnings;OptimizeWarning: Unknown solver options: iprint;слабее регуляризация — проверить, не теряем ли сигнал;не выбран
+exp03_lr_c01_bal;logistic_regression;"{""C"": 0.1, ""class_weight"": ""balanced""}";42;stage4_v1;0.137;ok_with_warnings;OptimizeWarning: Unknown solver options: iprint;веса классов при доле ухода 2,8 % (отдельный обоснованный опыт);не выбран
+exp04_hgb_leaf7;hist_gradient_boosting;"{""max_leaf_nodes"": 7, ""max_iter"": 100, ""learning_rate"": 0.07, ""min_samples_leaf"": 40, ""l2_regularization"": 1.0}";42;stage4_v1;0.347;ok;;простые деревья: взаимодействия долг × стаж без переобучения;выбран
+exp05_hgb_leaf15;hist_gradient_boosting;"{""max_leaf_nodes"": 15, ""max_iter"": 100, ""learning_rate"": 0.07, ""min_samples_leaf"": 40, ""l2_regularization"": 1.0}";42;stage4_v1;0.405;ok;;более сложные деревья — проверить прирост или переобучение;не выбран

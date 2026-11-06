@@ -1,0 +1,4 @@
+﻿support_group;n_observations;n_customers;n_churn;churn_rate;small_group
+0;10351;2278;278;0.02686;0
+1;4018;1867;122;0.03036;0
+2+;1327;962;40;0.03014;0

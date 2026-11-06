@@ -1,0 +1,32 @@
+{
+  "prepared_dir": "../2_preprocessing/output",
+  "new_data_dir": "data/raw",
+  "output_dir": "output",
+  "horizon": "calendar_month",
+  "observation_end": "2026-10-01",
+  "base_rule": "state_before_events_on_T: activation < T and (no termination or termination >= T)",
+  "splits": {
+    "eda": [
+      "2025-12-01",
+      "2026-01-01",
+      "2026-02-01",
+      "2026-03-01",
+      "2026-04-01",
+      "2026-05-01",
+      "2026-06-01",
+      "2026-07-01"
+    ],
+    "validation": [
+      "2026-08-01"
+    ],
+    "test": [
+      "2026-09-01"
+    ]
+  },
+  "tenure_bins_days": [
+    90
+  ],
+  "small_group_rows": 30,
+  "bootstrap_iterations": 1000,
+  "random_seed": 42
+}

@@ -1,0 +1,3 @@
+﻿customer_segment;n_observations;n_customers;n_churn;churn_rate;small_group
+individual;14471;2136;406;0.02806;0
+small_business;1225;183;34;0.02776;0

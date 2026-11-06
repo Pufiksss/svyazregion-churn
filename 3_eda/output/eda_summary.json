@@ -1,0 +1,62 @@
+{
+  "python": "3.13.16",
+  "pandas": "2.2.3",
+  "numpy": "2.1.3",
+  "matplotlib": "3.9.2",
+  "prepared_dir": "см. config.json (prepared_dir)",
+  "horizon": "calendar_month",
+  "base_rule": "state_before_events_on_T: activation < T and (no termination or termination >= T)",
+  "splits": {
+    "eda": [
+      "2025-12-01",
+      "2026-01-01",
+      "2026-02-01",
+      "2026-03-01",
+      "2026-04-01",
+      "2026-05-01",
+      "2026-06-01",
+      "2026-07-01"
+    ],
+    "validation": [
+      "2026-08-01"
+    ],
+    "test": [
+      "2026-09-01"
+    ]
+  },
+  "eda_rows": 15696,
+  "eda_customers": 2319,
+  "eda_churn": 440,
+  "sample_rows_by_split": {
+    "eda": 15696,
+    "validation": 1929,
+    "test": 1916
+  },
+  "network_reports_known_at_T": 20,
+  "network_reports_unknown_at_T": 30,
+  "checks_passed": true,
+  "csv_sha256": {
+    "analysis_plan.csv": "9a733d255c2ae133e4ae37e2a380106274af3e18176defe019cc174ae7efe573",
+    "checks.csv": "f2447c873fae02c27f3aca225fdcf799ff3ed335db60e6311073337e5294373f",
+    "eda_sample.csv": "bf30984470b1efd149dea8b907b05e4ee3eadf95ccc21f3c04eafbfd673d4152",
+    "network_availability.csv": "262b91126be6f7facf3346b8a7efaa7ebacefcd33830d5b09b4d7e2bc8eab133",
+    "tables/bootstrap_ci.csv": "46d4920d70921660f6e29d91ee048e7bf9ccb925013c98d7ad1c530d34d12dda",
+    "tables/boundary_example.csv": "4c6d5781a8668cce2541af723d7f6711b3515cf4b0c4493c1c06bb796c6b1239",
+    "tables/business_context_timing.csv": "91503b77a0adaa2ea01fbaa7e06476941c6534a94f9da23477a76d92e2bb4764",
+    "tables/categories.csv": "226068957365f1c758457b372ea7fc46543638c321adca90cf7bc0129a65993d",
+    "tables/churn_by_network_at_T.csv": "3406dca3e52c50ddb181d161feb26855df584b904c0852e38d26230bec7ea68c",
+    "tables/extra_churn_by_customer_segment.csv": "f5128a600fb02c01d6f5c0880e7c610bdff8fc11ecb813370882ffbe4b74c6dd",
+    "tables/extra_churn_by_region.csv": "96499415b16fda6dcf54765e8123bc8b8e13a3720191b717b80e4ddf7caf0a13",
+    "tables/extra_churn_by_tariff.csv": "2290b97ecf30ae6aa8c52821f5892ea890f056d82b32b24aa59f5a9459c49138",
+    "tables/fig1_missing.csv": "7dc222e1351f3e0c85b201e836411fb34c252fb74f6cee70253aa574fbc4af51",
+    "tables/fig2_distributions.csv": "511baa1364b30bf929d642b61022f7df56858d092022f83d318c7ffd6acd9a19",
+    "tables/fig3_churn_by_T.csv": "65cfa0e11f153973dd22adb02cb386c5b78e83ec26d277b7d230752315938a85",
+    "tables/fig4_churn_by_debt.csv": "ef842782a9c7676da4471c8169b89f7e2e2d5481200e609db36e2bae3ff7d5cd",
+    "tables/fig4_churn_by_support.csv": "18b48b912b0dc8eedbcbc2564b205e788d517751290df31e0ed8de5cdb2ffa7b",
+    "tables/fig5_churn_by_tenure.csv": "5b2fab812db063c367917a0e55c6f5b90e3f97eaa21630d579bc649572ad7209",
+    "tables/fig5_tenure_by_debt.csv": "5d1b0eea0bd9056aad7245daec03bf590a8d739c177ddc6fbc0506fe780fca55",
+    "tables/fig6_network_monthly.csv": "a8a6705ca9cacff94ac75d92899e601b8ddaf97a812885541b5d842458329fed",
+    "tables/fig6_network_pooled.csv": "7640dbe11ff290c12d83e3a3caa3fabfe0da4d7cc06a59884e887a2b0ba1d27b",
+    "tables/stratified_checks.csv": "7240732d81fe29027419085e7a173a012cfae0a22a84e14b4183aa0c82c5bd6e"
+  }
+}
