@@ -1,0 +1,89 @@
+{
+  "selected_experiment": "exp04_hgb_leaf7",
+  "source_commit": "c6267a8fa1c832eeb46fc78e0c7d733971e8a976",
+  "versions": {
+    "python": "3.13.12",
+    "pandas": "2.2.3",
+    "numpy": "2.1.3",
+    "sklearn": "1.5.2",
+    "joblib": "1.4.2"
+  },
+  "input_sha256": {
+    "model": "31f345f7ff28d77a835a265e14a1462609aa2d367a7290570a536d94b7d72019",
+    "features": "1f9b93b70cb66e1662fbca70bc62511544cb9b8a13d7ea226e6c7992ea0889f4",
+    "labels": "6409be750d070a4f2fb0af84ea410c2dd20136b2abbc65e4bed2812ad7a0ad77",
+    "split": "2a896b7b75fd35d8864a17cdff7e002cdf4252ad7ce322bf2638a513a50d27d8",
+    "validation_metrics": "ee20a14f18802388d4bb07066fe385f793a3d4e6a9344be4e3bf905635d2ca0b",
+    "validation_predictions": "3000a449bd5fd822c1b2cd048ea11bdb51a1082bcef743bfc11414fbadb9ce90"
+  },
+  "checks": {
+    "same_base": true,
+    "same_K": true,
+    "same_outcomes": true,
+    "campaign_limit": true,
+    "segment_totals": true,
+    "validation_matches_stage5": true,
+    "test_used_for_selection": false,
+    "fit_performed": false,
+    "repeat_identical": true
+  },
+  "metrics": [
+    {
+      "period": "validation",
+      "approach": "baseline",
+      "snapshot_at": "2026-08-01 00:00:00",
+      "n_active": 1929,
+      "K": 192,
+      "n_churn": 63,
+      "hits": 14,
+      "recall_at_K": 0.2222222222222222,
+      "precision_at_K": 0.0729166666666666,
+      "average_precision": 0.0582622502035914
+    },
+    {
+      "period": "validation",
+      "approach": "exp04_hgb_leaf7",
+      "snapshot_at": "2026-08-01 00:00:00",
+      "n_active": 1929,
+      "K": 192,
+      "n_churn": 63,
+      "hits": 20,
+      "recall_at_K": 0.3174603174603174,
+      "precision_at_K": 0.1041666666666666,
+      "average_precision": 0.0718651483799144
+    },
+    {
+      "period": "test",
+      "approach": "baseline",
+      "snapshot_at": "2026-09-01 00:00:00",
+      "n_active": 1916,
+      "K": 191,
+      "n_churn": 65,
+      "hits": 30,
+      "recall_at_K": 0.46153846153846156,
+      "precision_at_K": 0.15706806282722513,
+      "average_precision": 0.11660003099763933
+    },
+    {
+      "period": "test",
+      "approach": "exp04_hgb_leaf7",
+      "snapshot_at": "2026-09-01 00:00:00",
+      "n_active": 1916,
+      "K": 191,
+      "n_churn": 65,
+      "hits": 29,
+      "recall_at_K": 0.4461538461538462,
+      "precision_at_K": 0.1518324607329843,
+      "average_precision": 0.1470821848527643
+    }
+  ],
+  "output_sha256": {
+    "metrics.csv": "f55bf009a9acc0992169c86702336f0bb5d84a8247d4e746e410f57cce47daae",
+    "segments_by_tariff.csv": "36a092960c17c2e17b5400e0bdb4bbbf6afdea47d581b9701b320d12f5c214d3",
+    "test_baseline_contacts.csv": "9fe6e853452697c77ac0e3df3410530c02bdbaf0ffd129bc0df75ef2a468ca12",
+    "test_baseline_predictions.csv": "c2599acbe4838540d229795ab485dc7d4d64b0c01766b5f85ba7e56a33540efc",
+    "test_labels_for_evaluation.csv": "7a6e7dbb8c34aeb7d40844bf17468cd2ee69565c6e4629cde5e41b07836ffc2d",
+    "test_model_contacts.csv": "db2b12d30c7256829cdc153d0f5e0498dbed66af32df86d6449abd28deef3b0d",
+    "test_model_predictions.csv": "0ae5c66bb3014a9f2cf42af96f3247040b49622b67cd40c8150be8884c5fc9f5"
+  }
+}

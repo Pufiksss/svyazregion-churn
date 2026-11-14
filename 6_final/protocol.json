@@ -1,0 +1,28 @@
+{
+  "selected_experiment": "exp04_hgb_leaf7",
+  "test_snapshot": "2026-09-01 00:00:00",
+  "test_end_exclusive": "2026-10-01",
+  "observation_end": "2026-10-01T00:00:00+03:00",
+  "campaign_fraction": 0.1,
+  "baseline_feature": "debt_prev_rub",
+  "baseline_unknown_score": -1.0,
+  "test_used_for_selection": false,
+  "selection_reason": "Максимальный validation Recall@K, затем AP, затем порядок опытов; решение этапа 5 сохранено. Внутренняя проверка не дала устойчивого преимущества.",
+  "source_commit": "c6267a8fa1c832eeb46fc78e0c7d733971e8a976",
+  "paths": {
+    "model": "../5_model/models/candidate.joblib",
+    "features": "../4_features/output/features.csv",
+    "labels": "../4_features/output/labels.csv",
+    "split": "../4_features/output/split.csv",
+    "validation_metrics": "../5_model/output/metrics_summary.csv",
+    "validation_predictions": "../5_model/output/validation_predictions.csv"
+  },
+  "input_sha256": {
+    "model": "31f345f7ff28d77a835a265e14a1462609aa2d367a7290570a536d94b7d72019",
+    "features": "1f9b93b70cb66e1662fbca70bc62511544cb9b8a13d7ea226e6c7992ea0889f4",
+    "labels": "6409be750d070a4f2fb0af84ea410c2dd20136b2abbc65e4bed2812ad7a0ad77",
+    "split": "2a896b7b75fd35d8864a17cdff7e002cdf4252ad7ce322bf2638a513a50d27d8",
+    "validation_metrics": "ee20a14f18802388d4bb07066fe385f793a3d4e6a9344be4e3bf905635d2ca0b",
+    "validation_predictions": "3000a449bd5fd822c1b2cd048ea11bdb51a1082bcef743bfc11414fbadb9ce90"
+  }
+}

@@ -1,0 +1,7 @@
+﻿approach;snapshot_at;segment;group;n;n_selected;n_churn;hits;recall_at_global_K;precision_in_selected;small_group;few_positive_outcomes
+model;2026-09-01 00:00:00;tariff_prev;Basic;742;49;21;5;0.23809523809523808;0.10204081632653061;False;False
+model;2026-09-01 00:00:00;tariff_prev;Comfort;748;91;32;16;0.5;0.17582417582417584;False;False
+model;2026-09-01 00:00:00;tariff_prev;Premium;426;51;12;8;0.6666666666666666;0.1568627450980392;False;False
+baseline;2026-09-01 00:00:00;tariff_prev;Basic;742;22;21;4;0.19047619047619047;0.18181818181818182;False;False
+baseline;2026-09-01 00:00:00;tariff_prev;Comfort;748;106;32;18;0.5625;0.16981132075471697;False;False
+baseline;2026-09-01 00:00:00;tariff_prev;Premium;426;63;12;8;0.6666666666666666;0.12698412698412698;False;False
